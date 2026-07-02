@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마담 AI 혁신 사업계획서 인포그래픽</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@400;600;800&display=swap');
+        body { font-family: 'Pretendard', sans-serif; background-color: #0f172a; color: #f8fafc; }
+        .chart-container { position: relative; width: 100%; max-width: 700px; margin-left: auto; margin-right: auto; height: 350px; max-height: 400px; }
+        .glass-card { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 1rem; }
+        .gradient-text { background: linear-gradient(90deg, #38bdf8, #818cf8, #fb7185); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .timeline-dot { width: 12px; height: 12px; background: #38bdf8; border-radius: 50%; box-shadow: 0 0 10px #38bdf8; }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+    <!-- 
+    Palette Name: Energetic & Playful (High Contrast Blue/Rose/Indigo)
+    Plan Summary:
+    1. Hero: Company identity and CEO expertise.
+    2. Competency: Radar chart showing balanced technical and educational skills.
+    3. Growth: Combined bar/line chart for revenue and education hours growth.
+    4. Pain Points: Card layout visualizing bottleneck steps.
+    5. Solution: Hermes AI Agent System diagram using CSS Grid.
+    6. KPI: Grouped horizontal bar chart for time reduction metrics.
+    7. Budget & Roadmap: Donut chart for investment and vertical timeline for execution.
+
+    Visualization Justification:
+    - Radar Chart: Compares multiple competency areas (AI, Robotics, Education) - Plotly (Canvas).
+    - Growth Chart: Shows dual-axis trends for Revenue and Hours - Chart.js.
+    - Solution Diagram: Structural representation of the 7 Agents - HTML/CSS.
+    - Time Savings: Before/After comparison for 4 categories - Chart.js.
+    - Budget: Percentage breakdown of 19M KRW - Chart.js.
+    NO SVG and NO MERMAID JS were used.
+    -->
+
+    <div class="max-w-6xl mx-auto space-y-12">
+        <header class="text-center space-y-4 py-12">
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight">
+                <span class="gradient-text">MADAME</span> AI INNOVATION
+            </h1>
+            <p class="text-xl text-slate-400 max-w-2xl mx-auto">
+                1인 교육 사업의 한계를 넘는 AI 멀티 에이전트 시스템 'Hermes' 도입 및 사업 고도화 전략
+            </p>
+        </header>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="glass-card p-8 flex flex-col justify-center">
+                <h2 class="text-2xl font-bold mb-4 flex items-center">
+                    <span class="mr-2">🏢</span> 기업 핵심 역량
+                </h2>
+                <p class="text-slate-300 mb-6">
+                    마담은 AI, 로봇, 컴퓨터 비전 실무 교육의 선두주자입니다. 대표자의 AI 훈련 코칭 역량과 2025 메이커톤 대상 수상 실적은 기술적 신뢰도를 입증합니다.
+                </p>
+                <div id="radarCompetency" class="w-full h-80"></div>
+            </div>
+
+            <div class="glass-card p-8">
+                <h2 class="text-2xl font-bold mb-4 flex items-center">
+                    <span class="mr-2">📈</span> 지속적인 성장 지표
+                </h2>
+                <p class="text-slate-300 mb-6">
+                    최근 3개년 동안 매출은 26% 이상 성장하였으며, 교육 기여 시간 또한 정비례하여 상승하고 있습니다. 이는 시장의 강력한 수요를 증명합니다.
+                </p>
+                <div class="chart-container">
+                    <canvas id="growthChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section class="glass-card p-8">
+            <h2 class="text-2xl font-bold mb-8 text-center">1인 기업의 물리적 한계: 4대 병목 구간</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                <div class="bg-slate-800/50 p-6 rounded-xl border-l-4 border-rose-500">
+                    <div class="text-2xl mb-2">📊</div>
+                    <h3 class="font-bold mb-2">수강생 관리 분산</h3>
+                    <p class="text-sm text-slate-400">데이터 파편화로 인한 장기 이력 관리 불가</p>
+                </div>
+                <div class="bg-slate-800/50 p-6 rounded-xl border-l-4 border-rose-500">
+                    <div class="text-2xl mb-2">📄</div>
+                    <h3 class="font-bold mb-2">거래처 행정 부하</h3>
+                    <p class="text-sm text-slate-400">과정당 4~6시간 소모되는 수동 문서 작업</p>
+                </div>
+                <div class="bg-slate-800/50 p-6 rounded-xl border-l-4 border-rose-500">
+                    <div class="text-2xl mb-2">🛠️</div>
+                    <h3 class="font-bold mb-2">교안 개편 지연</h3>
+                    <p class="text-sm text-slate-400">기술 변화 속도를 따라잡기 위한 공수 부족</p>
+                </div>
+                <div class="bg-slate-800/50 p-6 rounded-xl border-l-4 border-rose-500">
+                    <div class="text-2xl mb-2">🤝</div>
+                    <h3 class="font-bold mb-2">영업 기회 상실</h3>
+                    <p class="text-sm text-slate-400">반복 행정 누적으로 고부가가치 활동 위축</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="space-y-8">
+            <div class="text-center">
+                <h2 class="text-3xl font-bold">AI 비서 시스템 "Hermes" 아키텍처</h2>
+                <p class="text-slate-400 mt-2">RAG 기반 지식 DB와 7대 멀티 에이전트의 통합 운영</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="md:col-span-1 space-y-4">
+                    <div class="glass-card p-6 border-blue-500/30">
+                        <h4 class="text-blue-400 font-bold mb-2">1. 수강생 관리 Agent</h4>
+                        <p class="text-sm">개인별 성취도 분석 및 맞춤형 피드백 자동 생성</p>
+                    </div>
+                    <div class="glass-card p-6 border-blue-500/30">
+                        <h4 class="text-blue-400 font-bold mb-2">2. 거래처 관리 Agent</h4>
+                        <p class="text-sm">히스토리 기반 맞춤형 제안서 초안 작성</p>
+                    </div>
+                    <div class="glass-card p-6 border-blue-500/30">
+                        <h4 class="text-blue-400 font-bold mb-2">3. 커리큘럼 Agent</h4>
+                        <p class="text-sm">타겟/장비 맞춤형 실습 중심 설계 자동화</p>
+                    </div>
+                </div>
+                
+                <div class="md:col-span-1 flex items-center justify-center py-8">
+                    <div class="w-48 h-48 rounded-full border-4 border-dashed border-sky-400 flex flex-col items-center justify-center text-center p-4 bg-sky-900/20 shadow-[0_0_50px_rgba(56,189,248,0.2)]">
+                        <span class="text-4xl mb-2">🤖</span>
+                        <span class="font-black text-xl">HERMES<br>CORE AI</span>
+                    </div>
+                </div>
+
+                <div class="md:col-span-1 space-y-4">
+                    <div class="glass-card p-6 border-rose-500/30">
+                        <h4 class="text-rose-400 font-bold mb-2">4. 교안 관리 Agent</h4>
+                        <p class="text-sm">최신 기술 동향 반영 업데이트 항목 추천</p>
+                    </div>
+                    <div class="glass-card p-6 border-rose-500/30">
+                        <h4 class="text-rose-400 font-bold mb-2">5. 성적 관리 Agent</h4>
+                        <p class="text-sm">평가 기준 기반 종합 의견서 즉시 생성</p>
+                    </div>
+                    <div class="glass-card p-6 border-rose-500/30">
+                        <h4 class="text-rose-400 font-bold mb-2">6. 정산/보고 Agent</h4>
+                        <p class="text-sm">세금계산서 알림 및 결과보고서 자동 추출</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="glass-card p-8">
+                <h2 class="text-2xl font-bold mb-4">운영 효율성 개선 목표 (KPI)</h2>
+                <p class="text-slate-300 mb-6">AI 도입을 통해 반복적인 행정 업무 시간을 최대 90%까지 단축하여 교육 품질 향상에 집중합니다.</p>
+                <div class="chart-container">
+                    <canvas id="kpiChart"></canvas>
+                </div>
+            </div>
+
+            <div class="glass-card p-8">
+                <h2 class="text-2xl font-bold mb-4">사업비 집행 계획</h2>
+                <p class="text-slate-300 mb-6">총 1,900만 원 규모의 예산을 서비스 고도화와 데이터 자산화 장비 구축에 전략적으로 배분합니다.</p>
+                <div class="chart-container">
+                    <canvas id="budgetChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section class="glass-card p-8">
+            <h2 class="text-2xl font-bold mb-8 text-center">2026 프로젝트 로드맵</h2>
+            <div class="relative border-l-2 border-slate-700 ml-4 space-y-8 pb-4">
+                <div class="relative pl-8">
+                    <div class="absolute -left-[7px] top-1 timeline-dot"></div>
+                    <div class="font-bold text-sky-400">7-8월: 기획 및 진단</div>
+                    <div class="text-slate-400 text-sm">AI 멘토링 연계 및 MVP 기능 정의</div>
+                </div>
+                <div class="relative pl-8">
+                    <div class="absolute -left-[7px] top-1 timeline-dot"></div>
+                    <div class="font-bold text-sky-400">9월: 시스템 설계</div>
+                    <div class="text-slate-400 text-sm">UI/UX 와이어프레임 및 DB 스키마 구축</div>
+                </div>
+                <div class="relative pl-8">
+                    <div class="absolute -left-[7px] top-1 timeline-dot"></div>
+                    <div class="font-bold text-sky-400">10-11월: 집중 개발</div>
+                    <div class="text-slate-400 text-sm">7대 에이전트 핵심 모듈 및 대시보드 연동</div>
+                </div>
+                <div class="relative pl-8">
+                    <div class="absolute -left-[7px] top-1 timeline-dot"></div>
+                    <div class="font-bold text-rose-500">12월: 검증 및 런칭</div>
+                    <div class="text-slate-400 text-sm">실제 교육 과정 적용 및 플랫폼 고도화</div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center py-12 text-slate-500 text-sm">
+            © 2026 MADAME - AI & Tech Education Services. All rights reserved.
+        </footer>
+    </div>
+
+    <script>
+        const colorPalette = {
+            blue: '#33CCFF',
+            pink: '#FF3366',
+            purple: '#9933FF',
+            indigo: '#818cf8',
+            slate: '#1e293b',
+            white: '#f8fafc'
+        };
+
+        function wrapLabels(labels) {
+            return labels.map(label => {
+                if (label.length <= 16) return label;
+                const words = label.split(' ');
+                const lines = [];
+                let currentLine = '';
+                words.forEach(word => {
+                    if ((currentLine + word).length > 16) {
+                        lines.push(currentLine.trim());
+                        currentLine = word + ' ';
+                    } else {
+                        currentLine += word + ' ';
+                    }
+                });
+                lines.push(currentLine.trim());
+                return lines;
+            });
+        }
+
+        const tooltipConfig = {
+            callbacks: {
+                title: function(tooltipItems) {
+                    const item = tooltipItems[0];
+                    let label = item.chart.data.labels[item.dataIndex];
+                    if (Array.isArray(label)) {
+                        return label.join(' ');
+                    } else {
+                        return label;
+                    }
+                }
+            }
+        };
+
+        const competencyData = [
+            {
+                type: 'scatterpolar',
+                r: [95, 90, 85, 95, 80],
+                theta: ['AI/SW 기술력', '실무 교육 기획', '임베디드/로봇', '프로젝트 운영', '행정 자동화'],
+                fill: 'toself',
+                marker: { color: colorPalette.blue },
+                fillcolor: 'rgba(51, 204, 255, 0.3)'
+            }
+        ];
+        const competencyLayout = {
+            polar: {
+                radialaxis: { visible: true, range: [0, 100], color: '#64748b' },
+                angularaxis: { color: '#f8fafc' },
+                bgcolor: 'rgba(0,0,0,0)'
+            },
+            showlegend: false,
+            paper_bgcolor: 'rgba(0,0,0,0)',
+            plot_bgcolor: 'rgba(0,0,0,0)',
+            margin: { t: 40, b: 40, l: 60, r: 60 }
+        };
+        Plotly.newPlot('radarCompetency', competencyData, competencyLayout, { staticPlot: true, responsive: true });
+
+        const ctxGrowth = document.getElementById('growthChart').getContext('2d');
+        new Chart(ctxGrowth, {
+            type: 'bar',
+            data: {
+                labels: ['2023년', '2024년', '2025년(추정)'],
+                datasets: [
+                    {
+                        label: '매출액 (천 원)',
+                        data: [90997, 114943, 145000],
+                        backgroundColor: colorPalette.blue,
+                        yAxisID: 'y'
+                    },
+                    {
+                        label: '교육 시간 (H)',
+                        data: [943, 1142, 1250],
+                        borderColor: colorPalette.pink,
+                        type: 'line',
+                        borderWidth: 3,
+                        pointBackgroundColor: colorPalette.pink,
+                        yAxisID: 'y1'
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { labels: { color: colorPalette.white } },
+                    tooltip: tooltipConfig
+                },
+                scales: {
+                    y: { beginAtZero: true, grid: { color: '#334155' }, ticks: { color: '#94a3b8' } },
+                    y1: { position: 'right', grid: { display: false }, ticks: { color: '#94a3b8' } },
+                    x: { ticks: { color: '#94a3b8' } }
+                }
+            }
+        });
+
+        const ctxKpi = document.getElementById('kpiChart').getContext('2d');
+        const kpiLabels = wrapLabels(['결과보고서 작성 시간', '커리큘럼 설계 시간', '거래처 맞춤 제안서', '정산 및 행정 관리']);
+        new Chart(ctxKpi, {
+            type: 'bar',
+            data: {
+                labels: kpiLabels,
+                datasets: [
+                    {
+                        label: 'AS-IS (기존)',
+                        data: [5, 4, 8, 6],
+                        backgroundColor: '#475569'
+                    },
+                    {
+                        label: 'TO-BE (AI 도입)',
+                        data: [1, 1, 0.5, 1],
+                        backgroundColor: colorPalette.pink
+                    }
+                ]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { labels: { color: colorPalette.white } },
+                    tooltip: tooltipConfig
+                },
+                scales: {
+                    x: { 
+                        title: { display: true, text: '시간 (Hours)', color: '#94a3b8' },
+                        grid: { color: '#334155' },
+                        ticks: { color: '#94a3b8' }
+                    },
+                    y: { ticks: { color: '#94a3b8' } }
+                }
+            }
+        });
+
+        const ctxBudget = document.getElementById('budgetChart').getContext('2d');
+        new Chart(ctxBudget, {
+            type: 'doughnut',
+            data: {
+                labels: wrapLabels(['제품 고도화 용역', 'AI 활용 도입비', '데이터 자산화 장비', '전문가 활용 및 기타']),
+                datasets: [{
+                    data: [5000, 4000, 6500, 3500],
+                    backgroundColor: [colorPalette.blue, colorPalette.purple, colorPalette.pink, colorPalette.indigo],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                cutout: '70%',
+                plugins: {
+                    legend: { position: 'bottom', labels: { color: colorPalette.white, padding: 20 } },
+                    tooltip: tooltipConfig
+                }
+            }
+        });
+    </script>
+</body>
+</html>
