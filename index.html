@@ -1,360 +1,321 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>마담 AI 혁신 사업계획서 인포그래픽</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@400;600;800&display=swap');
-        body { font-family: 'Pretendard', sans-serif; background-color: #0f172a; color: #f8fafc; }
-        .chart-container { position: relative; width: 100%; max-width: 700px; margin-left: auto; margin-right: auto; height: 350px; max-height: 400px; }
-        .glass-card { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 1rem; }
-        .gradient-text { background: linear-gradient(90deg, #38bdf8, #818cf8, #fb7185); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .timeline-dot { width: 12px; height: 12px; background: #38bdf8; border-radius: 50%; box-shadow: 0 0 10px #38bdf8; }
-    </style>
-</head>
-<body class="p-4 md:p-8">
-    <!-- 
-    Palette Name: Energetic & Playful (High Contrast Blue/Rose/Indigo)
-    Plan Summary:
-    1. Hero: Company identity and CEO expertise.
-    2. Competency: Radar chart showing balanced technical and educational skills.
-    3. Growth: Combined bar/line chart for revenue and education hours growth.
-    4. Pain Points: Card layout visualizing bottleneck steps.
-    5. Solution: Hermes AI Agent System diagram using CSS Grid.
-    6. KPI: Grouped horizontal bar chart for time reduction metrics.
-    7. Budget & Roadmap: Donut chart for investment and vertical timeline for execution.
-
-    Visualization Justification:
-    - Radar Chart: Compares multiple competency areas (AI, Robotics, Education) - Plotly (Canvas).
-    - Growth Chart: Shows dual-axis trends for Revenue and Hours - Chart.js.
-    - Solution Diagram: Structural representation of the 7 Agents - HTML/CSS.
-    - Time Savings: Before/After comparison for 4 categories - Chart.js.
-    - Budget: Percentage breakdown of 19M KRW - Chart.js.
-    NO SVG and NO MERMAID JS were used.
-    -->
-
-    <div class="max-w-6xl mx-auto space-y-12">
-        <header class="text-center space-y-4 py-12">
-            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight">
-                <span class="gradient-text">MADAME</span> AI INNOVATION
-            </h1>
-            <p class="text-xl text-slate-400 max-w-2xl mx-auto">
-                1인 교육 사업의 한계를 넘는 AI 멀티 에이전트 시스템 'Hermes' 도입 및 사업 고도화 전략
-            </p>
-        </header>
-
-        <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="glass-card p-8 flex flex-col justify-center">
-                <h2 class="text-2xl font-bold mb-4 flex items-center">
-                    <span class="mr-2">🏢</span> 기업 핵심 역량
-                </h2>
-                <p class="text-slate-300 mb-6">
-                    마담은 AI, 로봇, 컴퓨터 비전 실무 교육의 선두주자입니다. 대표자의 AI 훈련 코칭 역량과 2025 메이커톤 대상 수상 실적은 기술적 신뢰도를 입증합니다.
-                </p>
-                <div id="radarCompetency" class="w-full h-80"></div>
-            </div>
-
-            <div class="glass-card p-8">
-                <h2 class="text-2xl font-bold mb-4 flex items-center">
-                    <span class="mr-2">📈</span> 지속적인 성장 지표
-                </h2>
-                <p class="text-slate-300 mb-6">
-                    최근 3개년 동안 매출은 26% 이상 성장하였으며, 교육 기여 시간 또한 정비례하여 상승하고 있습니다. 이는 시장의 강력한 수요를 증명합니다.
-                </p>
-                <div class="chart-container">
-                    <canvas id="growthChart"></canvas>
-                </div>
-            </div>
-        </section>
-
-        <section class="glass-card p-8">
-            <h2 class="text-2xl font-bold mb-8 text-center">1인 기업의 물리적 한계: 4대 병목 구간</h2>
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
-                <div class="bg-slate-800/50 p-6 rounded-xl border-l-4 border-rose-500">
-                    <div class="text-2xl mb-2">📊</div>
-                    <h3 class="font-bold mb-2">수강생 관리 분산</h3>
-                    <p class="text-sm text-slate-400">데이터 파편화로 인한 장기 이력 관리 불가</p>
-                </div>
-                <div class="bg-slate-800/50 p-6 rounded-xl border-l-4 border-rose-500">
-                    <div class="text-2xl mb-2">📄</div>
-                    <h3 class="font-bold mb-2">거래처 행정 부하</h3>
-                    <p class="text-sm text-slate-400">과정당 4~6시간 소모되는 수동 문서 작업</p>
-                </div>
-                <div class="bg-slate-800/50 p-6 rounded-xl border-l-4 border-rose-500">
-                    <div class="text-2xl mb-2">🛠️</div>
-                    <h3 class="font-bold mb-2">교안 개편 지연</h3>
-                    <p class="text-sm text-slate-400">기술 변화 속도를 따라잡기 위한 공수 부족</p>
-                </div>
-                <div class="bg-slate-800/50 p-6 rounded-xl border-l-4 border-rose-500">
-                    <div class="text-2xl mb-2">🤝</div>
-                    <h3 class="font-bold mb-2">영업 기회 상실</h3>
-                    <p class="text-sm text-slate-400">반복 행정 누적으로 고부가가치 활동 위축</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="space-y-8">
-            <div class="text-center">
-                <h2 class="text-3xl font-bold">AI 비서 시스템 "Hermes" 아키텍처</h2>
-                <p class="text-slate-400 mt-2">RAG 기반 지식 DB와 7대 멀티 에이전트의 통합 운영</p>
-            </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div class="md:col-span-1 space-y-4">
-                    <div class="glass-card p-6 border-blue-500/30">
-                        <h4 class="text-blue-400 font-bold mb-2">1. 수강생 관리 Agent</h4>
-                        <p class="text-sm">개인별 성취도 분석 및 맞춤형 피드백 자동 생성</p>
-                    </div>
-                    <div class="glass-card p-6 border-blue-500/30">
-                        <h4 class="text-blue-400 font-bold mb-2">2. 거래처 관리 Agent</h4>
-                        <p class="text-sm">히스토리 기반 맞춤형 제안서 초안 작성</p>
-                    </div>
-                    <div class="glass-card p-6 border-blue-500/30">
-                        <h4 class="text-blue-400 font-bold mb-2">3. 커리큘럼 Agent</h4>
-                        <p class="text-sm">타겟/장비 맞춤형 실습 중심 설계 자동화</p>
-                    </div>
-                </div>
-                
-                <div class="md:col-span-1 flex items-center justify-center py-8">
-                    <div class="w-48 h-48 rounded-full border-4 border-dashed border-sky-400 flex flex-col items-center justify-center text-center p-4 bg-sky-900/20 shadow-[0_0_50px_rgba(56,189,248,0.2)]">
-                        <span class="text-4xl mb-2">🤖</span>
-                        <span class="font-black text-xl">HERMES<br>CORE AI</span>
-                    </div>
-                </div>
-
-                <div class="md:col-span-1 space-y-4">
-                    <div class="glass-card p-6 border-rose-500/30">
-                        <h4 class="text-rose-400 font-bold mb-2">4. 교안 관리 Agent</h4>
-                        <p class="text-sm">최신 기술 동향 반영 업데이트 항목 추천</p>
-                    </div>
-                    <div class="glass-card p-6 border-rose-500/30">
-                        <h4 class="text-rose-400 font-bold mb-2">5. 성적 관리 Agent</h4>
-                        <p class="text-sm">평가 기준 기반 종합 의견서 즉시 생성</p>
-                    </div>
-                    <div class="glass-card p-6 border-rose-500/30">
-                        <h4 class="text-rose-400 font-bold mb-2">6. 정산/보고 Agent</h4>
-                        <p class="text-sm">세금계산서 알림 및 결과보고서 자동 추출</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="glass-card p-8">
-                <h2 class="text-2xl font-bold mb-4">운영 효율성 개선 목표 (KPI)</h2>
-                <p class="text-slate-300 mb-6">AI 도입을 통해 반복적인 행정 업무 시간을 최대 90%까지 단축하여 교육 품질 향상에 집중합니다.</p>
-                <div class="chart-container">
-                    <canvas id="kpiChart"></canvas>
-                </div>
-            </div>
-
-            <div class="glass-card p-8">
-                <h2 class="text-2xl font-bold mb-4">사업비 집행 계획</h2>
-                <p class="text-slate-300 mb-6">총 1,900만 원 규모의 예산을 서비스 고도화와 데이터 자산화 장비 구축에 전략적으로 배분합니다.</p>
-                <div class="chart-container">
-                    <canvas id="budgetChart"></canvas>
-                </div>
-            </div>
-        </section>
-
-        <section class="glass-card p-8">
-            <h2 class="text-2xl font-bold mb-8 text-center">2026 프로젝트 로드맵</h2>
-            <div class="relative border-l-2 border-slate-700 ml-4 space-y-8 pb-4">
-                <div class="relative pl-8">
-                    <div class="absolute -left-[7px] top-1 timeline-dot"></div>
-                    <div class="font-bold text-sky-400">7-8월: 기획 및 진단</div>
-                    <div class="text-slate-400 text-sm">AI 멘토링 연계 및 MVP 기능 정의</div>
-                </div>
-                <div class="relative pl-8">
-                    <div class="absolute -left-[7px] top-1 timeline-dot"></div>
-                    <div class="font-bold text-sky-400">9월: 시스템 설계</div>
-                    <div class="text-slate-400 text-sm">UI/UX 와이어프레임 및 DB 스키마 구축</div>
-                </div>
-                <div class="relative pl-8">
-                    <div class="absolute -left-[7px] top-1 timeline-dot"></div>
-                    <div class="font-bold text-sky-400">10-11월: 집중 개발</div>
-                    <div class="text-slate-400 text-sm">7대 에이전트 핵심 모듈 및 대시보드 연동</div>
-                </div>
-                <div class="relative pl-8">
-                    <div class="absolute -left-[7px] top-1 timeline-dot"></div>
-                    <div class="font-bold text-rose-500">12월: 검증 및 런칭</div>
-                    <div class="text-slate-400 text-sm">실제 교육 과정 적용 및 플랫폼 고도화</div>
-                </div>
-            </div>
-        </section>
-
-        <footer class="text-center py-12 text-slate-500 text-sm">
-            © 2026 MADAME - AI & Tech Education Services. All rights reserved.
-        </footer>
-    </div>
-
-    <script>
-        const colorPalette = {
-            blue: '#33CCFF',
-            pink: '#FF3366',
-            purple: '#9933FF',
-            indigo: '#818cf8',
-            slate: '#1e293b',
-            white: '#f8fafc'
-        };
-
-        function wrapLabels(labels) {
-            return labels.map(label => {
-                if (label.length <= 16) return label;
-                const words = label.split(' ');
-                const lines = [];
-                let currentLine = '';
-                words.forEach(word => {
-                    if ((currentLine + word).length > 16) {
-                        lines.push(currentLine.trim());
-                        currentLine = word + ' ';
-                    } else {
-                        currentLine += word + ' ';
-                    }
-                });
-                lines.push(currentLine.trim());
-                return lines;
-            });
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="MADAM(마담)은 IT·AI·로봇 교육, 교육 기자재, 소프트웨어 개발, 교재·출판을 연결하는 기술교육 브랜드입니다." />
+  <meta name="theme-color" content="#ff6a00" />
+  <title>MADAM | 배우고, 만들고, 미래를 움직이다</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            madam: {
+              50: '#fff7ed',
+              100: '#ffedd5',
+              400: '#fb923c',
+              500: '#f97316',
+              600: '#ea580c',
+              700: '#c2410c',
+              ink: '#171717'
+            }
+          },
+          boxShadow: {
+            soft: '0 20px 60px rgba(15, 23, 42, 0.08)'
+          }
         }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { word-break: keep-all; }
+    .grid-bg {
+      background-image:
+        linear-gradient(rgba(249,115,22,.055) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(249,115,22,.055) 1px, transparent 1px);
+      background-size: 32px 32px;
+    }
+    .text-balance { text-wrap: balance; }
+  </style>
+</head>
+<body class="bg-stone-50 text-stone-900 antialiased selection:bg-orange-200 selection:text-orange-950">
 
-        const tooltipConfig = {
-            callbacks: {
-                title: function(tooltipItems) {
-                    const item = tooltipItems[0];
-                    let label = item.chart.data.labels[item.dataIndex];
-                    if (Array.isArray(label)) {
-                        return label.join(' ');
-                    } else {
-                        return label;
-                    }
-                }
-            }
-        };
+  <!-- Navigation -->
+  <header class="sticky top-0 z-50 border-b border-stone-200/80 bg-stone-50/90 backdrop-blur-xl">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
+      <a href="#top" class="flex items-center gap-3" aria-label="MADAM 홈">
+        <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-orange-500 text-xl font-black text-white">M</div>
+        <div>
+          <div class="text-lg font-black tracking-[0.18em]">MADAM</div>
+          <div class="text-[10px] font-semibold tracking-[0.18em] text-stone-500">TECH · EDUCATION · MEDIA</div>
+        </div>
+      </a>
+      <nav class="hidden items-center gap-7 text-sm font-semibold text-stone-600 md:flex">
+        <a href="#brand" class="hover:text-orange-600">Brand</a>
+        <a href="#services" class="hover:text-orange-600">Services</a>
+        <a href="#performance" class="hover:text-orange-600">Performance</a>
+        <a href="#business" class="hover:text-orange-600">Business</a>
+        <a href="#contact" class="rounded-full bg-stone-900 px-5 py-2.5 text-white hover:bg-orange-600">문의하기</a>
+      </nav>
+    </div>
+  </header>
 
-        const competencyData = [
-            {
-                type: 'scatterpolar',
-                r: [95, 90, 85, 95, 80],
-                theta: ['AI/SW 기술력', '실무 교육 기획', '임베디드/로봇', '프로젝트 운영', '행정 자동화'],
-                fill: 'toself',
-                marker: { color: colorPalette.blue },
-                fillcolor: 'rgba(51, 204, 255, 0.3)'
-            }
-        ];
-        const competencyLayout = {
-            polar: {
-                radialaxis: { visible: true, range: [0, 100], color: '#64748b' },
-                angularaxis: { color: '#f8fafc' },
-                bgcolor: 'rgba(0,0,0,0)'
-            },
-            showlegend: false,
-            paper_bgcolor: 'rgba(0,0,0,0)',
-            plot_bgcolor: 'rgba(0,0,0,0)',
-            margin: { t: 40, b: 40, l: 60, r: 60 }
-        };
-        Plotly.newPlot('radarCompetency', competencyData, competencyLayout, { staticPlot: true, responsive: true });
+  <main id="top">
+    <!-- Hero -->
+    <section class="grid-bg relative overflow-hidden border-b border-stone-200">
+      <div class="absolute -right-32 -top-32 h-96 w-96 rounded-full bg-orange-200/50 blur-3xl"></div>
+      <div class="absolute -left-24 bottom-0 h-72 w-72 rounded-full bg-amber-100 blur-3xl"></div>
 
-        const ctxGrowth = document.getElementById('growthChart').getContext('2d');
-        new Chart(ctxGrowth, {
-            type: 'bar',
-            data: {
-                labels: ['2023년', '2024년', '2025년(추정)'],
-                datasets: [
-                    {
-                        label: '매출액 (천 원)',
-                        data: [90997, 114943, 145000],
-                        backgroundColor: colorPalette.blue,
-                        yAxisID: 'y'
-                    },
-                    {
-                        label: '교육 시간 (H)',
-                        data: [943, 1142, 1250],
-                        borderColor: colorPalette.pink,
-                        type: 'line',
-                        borderWidth: 3,
-                        pointBackgroundColor: colorPalette.pink,
-                        yAxisID: 'y1'
-                    }
-                ]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    legend: { labels: { color: colorPalette.white } },
-                    tooltip: tooltipConfig
-                },
-                scales: {
-                    y: { beginAtZero: true, grid: { color: '#334155' }, ticks: { color: '#94a3b8' } },
-                    y1: { position: 'right', grid: { display: false }, ticks: { color: '#94a3b8' } },
-                    x: { ticks: { color: '#94a3b8' } }
-                }
-            }
-        });
+      <div class="relative mx-auto grid max-w-7xl gap-12 px-5 py-20 lg:grid-cols-[1.15fr_.85fr] lg:items-center lg:px-8 lg:py-28">
+        <div>
+          <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-orange-200 bg-white/80 px-4 py-2 text-sm font-bold text-orange-700 shadow-sm">
+            <span class="h-2 w-2 rounded-full bg-orange-500"></span>
+            IT · AI · ROBOTICS · EDUCATION · PUBLISHING
+          </div>
+          <h1 class="text-balance text-5xl font-black leading-[1.05] tracking-tight text-stone-950 md:text-7xl">
+            배우고, 만들고,<br />
+            <span class="text-orange-500">미래를 움직이다.</span>
+          </h1>
+          <p class="mt-7 max-w-2xl text-lg leading-8 text-stone-600 md:text-xl">
+            <strong class="text-stone-900">MADAM</strong>은 AI·소프트웨어·로봇 교육에서 시작해 교육 기자재, 소프트웨어, 교재와 출판까지 연결하는 기술교육 브랜드입니다. 지식이 실제 프로젝트와 제품, 콘텐츠로 이어지도록 설계합니다.
+          </p>
+          <div class="mt-9 flex flex-wrap gap-3">
+            <a href="#services" class="rounded-full bg-orange-500 px-6 py-3.5 font-bold text-white shadow-lg shadow-orange-500/20 transition hover:-translate-y-0.5 hover:bg-orange-600">사업 영역 보기</a>
+            <a href="#performance" class="rounded-full border border-stone-300 bg-white px-6 py-3.5 font-bold text-stone-800 transition hover:border-orange-300 hover:text-orange-600">교육 실적 보기</a>
+          </div>
 
-        const ctxKpi = document.getElementById('kpiChart').getContext('2d');
-        const kpiLabels = wrapLabels(['결과보고서 작성 시간', '커리큘럼 설계 시간', '거래처 맞춤 제안서', '정산 및 행정 관리']);
-        new Chart(ctxKpi, {
-            type: 'bar',
-            data: {
-                labels: kpiLabels,
-                datasets: [
-                    {
-                        label: 'AS-IS (기존)',
-                        data: [5, 4, 8, 6],
-                        backgroundColor: '#475569'
-                    },
-                    {
-                        label: 'TO-BE (AI 도입)',
-                        data: [1, 1, 0.5, 1],
-                        backgroundColor: colorPalette.pink
-                    }
-                ]
-            },
-            options: {
-                indexAxis: 'y',
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    legend: { labels: { color: colorPalette.white } },
-                    tooltip: tooltipConfig
-                },
-                scales: {
-                    x: { 
-                        title: { display: true, text: '시간 (Hours)', color: '#94a3b8' },
-                        grid: { color: '#334155' },
-                        ticks: { color: '#94a3b8' }
-                    },
-                    y: { ticks: { color: '#94a3b8' } }
-                }
-            }
-        });
+          <div class="mt-12 grid max-w-2xl grid-cols-3 gap-3">
+            <div class="rounded-2xl border border-stone-200 bg-white/85 p-4 shadow-sm">
+              <div class="text-2xl font-black text-orange-500">943h</div>
+              <div class="mt-1 text-xs font-semibold text-stone-500">2023 교육 실적</div>
+            </div>
+            <div class="rounded-2xl border border-stone-200 bg-white/85 p-4 shadow-sm">
+              <div class="text-2xl font-black text-orange-500">1,142h</div>
+              <div class="mt-1 text-xs font-semibold text-stone-500">2024 교육 실적</div>
+            </div>
+            <div class="rounded-2xl border border-stone-200 bg-white/85 p-4 shadow-sm">
+              <div class="text-2xl font-black text-orange-500">1,100h+</div>
+              <div class="mt-1 text-xs font-semibold text-stone-500">2025 보고 기준</div>
+            </div>
+          </div>
+        </div>
 
-        const ctxBudget = document.getElementById('budgetChart').getContext('2d');
-        new Chart(ctxBudget, {
-            type: 'doughnut',
-            data: {
-                labels: wrapLabels(['제품 고도화 용역', 'AI 활용 도입비', '데이터 자산화 장비', '전문가 활용 및 기타']),
-                datasets: [{
-                    data: [5000, 4000, 6500, 3500],
-                    backgroundColor: [colorPalette.blue, colorPalette.purple, colorPalette.pink, colorPalette.indigo],
-                    borderWidth: 0
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                cutout: '70%',
-                plugins: {
-                    legend: { position: 'bottom', labels: { color: colorPalette.white, padding: 20 } },
-                    tooltip: tooltipConfig
-                }
-            }
-        });
-    </script>
+        <!-- CSS logo mark inspired by the selected circuit-M direction -->
+        <div class="relative mx-auto w-full max-w-lg">
+          <div class="rounded-[2.5rem] border border-orange-200 bg-white p-7 shadow-soft md:p-10">
+            <div class="mx-auto aspect-square max-w-sm rounded-[2rem] bg-orange-500 p-7 shadow-xl shadow-orange-500/20">
+              <div class="relative h-full w-full overflow-hidden rounded-2xl bg-stone-950">
+                <div class="absolute left-[8%] top-[9%] h-[68%] w-[18%] -skew-y-[38deg] bg-orange-500"></div>
+                <div class="absolute right-[8%] top-[9%] h-[68%] w-[18%] skew-y-[38deg] bg-orange-500"></div>
+                <div class="absolute left-1/2 top-[22%] h-[18%] w-[56%] -translate-x-1/2 rotate-45 border-b-[13px] border-r-[13px] border-orange-500"></div>
+                <div class="absolute left-[22%] top-[22%] h-[52%] w-[3px] bg-white"></div>
+                <div class="absolute right-[22%] top-[22%] h-[52%] w-[3px] bg-white"></div>
+                <div class="absolute left-1/2 top-[38%] h-[38%] w-[3px] -translate-x-1/2 bg-white"></div>
+                <span class="absolute left-[19.5%] top-[17%] h-5 w-5 rounded-full border-[5px] border-white bg-orange-500"></span>
+                <span class="absolute right-[19.5%] top-[17%] h-5 w-5 rounded-full border-[5px] border-white bg-orange-500"></span>
+                <span class="absolute bottom-[18%] left-[19.5%] h-5 w-5 rounded-full border-[5px] border-white bg-orange-500"></span>
+                <span class="absolute bottom-[18%] right-[19.5%] h-5 w-5 rounded-full border-[5px] border-white bg-orange-500"></span>
+                <span class="absolute bottom-[13%] left-1/2 h-6 w-6 -translate-x-1/2 rounded-full border-[5px] border-white bg-orange-500"></span>
+              </div>
+            </div>
+            <div class="mt-7 text-center">
+              <div class="text-4xl font-black tracking-[0.24em] text-stone-950">MADAM</div>
+              <div class="mt-3 text-sm font-bold tracking-[0.2em] text-orange-500">MAKE · AI · DIGITAL · AUTOMATION · MEDIA</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brand story -->
+    <section id="brand" class="mx-auto max-w-7xl px-5 py-24 lg:px-8">
+      <div class="grid gap-12 lg:grid-cols-[.85fr_1.15fr] lg:items-start">
+        <div>
+          <p class="text-sm font-black uppercase tracking-[0.24em] text-orange-500">Brand Story</p>
+          <h2 class="mt-4 text-4xl font-black tracking-tight md:text-5xl">MADAM이라는 이름에<br />교육의 순환을 담았습니다.</h2>
+          <p class="mt-6 text-lg leading-8 text-stone-600">
+            MADAM은 앞에서 읽어도 뒤에서 읽어도 같은 회문(Palindrome)입니다. 지식을 전달하는 일방향 교육이 아니라, <strong class="text-stone-900">배움 → 실습 → 제작 → 공유 → 다시 배움</strong>으로 이어지는 순환형 교육 철학을 상징합니다.
+          </p>
+        </div>
+
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+          <div class="rounded-3xl border border-stone-200 bg-white p-6 shadow-sm"><div class="text-3xl font-black text-orange-500">M</div><div class="mt-5 font-black">Make</div><p class="mt-2 text-sm leading-6 text-stone-500">직접 만들고 문제를 해결하는 프로젝트 교육</p></div>
+          <div class="rounded-3xl border border-stone-200 bg-white p-6 shadow-sm"><div class="text-3xl font-black text-orange-500">A</div><div class="mt-5 font-black">AI</div><p class="mt-2 text-sm leading-6 text-stone-500">생성형 AI, 머신러닝, 비전 중심의 실무 역량</p></div>
+          <div class="rounded-3xl border border-stone-200 bg-white p-6 shadow-sm"><div class="text-3xl font-black text-orange-500">D</div><div class="mt-5 font-black">Digital</div><p class="mt-2 text-sm leading-6 text-stone-500">프로그래밍·IoT·디지털 전환 역량</p></div>
+          <div class="rounded-3xl border border-stone-200 bg-white p-6 shadow-sm"><div class="text-3xl font-black text-orange-500">A</div><div class="mt-5 font-black">Automation</div><p class="mt-2 text-sm leading-6 text-stone-500">ROS2·로봇·자율주행·자동화 실습</p></div>
+          <div class="rounded-3xl border border-stone-200 bg-white p-6 shadow-sm sm:col-span-2 lg:col-span-1"><div class="text-3xl font-black text-orange-500">M</div><div class="mt-5 font-black">Media</div><p class="mt-2 text-sm leading-6 text-stone-500">교재·출판·영상·교육 콘텐츠 자산화</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="border-y border-stone-200 bg-white py-24">
+      <div class="mx-auto max-w-7xl px-5 lg:px-8">
+        <div class="max-w-3xl">
+          <p class="text-sm font-black uppercase tracking-[0.24em] text-orange-500">What We Do</p>
+          <h2 class="mt-4 text-4xl font-black tracking-tight md:text-5xl">교육에서 기술과 콘텐츠까지,<br />하나의 흐름으로 연결합니다.</h2>
+        </div>
+
+        <div class="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+          <article class="group rounded-3xl border border-stone-200 bg-stone-50 p-7 transition hover:-translate-y-1 hover:border-orange-200 hover:bg-orange-50">
+            <div class="text-3xl">🎓</div><h3 class="mt-5 text-xl font-black">IT·AI 전문 교육</h3><p class="mt-3 leading-7 text-stone-600">C/C++, Python, 네트워크, 머신러닝·딥러닝, 생성형 AI, DX·AI 리터러시까지 대학·기업·공공기관 맞춤형 교육을 운영합니다.</p>
+          </article>
+          <article class="group rounded-3xl border border-stone-200 bg-stone-50 p-7 transition hover:-translate-y-1 hover:border-orange-200 hover:bg-orange-50">
+            <div class="text-3xl">🤖</div><h3 class="mt-5 text-xl font-black">로봇·임베디드</h3><p class="mt-3 leading-7 text-stone-600">ROS1/ROS2, TurtleBot3, LIMO, Arduino, ESP32, Raspberry Pi/Pico 기반의 실습·프로젝트 교육과 기자재 활용을 지원합니다.</p>
+          </article>
+          <article class="group rounded-3xl border border-stone-200 bg-stone-50 p-7 transition hover:-translate-y-1 hover:border-orange-200 hover:bg-orange-50">
+            <div class="text-3xl">🧩</div><h3 class="mt-5 text-xl font-black">교육 기자재·SW</h3><p class="mt-3 leading-7 text-stone-600">교육용 프로젝트 부자재, 실습 환경 구축, 응용 소프트웨어 개발·공급을 통해 수업 현장에 필요한 기술 기반을 제공합니다.</p>
+          </article>
+          <article class="group rounded-3xl border border-stone-200 bg-stone-50 p-7 transition hover:-translate-y-1 hover:border-orange-200 hover:bg-orange-50">
+            <div class="text-3xl">📚</div><h3 class="mt-5 text-xl font-black">교재·출판·콘텐츠</h3><p class="mt-3 leading-7 text-stone-600">수업용 PPT·코드 예제·프로젝트 가이드부터 일반·교과·학습 서적, 온라인 콘텐츠까지 반복 활용 가능한 교육 자산으로 제작합니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Expertise -->
+    <section class="mx-auto max-w-7xl px-5 py-24 lg:px-8">
+      <div class="grid gap-8 lg:grid-cols-3">
+        <div class="rounded-[2rem] bg-stone-950 p-8 text-white lg:col-span-1">
+          <p class="text-sm font-black uppercase tracking-[0.22em] text-orange-400">Core Expertise</p>
+          <h2 class="mt-4 text-3xl font-black">기술을 설명하는 것을 넘어<br />직접 구현하게 합니다.</h2>
+          <p class="mt-5 leading-7 text-stone-400">강의, 커리큘럼, 실습환경, 프로젝트 운영을 하나의 교육 경험으로 설계합니다.</p>
+        </div>
+        <div class="grid gap-4 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-3">
+          <div class="rounded-3xl border border-stone-200 bg-white p-6"><div class="font-black">Programming</div><p class="mt-2 text-sm leading-6 text-stone-500">C · C++ · Python · C# · Linux · Network</p></div>
+          <div class="rounded-3xl border border-stone-200 bg-white p-6"><div class="font-black">AI & Vision</div><p class="mt-2 text-sm leading-6 text-stone-500">ML · DL · OpenCV · YOLO · Diffusion</p></div>
+          <div class="rounded-3xl border border-stone-200 bg-white p-6"><div class="font-black">Robotics</div><p class="mt-2 text-sm leading-6 text-stone-500">ROS2 · TurtleBot3 · LIMO · Gazebo · Isaac Sim</p></div>
+          <div class="rounded-3xl border border-stone-200 bg-white p-6"><div class="font-black">Embedded & IoT</div><p class="mt-2 text-sm leading-6 text-stone-500">Atmega128 · Arduino · ESP8266/32 · Raspberry Pi</p></div>
+          <div class="rounded-3xl border border-stone-200 bg-white p-6"><div class="font-black">Generative AI</div><p class="mt-2 text-sm leading-6 text-stone-500">ChatGPT · Stable Diffusion · Sora · Vrew</p></div>
+          <div class="rounded-3xl border border-stone-200 bg-white p-6"><div class="font-black">Learning Infra</div><p class="mt-2 text-sm leading-6 text-stone-500">Docker · WSL2 · GitHub · 표준 실습환경</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Performance -->
+    <section id="performance" class="bg-orange-500 py-24 text-white">
+      <div class="mx-auto max-w-7xl px-5 lg:px-8">
+        <div class="max-w-3xl">
+          <p class="text-sm font-black uppercase tracking-[0.24em] text-orange-100">Track Record</p>
+          <h2 class="mt-4 text-4xl font-black tracking-tight md:text-5xl">현장에서 축적한 교육 실적이<br />MADAM의 가장 큰 자산입니다.</h2>
+        </div>
+
+        <div class="mt-12 grid gap-5 lg:grid-cols-3">
+          <article class="rounded-[2rem] bg-white p-8 text-stone-900 shadow-xl shadow-orange-800/10">
+            <div class="flex items-end justify-between"><div class="text-sm font-black text-orange-600">2023</div><div class="text-xs text-stone-400">연말 업무 실적 보고 기준</div></div>
+            <div class="mt-5 text-4xl font-black">943 hours</div>
+            <div class="mt-1 text-lg font-bold text-stone-500">교육 기여 시간</div>
+            <div class="mt-6 border-t border-stone-200 pt-5"><span class="text-2xl font-black">₩90.99M</span><span class="ml-2 text-sm text-stone-500">총매출액(강사료) 계</span></div>
+            <p class="mt-5 text-sm leading-6 text-stone-600">ROS2, Python, OpenCV, PyTorch, TurtleBot, Arduino, 블록체인 등 다양한 과정과 교안·교재·영상 콘텐츠 제작.</p>
+          </article>
+
+          <article class="rounded-[2rem] bg-stone-950 p-8 text-white shadow-xl shadow-orange-800/10">
+            <div class="flex items-end justify-between"><div class="text-sm font-black text-orange-400">2024</div><div class="text-xs text-stone-500">연말 업무 실적 보고 기준</div></div>
+            <div class="mt-5 text-4xl font-black">1,142 hours</div>
+            <div class="mt-1 text-lg font-bold text-stone-400">교육 기여 시간</div>
+            <div class="mt-6 border-t border-stone-800 pt-5"><span class="text-2xl font-black text-orange-400">₩114.94M</span><span class="ml-2 text-sm text-stone-500">총매출액(강사료) 계</span></div>
+            <p class="mt-5 text-sm leading-6 text-stone-400">고려대 IoT·인공지능, ROS2, 데이터센터 교육과 GPT·생성형 AI 교재, ROS2·OpenCV·DB 등 실습 자료 개발.</p>
+          </article>
+
+          <article class="rounded-[2rem] bg-white p-8 text-stone-900 shadow-xl shadow-orange-800/10">
+            <div class="flex items-end justify-between"><div class="text-sm font-black text-orange-600">2025</div><div class="text-xs text-stone-400">종합 실적 보고 기준</div></div>
+            <div class="mt-5 text-4xl font-black">1,100h+</div>
+            <div class="mt-1 text-lg font-bold text-stone-500">연간 교육 수행 지표</div>
+            <div class="mt-6 border-t border-stone-200 pt-5"><span class="text-2xl font-black">11개월</span><span class="ml-2 text-sm text-stone-500">교육 참여 기간 추정</span></div>
+            <p class="mt-5 text-sm leading-6 text-stone-600">대학·공공·기업 대상 IT·AI·로봇·임베디드·비전 교육, 프로젝트형 커리큘럼, Docker/WSL2 기반 표준 실습환경 구축과 콘텐츠 개발.</p>
+          </article>
+        </div>
+
+        <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="rounded-2xl border border-orange-300/50 bg-orange-600/40 p-5"><div class="text-sm font-bold text-orange-100">주요 교육처</div><div class="mt-2 font-black">고려대 · 홍익대 · 호서대 · 공주대 · 부산대 · 배재대 등</div></div>
+          <div class="rounded-2xl border border-orange-300/50 bg-orange-600/40 p-5"><div class="text-sm font-bold text-orange-100">교육 형태</div><div class="mt-2 font-black">오프라인 · 온라인 · 혼합형 · 프로젝트형</div></div>
+          <div class="rounded-2xl border border-orange-300/50 bg-orange-600/40 p-5"><div class="text-sm font-bold text-orange-100">콘텐츠</div><div class="mt-2 font-black">교안 · 교재 · 코드 · 영상 · 프로젝트 가이드</div></div>
+          <div class="rounded-2xl border border-orange-300/50 bg-orange-600/40 p-5"><div class="text-sm font-bold text-orange-100">2025 활동</div><div class="mt-2 font-black">배재대 해커톤 대상 · ICT 융합 석사과정</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How we work -->
+    <section class="mx-auto max-w-7xl px-5 py-24 lg:px-8">
+      <div class="text-center">
+        <p class="text-sm font-black uppercase tracking-[0.24em] text-orange-500">How We Work</p>
+        <h2 class="mt-4 text-4xl font-black tracking-tight">배움이 결과물로 남는 과정</h2>
+      </div>
+      <div class="mt-12 grid gap-4 md:grid-cols-5">
+        <div class="rounded-3xl border border-stone-200 bg-white p-6"><div class="text-xs font-black text-orange-500">01</div><div class="mt-4 font-black">Discover</div><p class="mt-2 text-sm leading-6 text-stone-500">대상·수준·목표·환경을 분석합니다.</p></div>
+        <div class="rounded-3xl border border-stone-200 bg-white p-6"><div class="text-xs font-black text-orange-500">02</div><div class="mt-4 font-black">Design</div><p class="mt-2 text-sm leading-6 text-stone-500">커리큘럼과 프로젝트를 설계합니다.</p></div>
+        <div class="rounded-3xl border border-stone-200 bg-white p-6"><div class="text-xs font-black text-orange-500">03</div><div class="mt-4 font-black">Build</div><p class="mt-2 text-sm leading-6 text-stone-500">실습환경·코드·기자재를 준비합니다.</p></div>
+        <div class="rounded-3xl border border-stone-200 bg-white p-6"><div class="text-xs font-black text-orange-500">04</div><div class="mt-4 font-black">Learn & Make</div><p class="mt-2 text-sm leading-6 text-stone-500">학습과 제작을 프로젝트로 연결합니다.</p></div>
+        <div class="rounded-3xl border border-stone-200 bg-white p-6"><div class="text-xs font-black text-orange-500">05</div><div class="mt-4 font-black">Publish</div><p class="mt-2 text-sm leading-6 text-stone-500">결과를 교재·콘텐츠·지식으로 자산화합니다.</p></div>
+      </div>
+    </section>
+
+    <!-- Business identity -->
+    <section id="business" class="border-y border-stone-200 bg-white py-24">
+      <div class="mx-auto grid max-w-7xl gap-10 px-5 lg:grid-cols-[.8fr_1.2fr] lg:px-8">
+        <div>
+          <p class="text-sm font-black uppercase tracking-[0.24em] text-orange-500">Business Information</p>
+          <h2 class="mt-4 text-4xl font-black tracking-tight">개인사업자 MADAM</h2>
+          <p class="mt-6 leading-8 text-stone-600">마담은 교육서비스업을 중심으로 출판, 소프트웨어, 제조·유통을 연결할 수 있는 사업 구조를 갖추고 있습니다. 공개 랜딩 페이지에는 개인정보 보호를 위해 사업장 상세 주소는 표기하지 않습니다.</p>
+        </div>
+        <div class="overflow-hidden rounded-[2rem] border border-stone-200 bg-stone-50">
+          <dl class="divide-y divide-stone-200">
+            <div class="grid gap-2 p-6 sm:grid-cols-[180px_1fr]"><dt class="font-bold text-stone-500">상호</dt><dd class="font-black">마담 (MADAM)</dd></div>
+            <div class="grid gap-2 p-6 sm:grid-cols-[180px_1fr]"><dt class="font-bold text-stone-500">대표자</dt><dd class="font-black">최수길</dd></div>
+            <div class="grid gap-2 p-6 sm:grid-cols-[180px_1fr]"><dt class="font-bold text-stone-500">사업자등록번호</dt><dd class="font-black">101-96-60207</dd></div>
+            <div class="grid gap-2 p-6 sm:grid-cols-[180px_1fr]"><dt class="font-bold text-stone-500">개업일</dt><dd>2021년 3월 23일</dd></div>
+            <div class="grid gap-2 p-6 sm:grid-cols-[180px_1fr]"><dt class="font-bold text-stone-500">사업장 지역</dt><dd>충청남도 계룡시</dd></div>
+            <div class="grid gap-2 p-6 sm:grid-cols-[180px_1fr]"><dt class="font-bold text-stone-500">사업 분야</dt><dd class="leading-7">교육지원 서비스 · 응용 소프트웨어 개발/공급 · 일반/교과/학습 서적 출판 · 서적/콘텐츠 유통 · 전자상거래 · 교육 관련 제조</dd></div>
+            <div class="grid gap-2 p-6 sm:grid-cols-[180px_1fr]"><dt class="font-bold text-stone-500">기업 구분</dt><dd>소기업(소상공인) 확인 이력 보유</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- Direction -->
+    <section class="mx-auto max-w-7xl px-5 py-24 lg:px-8">
+      <div class="rounded-[2.5rem] bg-stone-950 px-7 py-12 text-white md:px-12 md:py-16">
+        <div class="grid gap-10 lg:grid-cols-[1fr_.9fr] lg:items-center">
+          <div>
+            <p class="text-sm font-black uppercase tracking-[0.24em] text-orange-400">Next</p>
+            <h2 class="mt-4 text-4xl font-black tracking-tight md:text-5xl">AI와 로봇, 콘텐츠가<br />하나의 교육 경험이 되도록.</h2>
+            <p class="mt-6 max-w-2xl text-lg leading-8 text-stone-400">MADAM은 AI Agent, 자율주행, Edge AI, 로봇·비전 융합 교육을 확장하고 프로젝트형 표준 교재와 온라인 콘텐츠를 지속적으로 자산화합니다.</p>
+          </div>
+          <div class="grid gap-3 sm:grid-cols-2">
+            <div class="rounded-2xl border border-stone-800 bg-stone-900 p-5"><div class="font-black text-orange-400">AI Agent</div><p class="mt-2 text-sm text-stone-400">생성형 AI 기반 실무·자동화 교육</p></div>
+            <div class="rounded-2xl border border-stone-800 bg-stone-900 p-5"><div class="font-black text-orange-400">Autonomous Robotics</div><p class="mt-2 text-sm text-stone-400">ROS2·비전·자율주행 융합</p></div>
+            <div class="rounded-2xl border border-stone-800 bg-stone-900 p-5"><div class="font-black text-orange-400">Edge AI</div><p class="mt-2 text-sm text-stone-400">온디바이스·임베디드 AI 프로젝트</p></div>
+            <div class="rounded-2xl border border-stone-800 bg-stone-900 p-5"><div class="font-black text-orange-400">Publishing</div><p class="mt-2 text-sm text-stone-400">교재·영상·프로젝트 패키지</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="px-5 pb-24 lg:px-8">
+      <div class="mx-auto max-w-7xl rounded-[2.5rem] border border-orange-200 bg-orange-50 p-8 text-center md:p-14">
+        <p class="text-sm font-black uppercase tracking-[0.24em] text-orange-600">Contact MADAM</p>
+        <h2 class="mt-4 text-4xl font-black tracking-tight">교육, 프로젝트, 교재·콘텐츠 협업을 시작하세요.</h2>
+        <p class="mx-auto mt-5 max-w-2xl leading-7 text-stone-600">기관 맞춤형 교육, 로봇·AI 프로젝트 과정, 교육 기자재 활용, 교재 및 기술 콘텐츠 제작 등 협업 목적에 맞춰 제안합니다.</p>
+        <div class="mt-8 flex flex-wrap justify-center gap-3">
+          <a href="mailto:freshmea@gmail.com" class="rounded-full bg-orange-500 px-7 py-3.5 font-bold text-white hover:bg-orange-600">freshmea@gmail.com</a>
+          <a href="https://github.com/freshmea" target="_blank" rel="noopener" class="rounded-full border border-stone-300 bg-white px-7 py-3.5 font-bold hover:border-stone-900">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-stone-200 bg-white">
+    <div class="mx-auto flex max-w-7xl flex-col gap-4 px-5 py-10 text-sm text-stone-500 md:flex-row md:items-center md:justify-between lg:px-8">
+      <div>
+        <span class="font-black tracking-[0.14em] text-stone-900">MADAM</span>
+        <span class="ml-2">Make · AI · Digital · Automation · Media</span>
+      </div>
+      <div>© 2026 MADAM. All rights reserved.</div>
+    </div>
+  </footer>
 </body>
 </html>
