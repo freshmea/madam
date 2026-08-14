@@ -1,0 +1,41 @@
+[
+  {
+    "id": "ros2-vision-lab",
+    "title": "ROS2 Vision Robot Lab",
+    "category": "robotics",
+    "categoryLabel": "Robotics · Vision",
+    "year": "2025",
+    "client": "대학·교육기관",
+    "image": "assets/img/logo5.png",
+    "summary": "카메라 인식 결과를 ROS2 토픽과 로봇 제어로 연결하는 프로젝트형 교육입니다.",
+    "description": "OpenCV 영상 처리, 객체 인식, ROS2 퍼블리셔·서브스크라이버, 이동 로봇 제어를 하나의 실습 흐름으로 구성했습니다. 학습자는 단계별 예제를 실행한 뒤 직접 인식 조건과 로봇 동작을 설계합니다.",
+    "services": ["커리큘럼 설계", "ROS2 실습", "프로젝트 운영"],
+    "outcomes": ["카메라 데이터 흐름 이해", "인식 결과 기반 로봇 제어", "팀 프로젝트 결과 발표"]
+  },
+  {
+    "id": "generative-ai-book",
+    "title": "Generative AI Workbook",
+    "category": "education",
+    "categoryLabel": "Book · Content",
+    "year": "2025",
+    "client": "기업·공공 교육",
+    "image": "assets/img/logo3.png",
+    "summary": "생성형 AI 개념, 프롬프트, 실습 코드와 과제를 한 권에 담은 워크북입니다.",
+    "description": "강의 현장에서 반복 활용할 수 있도록 개념 설명, 따라 하기, 응용 미션, 체크리스트를 같은 구조로 편집했습니다. 강사용 자료와 학습자용 결과물을 분리해 수업 운영 효율도 높였습니다.",
+    "services": ["교재 기획", "원고·예제 제작", "교육 콘텐츠 편집"],
+    "outcomes": ["단계별 생성형 AI 실습", "수업용 예제 자산화", "온·오프라인 공통 활용"]
+  },
+  {
+    "id": "edge-ai-kit",
+    "title": "Edge AI Learning Kit",
+    "category": "robotics",
+    "categoryLabel": "IT Kit · Edge AI",
+    "year": "2026",
+    "client": "메이커·로봇 교육",
+    "image": "assets/img/logo4.png",
+    "summary": "센서 입력과 경량 비전 모델을 빠르게 실험할 수 있도록 구성한 교육용 IT Kit입니다.",
+    "description": "보드, 센서, 카메라, 샘플 코드와 프로젝트 가이드를 한 패키지로 구성하는 콘셉트입니다. 설치에서 추론, 결과 시각화까지 학습자가 스스로 검증할 수 있는 흐름을 중심으로 설계했습니다.",
+    "services": ["IT Kit 구성", "예제 소프트웨어", "프로젝트 가이드"],
+    "outcomes": ["센서·카메라 입력 실습", "Edge AI 추론 경험", "확장 가능한 프로젝트 구조"]
+  }
+]

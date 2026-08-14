@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="MADAM의 IT·AI·로봇 교육, 교재, IT Kit 프로젝트를 소개합니다." />
+  <title>Projects | MADAM</title>
+  <link rel="icon" href="../assets/img/logo1.png" type="image/png" />
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="../assets/js/tailwind.config.js"></script>
+</head>
+<body class="bg-stone-50 text-stone-900 antialiased">
+  <header class="site-header sticky top-0 z-50 border-b border-stone-200/80 bg-stone-50/95 backdrop-blur-xl">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-5 py-3 lg:px-8">
+      <a href="../index.html" class="brand-lockup" aria-label="MADAM 홈"><span class="brand-mark brand-mark-orange" aria-hidden="true"></span><span><strong>MADAM</strong><small>TECH · EDUCATION · MEDIA</small></span></a>
+      <nav class="project-page-nav"><a href="../index.html#brand">Company</a><a href="../index.html#services">Service</a><a class="is-current" href="projects.html">Project</a><a href="../index.html#workflow">Insight</a><a class="nav-contact" href="../index.html#contact">Contact</a></nav>
+    </div>
+  </header>
+  <main>
+    <section class="portfolio-hero"><div class="mx-auto max-w-7xl px-5 lg:px-8"><p>Our Work · 2023—2026</p><h1>기술을 배우고<br /><em>직접 움직이게 한 기록.</em></h1><div class="portfolio-intro">교육, 로봇, 교재, IT Kit가 실제 결과물로 이어진 프로젝트를 소개합니다.</div></div></section>
+    <section class="mx-auto max-w-7xl px-5 py-16 lg:px-8" data-project-root data-base-path="..">
+      <div class="project-filters" aria-label="프로젝트 분류"><button class="is-active" data-filter="all">All</button><button data-filter="education">Education & Book</button><button data-filter="robotics">Robotics & IT Kit</button></div>
+      <div id="project-grid" class="portfolio-grid" aria-live="polite"></div>
+    </section>
+  </main>
+  <footer class="border-t border-stone-200 bg-white"><div class="mx-auto flex max-w-7xl justify-between px-5 py-8 text-sm text-stone-500 lg:px-8"><span>MADAM · Make AI Digital Automation Media</span><span>© 2026 MADAM</span></div></footer>
+  <script src="../assets/js/projects.js"></script>
+</body>
+</html>

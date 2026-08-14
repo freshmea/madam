@@ -5,10 +5,37 @@
     "keywords": ["Make", "AI", "Digital", "Automation", "Media"]
   },
   "navigation": [
-    { "label": "Brand", "href": "#brand" },
-    { "label": "Services", "href": "#services" },
-    { "label": "Performance", "href": "#performance" },
-    { "label": "Business", "href": "#business" },
+    {
+      "label": "Company",
+      "children": [
+        { "label": "브랜드 스토리", "href": "#brand" },
+        { "label": "교육 실적", "href": "#performance" },
+        { "label": "기업 정보", "href": "#business" }
+      ]
+    },
+    {
+      "label": "Service",
+      "children": [
+        { "label": "IT·AI Education", "href": "#education" },
+        { "label": "Book & Publishing", "href": "#book" },
+        { "label": "IT Kit & Software", "href": "#it-kit" }
+      ]
+    },
+    {
+      "label": "Project",
+      "children": [
+        { "label": "전체 프로젝트", "href": "pages/projects.html" },
+        { "label": "교육·콘텐츠", "href": "pages/projects.html?category=education" },
+        { "label": "로봇·AI", "href": "pages/projects.html?category=robotics" }
+      ]
+    },
+    {
+      "label": "Insight",
+      "children": [
+        { "label": "일하는 방식", "href": "#workflow" },
+        { "label": "성과와 경험", "href": "#performance" }
+      ]
+    },
     { "label": "Contact", "href": "#contact" }
   ],
   "contact": {

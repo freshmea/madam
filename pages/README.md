@@ -8,3 +8,8 @@
 - 정적 데이터: `../data/`
 
 메인 랜딩 페이지는 GitHub Pages 기본 진입점을 유지하기 위해 저장소 루트의 `index.html`에 둡니다.
+
+현재 페이지:
+
+- `projects.html`: 프로젝트 목록과 카테고리 필터
+- `project.html?id=프로젝트-id`: 프로젝트 상세 화면

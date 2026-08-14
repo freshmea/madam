@@ -6,7 +6,7 @@
   <meta name="description" content="MADAM(마담)은 IT·AI·로봇 교육, 교육 기자재, 소프트웨어 개발, 교재·출판을 연결하는 기술교육 브랜드입니다." />
   <meta name="theme-color" content="#ff6a00" />
   <title>MADAM | 배우고, 만들고, 미래를 움직이다</title>
-  <link rel="icon" href="assets/img/madam-mark.svg" type="image/svg+xml" />
+  <link rel="icon" href="assets/img/logo1.png" type="image/png" />
   <link rel="stylesheet" href="assets/css/styles.css" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="assets/js/tailwind.config.js"></script>
@@ -14,23 +14,27 @@
 <body class="bg-stone-50 text-stone-900 antialiased selection:bg-orange-200 selection:text-orange-950">
 
   <!-- Navigation -->
-  <header class="sticky top-0 z-50 border-b border-stone-200/80 bg-stone-50/90 backdrop-blur-xl">
-    <div class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
-      <a href="#top" class="flex items-center gap-3" aria-label="MADAM 홈">
-        <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-orange-500 text-xl font-black text-white">M</div>
-        <div>
-          <div class="text-lg font-black tracking-[0.18em]">MADAM</div>
-          <div class="text-[10px] font-semibold tracking-[0.18em] text-stone-500">TECH · EDUCATION · MEDIA</div>
-        </div>
+  <header class="site-header sticky top-0 z-50 border-b border-stone-200/80 bg-stone-50/95 backdrop-blur-xl">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-5 py-3 lg:px-8">
+      <a href="#top" class="brand-lockup" aria-label="MADAM 홈">
+        <span class="brand-mark brand-mark-orange" aria-hidden="true"></span>
+        <span><strong>MADAM</strong><small>TECH · EDUCATION · MEDIA</small></span>
       </a>
-      <nav class="hidden items-center gap-7 text-sm font-semibold text-stone-600 md:flex">
-        <a href="#brand" class="hover:text-orange-600">Brand</a>
-        <a href="#services" class="hover:text-orange-600">Services</a>
-        <a href="#performance" class="hover:text-orange-600">Performance</a>
-        <a href="#business" class="hover:text-orange-600">Business</a>
-        <a href="#contact" class="rounded-full bg-stone-900 px-5 py-2.5 text-white hover:bg-orange-600">문의하기</a>
+      <button class="menu-toggle md:hidden" type="button" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span><span></span><span class="sr-only">메뉴 열기</span></button>
+      <nav class="desktop-nav hidden md:flex" aria-label="주 메뉴">
+        <div class="nav-group"><a href="#brand">Company</a><div class="submenu"><a href="#brand">브랜드 스토리</a><a href="#performance">교육 실적</a><a href="#business">기업 정보</a></div></div>
+        <div class="nav-group"><a href="#services">Service</a><div class="submenu"><a href="#education">IT·AI Education</a><a href="#book">Book & Publishing</a><a href="#it-kit">IT Kit & Software</a></div></div>
+        <div class="nav-group"><a href="pages/projects.html">Project</a><div class="submenu"><a href="pages/projects.html">전체 프로젝트</a><a href="pages/projects.html?category=education">교육·콘텐츠</a><a href="pages/projects.html?category=robotics">로봇·AI</a></div></div>
+        <div class="nav-group"><a href="#workflow">Insight</a><div class="submenu"><a href="#workflow">일하는 방식</a><a href="#performance">성과와 경험</a></div></div>
+        <a href="#contact" class="nav-contact">Contact</a>
       </nav>
     </div>
+    <nav id="mobile-menu" class="mobile-nav md:hidden" aria-label="모바일 메뉴" hidden>
+      <details><summary>Company</summary><a href="#brand">브랜드 스토리</a><a href="#performance">교육 실적</a><a href="#business">기업 정보</a></details>
+      <details><summary>Service</summary><a href="#education">IT·AI Education</a><a href="#book">Book & Publishing</a><a href="#it-kit">IT Kit & Software</a></details>
+      <details><summary>Project</summary><a href="pages/projects.html">전체 프로젝트</a><a href="pages/projects.html?category=education">교육·콘텐츠</a><a href="pages/projects.html?category=robotics">로봇·AI</a></details>
+      <a href="#workflow">Insight</a><a href="#contact">Contact</a>
+    </nav>
   </header>
 
   <main id="top">
@@ -73,27 +77,12 @@
           </div>
         </div>
 
-        <!-- CSS logo mark inspired by the selected circuit-M direction -->
+        <!-- Primary brand logo -->
         <div class="relative mx-auto w-full max-w-lg">
-          <div class="rounded-[2.5rem] border border-orange-200 bg-white p-7 shadow-soft md:p-10">
-            <div class="mx-auto aspect-square max-w-sm rounded-[2rem] bg-orange-500 p-7 shadow-xl shadow-orange-500/20">
-              <div class="relative h-full w-full overflow-hidden rounded-2xl bg-stone-950">
-                <div class="absolute left-[8%] top-[9%] h-[68%] w-[18%] -skew-y-[38deg] bg-orange-500"></div>
-                <div class="absolute right-[8%] top-[9%] h-[68%] w-[18%] skew-y-[38deg] bg-orange-500"></div>
-                <div class="absolute left-1/2 top-[22%] h-[18%] w-[56%] -translate-x-1/2 rotate-45 border-b-[13px] border-r-[13px] border-orange-500"></div>
-                <div class="absolute left-[22%] top-[22%] h-[52%] w-[3px] bg-white"></div>
-                <div class="absolute right-[22%] top-[22%] h-[52%] w-[3px] bg-white"></div>
-                <div class="absolute left-1/2 top-[38%] h-[38%] w-[3px] -translate-x-1/2 bg-white"></div>
-                <span class="absolute left-[19.5%] top-[17%] h-5 w-5 rounded-full border-[5px] border-white bg-orange-500"></span>
-                <span class="absolute right-[19.5%] top-[17%] h-5 w-5 rounded-full border-[5px] border-white bg-orange-500"></span>
-                <span class="absolute bottom-[18%] left-[19.5%] h-5 w-5 rounded-full border-[5px] border-white bg-orange-500"></span>
-                <span class="absolute bottom-[18%] right-[19.5%] h-5 w-5 rounded-full border-[5px] border-white bg-orange-500"></span>
-                <span class="absolute bottom-[13%] left-1/2 h-6 w-6 -translate-x-1/2 rounded-full border-[5px] border-white bg-orange-500"></span>
-              </div>
-            </div>
-            <div class="mt-7 text-center">
-              <div class="text-4xl font-black tracking-[0.24em] text-stone-950">MADAM</div>
-              <div class="mt-3 text-sm font-bold tracking-[0.2em] text-orange-500">MAKE · AI · DIGITAL · AUTOMATION · MEDIA</div>
+          <div class="hero-logo-card rounded-[2.5rem] border border-orange-200 bg-white shadow-soft">
+            <img src="assets/img/logo5.png" alt="MADAM 로고" />
+            <div class="logo-palette" aria-label="MADAM 로고 컬러 시스템">
+              <img src="assets/img/logo1.png" alt="오렌지 MADAM 로고" /><img src="assets/img/logo2.png" alt="블루 MADAM 로고" /><img src="assets/img/logo3.png" alt="핑크 MADAM 로고" /><img src="assets/img/logo4.png" alt="그린 MADAM 로고" /><img src="assets/img/logo5.png" alt="네이비 MADAM 로고" />
             </div>
           </div>
         </div>
@@ -130,18 +119,33 @@
         </div>
 
         <div class="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
-          <article class="group rounded-3xl border border-stone-200 bg-stone-50 p-7 transition hover:-translate-y-1 hover:border-orange-200 hover:bg-orange-50">
+          <article id="education" class="group rounded-3xl border border-stone-200 bg-stone-50 p-7 transition hover:-translate-y-1 hover:border-orange-200 hover:bg-orange-50">
             <div class="text-3xl">🎓</div><h3 class="mt-5 text-xl font-black">IT·AI 전문 교육</h3><p class="mt-3 leading-7 text-stone-600">C/C++, Python, 네트워크, 머신러닝·딥러닝, 생성형 AI, DX·AI 리터러시까지 대학·기업·공공기관 맞춤형 교육을 운영합니다.</p>
           </article>
           <article class="group rounded-3xl border border-stone-200 bg-stone-50 p-7 transition hover:-translate-y-1 hover:border-orange-200 hover:bg-orange-50">
             <div class="text-3xl">🤖</div><h3 class="mt-5 text-xl font-black">로봇·임베디드</h3><p class="mt-3 leading-7 text-stone-600">ROS1/ROS2, TurtleBot3, LIMO, Arduino, ESP32, Raspberry Pi/Pico 기반의 실습·프로젝트 교육과 기자재 활용을 지원합니다.</p>
           </article>
-          <article class="group rounded-3xl border border-stone-200 bg-stone-50 p-7 transition hover:-translate-y-1 hover:border-orange-200 hover:bg-orange-50">
+          <article id="it-kit" class="group rounded-3xl border border-stone-200 bg-stone-50 p-7 transition hover:-translate-y-1 hover:border-orange-200 hover:bg-orange-50">
             <div class="text-3xl">🧩</div><h3 class="mt-5 text-xl font-black">교육 기자재·SW</h3><p class="mt-3 leading-7 text-stone-600">교육용 프로젝트 부자재, 실습 환경 구축, 응용 소프트웨어 개발·공급을 통해 수업 현장에 필요한 기술 기반을 제공합니다.</p>
           </article>
-          <article class="group rounded-3xl border border-stone-200 bg-stone-50 p-7 transition hover:-translate-y-1 hover:border-orange-200 hover:bg-orange-50">
+          <article id="book" class="group rounded-3xl border border-stone-200 bg-stone-50 p-7 transition hover:-translate-y-1 hover:border-orange-200 hover:bg-orange-50">
             <div class="text-3xl">📚</div><h3 class="mt-5 text-xl font-black">교재·출판·콘텐츠</h3><p class="mt-3 leading-7 text-stone-600">수업용 PPT·코드 예제·프로젝트 가이드부터 일반·교과·학습 서적, 온라인 콘텐츠까지 반복 활용 가능한 교육 자산으로 제작합니다.</p>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project showcase -->
+    <section id="projects" class="project-showcase border-y border-stone-200 bg-white py-24">
+      <div class="mx-auto max-w-7xl px-5 lg:px-8">
+        <div class="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+          <div class="max-w-3xl"><p class="text-sm font-black uppercase tracking-[0.24em] text-orange-500">Selected Projects</p><h2 class="mt-4 text-4xl font-black tracking-tight md:text-5xl">배움이 실제 결과가 되는<br />프로젝트를 만듭니다.</h2></div>
+          <a href="pages/projects.html" class="project-all-link">프로젝트 전체 보기 <span>↗</span></a>
+        </div>
+        <div class="project-preview-grid mt-12">
+          <a class="project-preview project-preview-large" href="pages/project.html?id=ros2-vision-lab"><img src="assets/img/logo5.png" alt="ROS2 비전 로봇 프로젝트 대표 이미지" /><span class="project-type">ROBOTICS · VISION</span><h3>ROS2 Vision Robot Lab</h3><p>카메라 인식부터 로봇 제어까지 연결한 프로젝트형 교육</p></a>
+          <a class="project-preview" href="pages/project.html?id=generative-ai-book"><img src="assets/img/logo3.png" alt="생성형 AI 교재 프로젝트 대표 이미지" /><span class="project-type">BOOK · CONTENT</span><h3>Generative AI Workbook</h3><p>실습 코드와 과제를 하나로 엮은 생성형 AI 교재</p></a>
+          <a class="project-preview" href="pages/project.html?id=edge-ai-kit"><img src="assets/img/logo4.png" alt="Edge AI 키트 프로젝트 대표 이미지" /><span class="project-type">IT KIT · EDGE AI</span><h3>Edge AI Learning Kit</h3><p>센서와 비전 모델을 바로 실험하는 교육용 키트</p></a>
         </div>
       </div>
     </section>
@@ -209,7 +213,7 @@
     </section>
 
     <!-- How we work -->
-    <section class="mx-auto max-w-7xl px-5 py-24 lg:px-8">
+    <section id="workflow" class="mx-auto max-w-7xl px-5 py-24 lg:px-8">
       <div class="text-center">
         <p class="text-sm font-black uppercase tracking-[0.24em] text-orange-500">How We Work</p>
         <h2 class="mt-4 text-4xl font-black tracking-tight">배움이 결과물로 남는 과정</h2>
@@ -287,5 +291,6 @@
       <div>© 2026 MADAM. All rights reserved.</div>
     </div>
   </footer>
+  <script src="assets/js/navigation.js"></script>
 </body>
 </html>
