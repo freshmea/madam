@@ -1,0 +1,18 @@
+{
+  "brand": {
+    "name": "MADAM",
+    "tagline": "배우고, 만들고, 미래를 움직이다",
+    "keywords": ["Make", "AI", "Digital", "Automation", "Media"]
+  },
+  "navigation": [
+    { "label": "Brand", "href": "#brand" },
+    { "label": "Services", "href": "#services" },
+    { "label": "Performance", "href": "#performance" },
+    { "label": "Business", "href": "#business" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "contact": {
+    "email": "freshmea@gmail.com",
+    "github": "https://github.com/freshmea"
+  }
+}
