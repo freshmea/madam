@@ -16,6 +16,7 @@
     {
       "label": "Service",
       "children": [
+        { "label": "AI Consulting", "href": "#ai-consulting" },
         { "label": "IT·AI Education", "href": "#education" },
         { "label": "Book & Publishing", "href": "#book" },
         { "label": "IT Kit & Software", "href": "#it-kit" }
@@ -41,5 +42,9 @@
   "contact": {
     "email": "freshmea@gmail.com",
     "github": "https://github.com/freshmea"
+  },
+  "credentials": {
+    "aiTrainingCoach": true,
+    "aiLectureExperience": true
   }
 }

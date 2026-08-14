@@ -9,13 +9,14 @@ madam/
 ├── index.html                    # 메인 랜딩 페이지
 ├── assets/
 │   ├── css/
-│   │   └── styles.css            # 공통 사용자 스타일
+│   │   ├── styles.css            # 공통 사용자 스타일
+│   │   ├── tailwind.css          # 배포용 Tailwind 빌드 결과
+│   │   └── tailwind.input.css    # Tailwind 빌드 입력
 │   ├── img/
 │   │   └── madam-mark.svg        # 브랜드 이미지와 아이콘
 │   └── js/
 │       ├── navigation.js         # 반응형 2단 메뉴
-│       ├── projects.js           # 프로젝트 목록·상세 렌더링
-│       └── tailwind.config.js    # Tailwind 테마 설정
+│       └── projects.js           # 프로젝트 목록·상세 렌더링
 ├── data/
 │   ├── site.json                 # 브랜드, 메뉴, 연락처 데이터
 │   └── projects.json             # 프로젝트 사진·설명 데이터
@@ -25,6 +26,8 @@ madam/
     └── README.md                 # 독립 HTML 페이지 추가 지침
 ```
 
+Tailwind 설정은 저장소 루트의 `tailwind.config.cjs`에서 관리합니다. 운영 페이지는 외부 Tailwind CDN이 아니라 빌드된 `assets/css/tailwind.css`를 사용합니다.
+
 ## 로컬 실행
 
 Python이 설치되어 있다면 저장소 루트에서 다음 명령을 실행합니다.
@@ -33,7 +36,14 @@ Python이 설치되어 있다면 저장소 루트에서 다음 명령을 실행�
 python -m http.server 8000
 ```
 
-브라우저에서 `http://localhost:8000`을 엽니다. Tailwind CSS는 CDN을 사용하므로 화면 스타일을 모두 불러오려면 인터넷 연결이 필요합니다.
+브라우저에서 `http://localhost:8000`을 엽니다. 스타일은 저장소의 정적 CSS에서 불러오므로 별도의 CDN 연결이 필요하지 않습니다.
+
+CSS 클래스를 추가하거나 수정했다면 배포 전에 다음 명령으로 정적 CSS를 다시 생성합니다.
+
+```bash
+npm install
+npm run build:css
+```
 
 ## 파일 배치 원칙
 

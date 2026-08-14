@@ -223,6 +223,45 @@ body {
   font-weight: 850;
 }
 
+.service-card-featured {
+  position: relative;
+  overflow: hidden;
+}
+
+.service-card-featured::after {
+  content: '';
+  position: absolute;
+  right: -2.5rem;
+  bottom: -2.5rem;
+  width: 7rem;
+  height: 7rem;
+  border: 1.5rem solid rgba(249, 115, 22, 0.08);
+  border-radius: 50%;
+}
+
+.service-card-badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.25rem 0.45rem;
+  border-radius: 999px;
+  background: #f97316;
+  color: white;
+  font-size: 0.58rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+}
+
+.credential-note {
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid #fed7aa;
+  color: #c2410c;
+  font-size: 0.72rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
 .project-preview-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

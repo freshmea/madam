@@ -7,9 +7,8 @@
   <meta name="theme-color" content="#ff6a00" />
   <title>MADAM | 배우고, 만들고, 미래를 움직이다</title>
   <link rel="icon" href="assets/img/logo1.png" type="image/png" />
+  <link rel="stylesheet" href="assets/css/tailwind.css" />
   <link rel="stylesheet" href="assets/css/styles.css" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="assets/js/tailwind.config.js"></script>
 </head>
 <body class="bg-stone-50 text-stone-900 antialiased selection:bg-orange-200 selection:text-orange-950">
 
@@ -23,7 +22,7 @@
       <button class="menu-toggle md:hidden" type="button" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span><span></span><span class="sr-only">메뉴 열기</span></button>
       <nav class="desktop-nav hidden md:flex" aria-label="주 메뉴">
         <div class="nav-group"><a href="#brand">Company</a><div class="submenu"><a href="#brand">브랜드 스토리</a><a href="#performance">교육 실적</a><a href="#business">기업 정보</a></div></div>
-        <div class="nav-group"><a href="#services">Service</a><div class="submenu"><a href="#education">IT·AI Education</a><a href="#book">Book & Publishing</a><a href="#it-kit">IT Kit & Software</a></div></div>
+        <div class="nav-group"><a href="#services">Service</a><div class="submenu"><a href="#ai-consulting">AI Consulting</a><a href="#education">IT·AI Education</a><a href="#book">Book & Publishing</a><a href="#it-kit">IT Kit & Software</a></div></div>
         <div class="nav-group"><a href="pages/projects.html">Project</a><div class="submenu"><a href="pages/projects.html">전체 프로젝트</a><a href="pages/projects.html?category=education">교육·콘텐츠</a><a href="pages/projects.html?category=robotics">로봇·AI</a></div></div>
         <div class="nav-group"><a href="#workflow">Insight</a><div class="submenu"><a href="#workflow">일하는 방식</a><a href="#performance">성과와 경험</a></div></div>
         <a href="#contact" class="nav-contact">Contact</a>
@@ -31,7 +30,7 @@
     </div>
     <nav id="mobile-menu" class="mobile-nav md:hidden" aria-label="모바일 메뉴" hidden>
       <details><summary>Company</summary><a href="#brand">브랜드 스토리</a><a href="#performance">교육 실적</a><a href="#business">기업 정보</a></details>
-      <details><summary>Service</summary><a href="#education">IT·AI Education</a><a href="#book">Book & Publishing</a><a href="#it-kit">IT Kit & Software</a></details>
+      <details><summary>Service</summary><a href="#ai-consulting">AI Consulting</a><a href="#education">IT·AI Education</a><a href="#book">Book & Publishing</a><a href="#it-kit">IT Kit & Software</a></details>
       <details><summary>Project</summary><a href="pages/projects.html">전체 프로젝트</a><a href="pages/projects.html?category=education">교육·콘텐츠</a><a href="pages/projects.html?category=robotics">로봇·AI</a></details>
       <a href="#workflow">Insight</a><a href="#contact">Contact</a>
     </nav>
@@ -118,7 +117,10 @@
           <h2 class="mt-4 text-4xl font-black tracking-tight md:text-5xl">교육에서 기술과 콘텐츠까지,<br />하나의 흐름으로 연결합니다.</h2>
         </div>
 
-        <div class="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+        <div class="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-5">
+          <article id="ai-consulting" class="service-card-featured group rounded-3xl border border-orange-200 bg-orange-50 p-7 transition hover:-translate-y-1 hover:bg-orange-100">
+            <div class="service-card-badge">NEW</div><div class="text-3xl">🧭</div><h3 class="mt-5 text-xl font-black">AI 컨설팅</h3><p class="mt-3 leading-7 text-stone-600">기업의 업무와 역량을 진단하고 AI 도입 로드맵, PBL 훈련과정, 맞춤형 교육과 실행 프로젝트를 설계합니다.</p><div class="credential-note">AI 훈련 코치 자격 · AI 강의 경력</div>
+          </article>
           <article id="education" class="group rounded-3xl border border-stone-200 bg-stone-50 p-7 transition hover:-translate-y-1 hover:border-orange-200 hover:bg-orange-50">
             <div class="text-3xl">🎓</div><h3 class="mt-5 text-xl font-black">IT·AI 전문 교육</h3><p class="mt-3 leading-7 text-stone-600">C/C++, Python, 네트워크, 머신러닝·딥러닝, 생성형 AI, DX·AI 리터러시까지 대학·기업·공공기관 맞춤형 교육을 운영합니다.</p>
           </article>
@@ -273,7 +275,7 @@
       <div class="mx-auto max-w-7xl rounded-[2.5rem] border border-orange-200 bg-orange-50 p-8 text-center md:p-14">
         <p class="text-sm font-black uppercase tracking-[0.24em] text-orange-600">Contact MADAM</p>
         <h2 class="mt-4 text-4xl font-black tracking-tight">교육, 프로젝트, 교재·콘텐츠 협업을 시작하세요.</h2>
-        <p class="mx-auto mt-5 max-w-2xl leading-7 text-stone-600">기관 맞춤형 교육, 로봇·AI 프로젝트 과정, 교육 기자재 활용, 교재 및 기술 콘텐츠 제작 등 협업 목적에 맞춰 제안합니다.</p>
+        <p class="mx-auto mt-5 max-w-2xl leading-7 text-stone-600">AI 도입 진단과 훈련 로드맵, 기관 맞춤형 교육, 로봇·AI 프로젝트 과정, 교육 기자재 활용, 교재 및 기술 콘텐츠 제작을 협업 목적에 맞춰 제안합니다.</p>
         <div class="mt-8 flex flex-wrap justify-center gap-3">
           <a href="mailto:freshmea@gmail.com" class="rounded-full bg-orange-500 px-7 py-3.5 font-bold text-white hover:bg-orange-600">freshmea@gmail.com</a>
           <a href="https://github.com/freshmea" target="_blank" rel="noopener" class="rounded-full border border-stone-300 bg-white px-7 py-3.5 font-bold hover:border-stone-900">GitHub</a>
