@@ -189,6 +189,16 @@ section[id], article[id] { scroll-margin-top: 6rem; }
   transition: opacity 180ms ease, transform 180ms ease;
 }
 
+/* Bridge the visual gap so moving into the dropdown keeps its parent hovered. */
+.submenu::before {
+  content: '';
+  position: absolute;
+  left: -1px;
+  right: -1px;
+  top: calc(-0.35rem - 1px);
+  height: calc(0.35rem + 1px);
+}
+
 .submenu a {
   display: block;
   padding: 0.7rem 0.8rem;
