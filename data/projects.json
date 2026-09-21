@@ -5,10 +5,10 @@
     "category": "robotics",
     "categoryLabel": "Robotics · Student Projects",
     "year": "2026",
-    "client": "공주대 매니퓰레이터 과정",
+    "client": "대한상공회의소 충남인력개발원 천안기술교육센터",
     "image": "assets/img/projects/gongju-manipulator-2026.svg",
     "detailPage": "gongju-manipulator-2026.html",
-    "summary": "ArUco 물체 이송, 틱택토, 재활용품 분류, 미니게임. 교육생 네 팀이 로봇팔과 비전을 연결한 프로젝트를 소개합니다.",
+    "summary": "ICT이노베이션스퀘어 교육으로 국립공주대 천안캠퍼스에서 진행한 ROS·비전 로봇팔 과정. 네 팀의 인식·제어 프로젝트를 소개합니다.",
     "description": "공주대 매니퓰레이터 과정의 교육생들은 같은 로봇팔을 서로 다른 문제에 연결했다. 번호를 읽고 물체를 옮기는 로봇, 사람과 틱택토를 두는 로봇, 재활용품을 분류하는 로봇, 몸짓으로 미니게임을 진행하는 로봇까지. 네 팀이 직접 정한 주제와 구현 과정을 소개한다.",
     "services": [
       "ROS2·비전 실습",

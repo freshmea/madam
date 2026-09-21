@@ -71,3 +71,14 @@
   .case-gallery { grid-template-columns: 1fr; gap: 1.25rem; }
   .case-gallery figcaption { padding: 1rem; }
 }
+
+.case-course { padding: 2rem; margin-top: 2.5rem; background: #fff7ed; border: 1px solid #fed7aa; border-radius: .75rem; }
+.case-course .case-eyebrow { margin-top: 0; }
+.case-course h2 { font-size: clamp(1.35rem, 2.8vw, 2rem); line-height: 1.4; font-weight: 850; letter-spacing: -.025em; }
+.case-course-lead { max-width: 900px; margin-top: 1rem; color: #44403c; line-height: 1.9; }
+.case-course dl { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem 2rem; padding: 1.5rem 0; margin-top: 1.5rem; border-top: 1px solid #fed7aa; border-bottom: 1px solid #fed7aa; }
+.case-course dt { font-size: .78rem; font-weight: 800; color: #9a3412; margin-bottom: .45rem; }
+.case-course dd { margin: 0; font-size: .94rem; line-height: 1.8; }
+.case-course-context { margin-top: 1.2rem; font-size: .85rem; line-height: 1.85; color: #57534e; }
+@media (max-width: 680px) { .case-course { padding: 1.25rem; } .case-course dl { grid-template-columns: 1fr; } }
+#course-title { scroll-margin-top: 6rem; }
