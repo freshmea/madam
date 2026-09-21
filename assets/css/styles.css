@@ -6,6 +6,34 @@ body {
   word-break: keep-all;
 }
 
+section[id], article[id] { scroll-margin-top: 6rem; }
+.desktop-nav a[aria-current="page"], .mobile-nav a[aria-current="page"] { color: #c2410c; }
+.mobile-page-group { padding: .6rem 0; border-bottom: 1px solid #e7e5e4; }
+.mobile-page-group > a { display: block; padding: .55rem 0; font-weight: 850; }
+.mobile-page-group > div { display: flex; flex-wrap: wrap; gap: .25rem .85rem; }
+.mobile-page-group > div a { padding: .45rem 0; color: #57534e; font-size: .82rem; }
+.site-footer { display: flex; justify-content: space-between; gap: 1.5rem; padding: 1.75rem max(1.25rem, calc((100vw - 1216px) / 2)); border-top: 1px solid #e7e5e4; background: white; color: #78716c; font-size: .75rem; }
+.site-footer > div { display: flex; flex-wrap: wrap; gap: .4rem .8rem; }
+.site-footer strong { color: #292524; letter-spacing: .12em; }
+.home-page { min-height: 100vh; display: flex; flex-direction: column; }
+.home-page main { flex: 1; display: grid; }
+.home-page main > section { display: grid; align-items: center; }
+.home-page .hero-logo-card { max-width: 380px; margin: auto; }
+.page-intro { max-width: 1280px; margin: auto; padding: 3rem 2rem 2.5rem; }
+.page-intro > p { color: #c2410c; font-size: .75rem; font-weight: 850; letter-spacing: .18em; text-transform: uppercase; }
+.page-intro h1 { margin-top: .8rem; font-size: clamp(2rem, 4vw, 3.5rem); line-height: 1.25; font-weight: 900; letter-spacing: -.045em; }
+.page-intro > div { margin-top: 1rem; color: #57534e; line-height: 1.8; }
+.page-intro nav { display: flex; flex-wrap: wrap; gap: .75rem 1.5rem; margin-top: 1.5rem; }
+.page-intro nav a { padding: .4rem 0; font-size: .85rem; font-weight: 750; color: #9a3412; border-bottom: 1px solid #fdba74; }
+.interior-page main > section:not(.page-intro) { padding-top: 3.5rem; padding-bottom: 3.5rem; }
+@media (max-width: 767px) {
+  .page-intro { padding: 2.5rem 1.25rem 2rem; }
+  .site-footer { flex-direction: column; gap: .6rem; }
+  .home-page main > section > div:last-child { padding-top: 2.5rem; padding-bottom: 2.5rem; gap: 2rem; }
+  .home-page h1 { font-size: clamp(2.5rem, 9vw, 3.5rem); }
+  .home-page .hero-logo-card { max-width: 230px; }
+}
+
 .grid-bg {
   background-image:
     linear-gradient(rgba(249, 115, 22, 0.055) 1px, transparent 1px),

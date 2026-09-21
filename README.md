@@ -21,6 +21,9 @@ madam/
 │   ├── site.json                 # 브랜드, 메뉴, 연락처 데이터
 │   └── projects.json             # 프로젝트 사진·설명 데이터
 └── pages/
+    ├── company.html              # 브랜드·기업 정보
+    ├── service.html              # 사업 영역·전문 기술·출간 도서
+    ├── insight.html              # 일하는 방식·교육 실적·방향
     ├── projects.html             # 프로젝트 목록·필터 화면
     ├── project.html              # 프로젝트 상세 화면
     └── README.md                 # 독립 HTML 페이지 추가 지침
@@ -55,8 +58,8 @@ npm run build:css
 
 ## 출간 도서 안내
 
-메인 페이지의 `#book` 영역에서 『ROS2 입문』의 표지, 구매처와 무료 학습 자료를 소개합니다.
-프로젝트 목록·상세의 책 정보는 `data/projects.json`의 `ros2-maker-guide` 항목에서 관리합니다.
+Service 페이지의 `pages/service.html#book` 영역에서 『ROS2 입문』의 표지, 구매처와 무료 학습 자료를 소개합니다.
+책 소개는 Project 목록·상세에 중복 등록하지 않습니다. 기존 메인 `#book` 주소는 새 출판 영역으로 이동합니다.
 
 - 공개 실습 저장소: https://github.com/freshmea/ros2-maker-guide
 - 종이책: https://bookk.co.kr/bookStore/6aab47b74c0f28c3d4b33da7
@@ -64,8 +67,13 @@ npm run build:css
 - 부크크 전자책: https://bookk.co.kr/bookStore/6aa76a46dc64fe8c7e11a5e1
 - 표지: `assets/img/books/ros2-maker-guide-cover.webp` (출판용 앞표지의 웹 표시용 사본)
 
-구매처가 바뀌면 `index.html`과 `data/projects.json`을 함께 수정합니다.
-책 표지는 `imageFit: "contain"`으로 전체가 보이도록 표시하고, `links`에 구매·학습 자료 링크를 둡니다.
+구매처가 바뀌면 `pages/service.html`의 링크를 수정합니다. 책 표지는 원래 비율을 유지해 전체를 표시합니다.
+
+## 페이지와 메뉴
+
+메인에는 핵심 브랜드 소개와 로고만 표시하며, 본문에 이동 링크를 두지 않습니다.
+Company, Service, Project, Insight는 상단 메뉴와 모바일 메뉴에서 각각 독립 페이지로 이동합니다.
+Contact는 이메일 문의로 연결합니다. 페이지별 메뉴 HTML과 `data/site.json`의 메뉴 정보를 함께 관리합니다.
 
 ## 프로젝트 추가 방법
 

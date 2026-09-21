@@ -2,42 +2,91 @@
   "brand": {
     "name": "MADAM",
     "tagline": "배우고, 만들고, 미래를 움직이다",
-    "keywords": ["Make", "AI", "Digital", "Automation", "Media"]
+    "keywords": [
+      "Make",
+      "AI",
+      "Digital",
+      "Automation",
+      "Media"
+    ]
   },
   "navigation": [
     {
       "label": "Company",
+      "href": "pages/company.html",
       "children": [
-        { "label": "브랜드 스토리", "href": "#brand" },
-        { "label": "교육 실적", "href": "#performance" },
-        { "label": "기업 정보", "href": "#business" }
+        {
+          "label": "브랜드 스토리",
+          "href": "pages/company.html#brand"
+        },
+        {
+          "label": "기업 정보",
+          "href": "pages/company.html#business"
+        }
       ]
     },
     {
       "label": "Service",
+      "href": "pages/service.html",
       "children": [
-        { "label": "AI Consulting", "href": "#ai-consulting" },
-        { "label": "IT·AI Education", "href": "#education" },
-        { "label": "Book & Publishing", "href": "#book" },
-        { "label": "IT Kit & Software", "href": "#it-kit" }
+        {
+          "label": "AI Consulting",
+          "href": "pages/service.html#ai-consulting"
+        },
+        {
+          "label": "IT·AI Education",
+          "href": "pages/service.html#education"
+        },
+        {
+          "label": "Book & Publishing",
+          "href": "pages/service.html#book"
+        },
+        {
+          "label": "IT Kit & Software",
+          "href": "pages/service.html#it-kit"
+        }
       ]
     },
     {
       "label": "Project",
+      "href": "pages/projects.html",
       "children": [
-        { "label": "전체 프로젝트", "href": "pages/projects.html" },
-        { "label": "교육·콘텐츠", "href": "pages/projects.html?category=education" },
-        { "label": "로봇·AI", "href": "pages/projects.html?category=robotics" }
+        {
+          "label": "전체 프로젝트",
+          "href": "pages/projects.html"
+        },
+        {
+          "label": "교육·콘텐츠",
+          "href": "pages/projects.html?category=education"
+        },
+        {
+          "label": "로봇·AI",
+          "href": "pages/projects.html?category=robotics"
+        }
       ]
     },
     {
       "label": "Insight",
+      "href": "pages/insight.html",
       "children": [
-        { "label": "일하는 방식", "href": "#workflow" },
-        { "label": "성과와 경험", "href": "#performance" }
+        {
+          "label": "일하는 방식",
+          "href": "pages/insight.html#workflow"
+        },
+        {
+          "label": "성과와 경험",
+          "href": "pages/insight.html#performance"
+        },
+        {
+          "label": "앞으로의 방향",
+          "href": "pages/insight.html#direction"
+        }
       ]
     },
-    { "label": "Contact", "href": "#contact" }
+    {
+      "label": "Contact",
+      "href": "mailto:freshmea@gmail.com"
+    }
   ],
   "contact": {
     "email": "freshmea@gmail.com",
