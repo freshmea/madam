@@ -1,0 +1,87 @@
+[
+  {
+    "team": 1,
+    "file": "team1-dashboard-flow.webp",
+    "sourceCapture": "t1-p7.png",
+    "source": "1조 발표자료 7쪽",
+    "sourceUrl": "https://docs.google.com/presentation/d/1QUFMRrnHLzvYb9o2nvBDHGcFmhemkZrwfRGsW1nHXsU/edit",
+    "cropPixels": null,
+    "width": 1080,
+    "height": 608
+  },
+  {
+    "team": 1,
+    "file": "team1-marker-demo.webp",
+    "sourceCapture": "v1-0.jpg",
+    "source": "이동_1 시연영상 · 00:03.6",
+    "sourceUrl": "https://github.com/ACUBCU/ROS_Team1/blob/main/p1/video/이동_1.mp4",
+    "cropPixels": null,
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "team": 2,
+    "file": "team2-physical-setup.webp",
+    "sourceCapture": "t2-p8.png",
+    "source": "2조 발표자료 8쪽",
+    "sourceUrl": "https://canva.link/9rw1bpriaxepf4e",
+    "cropPixels": null,
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "team": 2,
+    "file": "team2-integrated-demo.webp",
+    "sourceCapture": "v2-7.jpg",
+    "source": "최종 시연영상 · 00:56.0",
+    "sourceUrl": "https://drive.google.com/file/d/1oJynvYWrBIj5i1TeHX7bQebhxGBpYKjZ/view",
+    "cropPixels": null,
+    "width": 1390,
+    "height": 926
+  },
+  {
+    "team": 3,
+    "file": "team3-vision-pipeline.webp",
+    "sourceCapture": "t3-p7.png",
+    "source": "3조 발표자료 7쪽",
+    "sourceUrl": "https://docs.google.com/presentation/d/1Z1Nf_0DqVaJlsp2mPHWhU2YdWcUossxMBBOqAX5fKXo/edit",
+    "cropPixels": null,
+    "width": 1439,
+    "height": 810
+  },
+  {
+    "team": 3,
+    "file": "team3-can-pick-demo.webp",
+    "sourceCapture": "v3-1.jpg",
+    "source": "실험영상 2번 GIF · 00:03.9",
+    "sourceUrl": "https://docs.google.com/presentation/d/1Z1Nf_0DqVaJlsp2mPHWhU2YdWcUossxMBBOqAX5fKXo/edit",
+    "cropPixels": null,
+    "width": 640,
+    "height": 480
+  },
+  {
+    "team": 4,
+    "file": "team4-gesture-demo.webp",
+    "sourceCapture": "v4-3.jpg",
+    "source": "사람·로그 시연영상 · 00:15.8",
+    "sourceUrl": "https://docs.google.com/file/d/1z8R2YxtQGkTd4si2RM5ckBHutOwiZjxQ/preview",
+    "cropPixels": null,
+    "width": 1206,
+    "height": 720
+  },
+  {
+    "team": 4,
+    "file": "team4-robot-demo.webp",
+    "sourceCapture": "v5-4.jpg",
+    "source": "로봇 시연영상 · 00:18.6",
+    "sourceUrl": "https://docs.google.com/file/d/1bdaFhjHnZwvMS_Yh3ce89T9AL-gJHJk3/preview",
+    "cropPixels": [
+      0,
+      330,
+      1080,
+      1410
+    ],
+    "width": 1080,
+    "height": 1080
+  }
+]

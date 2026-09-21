@@ -16,6 +16,14 @@ MADAM 대표 활동 이전에 진행한 교육 경험을 정리한 기록입니�
 
 팀 구성: 이동헌(조장) · 주동건 · 이서현 · 이호영
 
+![두 카메라와 작업 명령을 연결한 대시보드 구조](../../assets/img/projects/gongju-2026/team1-dashboard-flow.webp)
+
+상단·그리퍼 카메라의 영상과 마커 생성·이동·초기화 명령을 연결한 구조. 출처: [1조 발표자료 7쪽](https://docs.google.com/presentation/d/1QUFMRrnHLzvYb9o2nvBDHGcFmhemkZrwfRGsW1nHXsU/edit).
+
+![로봇팔과 그리퍼 카메라의 ArUco 인식 화면](../../assets/img/projects/gongju-2026/team1-marker-demo.webp)
+
+작업 공간을 내려다보는 화면과 그리퍼가 바라본 마커를 함께 보여주는 이동 시연. 출처: [이동_1 시연영상 · 00:03.6](https://github.com/ACUBCU/ROS_Team1/blob/main/p1/video/이동_1.mp4).
+
 여러 큐브 가운데 원하는 물체만 골라 원하는 곳으로 옮길 수 있을까? 1조는 큐브와 목적지를 ArUco 마커의 번호로 구분하고, 로봇팔이 선택한 큐브를 집어 배치하는 시스템을 만들었다. 물체를 알아보는 비전과 팔을 움직이는 제어에 웹 대시보드를 더해, 사용자가 작업을 지시하고 진행 상황을 살펴볼 수 있도록 구성했다.
 
 작업 공간을 내려다보는 카메라와 그리퍼에 달린 카메라의 영상을 대시보드에서 함께 보여준다. 사용자가 큐브 ID와 목적지 ID를 지정하면 로봇은 접근, 파지, 들어 올리기, 배치 순서로 움직인다. 작업을 다시 시험할 수 있도록 큐브 재생성과 월드 초기화 기능도 연결했다.
@@ -33,6 +41,14 @@ MADAM 대표 활동 이전에 진행한 교육 경험을 정리한 기록입니�
 ### 사람의 수를 읽고 응수하는 틱택토 로봇
 
 팀 구성: 권신용(조장) · 곽정미 · 이명연 · 주영찬 · 박미진
+
+![틱택토 로봇과 게임판의 실제 배치](../../assets/img/projects/gongju-2026/team2-physical-setup.webp)
+
+로봇·게임판의 정면과 측면 배치, 게임판을 관측하는 관절 자세. 출처: [2조 발표자료 8쪽](https://canva.link/9rw1bpriaxepf4e).
+
+![실물 틱택토와 보드 인식·상태·로그 화면](../../assets/img/projects/gongju-2026/team2-integrated-demo.webp)
+
+실물 말 배치, 카메라 영상, 아홉 칸의 인식 상태와 실행 로그를 함께 담은 통합 시연. 출처: [최종 시연영상 · 00:56.0](https://drive.google.com/file/d/1oJynvYWrBIj5i1TeHX7bQebhxGBpYKjZ/view).
 
 2조는 사람과 로봇이 실제 게임판을 사이에 두고 틱택토를 두는 시스템을 만들었다. 사람이 파란 말을 놓으면 카메라가 바뀐 칸을 읽고, 로봇은 Minimax 알고리즘으로 다음 수를 선택해 빨간 말을 놓는다. 손으로 입력한 명령 대신 실제 보드의 변화가 로봇의 다음 행동을 이끈다.
 
@@ -54,6 +70,14 @@ MADAM 대표 활동 이전에 진행한 교육 경험을 정리한 기록입니�
 
 팀 구성: 오우진(조장) · 윤형식 · 장혜원 · 김헌주
 
+![객체 인식에서 좌표 변환과 분류까지의 동작 과정](../../assets/img/projects/gongju-2026/team3-vision-pipeline.webp)
+
+YOLO 대시보드, 호모그래피 좌표 변환, 로봇팔 분류 결과를 정리한 발표 화면. 출처: [3조 발표자료 7쪽](https://docs.google.com/presentation/d/1Z1Nf_0DqVaJlsp2mPHWhU2YdWcUossxMBBOqAX5fKXo/edit).
+
+![로봇팔이 캔을 들어 올리는 분류 시연](../../assets/img/projects/gongju-2026/team3-can-pick-demo.webp)
+
+ArUco 작업판 위의 캔을 집어 올리는 순간. 페트병·종이와 분류함도 함께 보인다. 출처: [실험영상 2번 GIF · 00:03.9](https://docs.google.com/presentation/d/1Z1Nf_0DqVaJlsp2mPHWhU2YdWcUossxMBBOqAX5fKXo/edit).
+
 3조는 작업판 위의 종이, 페트병, 캔을 카메라로 구분하고 로봇팔로 집어 종류별 위치에 옮기는 프로젝트를 진행했다. YOLO가 물체를 알아보는 데서 그치지 않고, 화면 속 위치를 로봇이 도달할 수 있는 작업 좌표로 바꾸는 문제에 집중했다.
 
 처음에는 RGB-D 카메라로 거리를 측정하려 했지만 신뢰도 문제를 만나 RGB 카메라와 ArUco 기준점 방식으로 전환했다. 작업판의 네 마커로 영상과 작업 좌표 사이의 관계를 계산하는 호모그래피를 적용하고, 인식한 물체 중 로봇 원점에서 가장 가까운 대상을 선택했다.
@@ -73,6 +97,14 @@ MADAM 대표 활동 이전에 진행한 교육 경험을 정리한 기록입니�
 ### 가위바위보와 참참참으로 만나는 로봇
 
 팀 구성: 김동호 · 이상진 · 김병준
+
+![손·얼굴 랜드마크와 가위바위보 결과 표시](../../assets/img/projects/gongju-2026/team4-gesture-demo.webp)
+
+손의 가위 모양과 얼굴 랜드마크를 인식하고, 승패·점수와 로봇 제어 로그를 표시하는 화면. 출처: [사람·로그 시연영상 · 00:15.8](https://docs.google.com/file/d/1z8R2YxtQGkTd4si2RM5ckBHutOwiZjxQ/preview).
+
+![실물 로봇팔 자세와 게임 화면](../../assets/img/projects/gongju-2026/team4-robot-demo.webp)
+
+게임 화면 옆에서 관절 자세를 출력하는 실물 로봇팔. 세로 영상에서 로봇과 화면이 있는 영역을 발췌했다. 출처: [로봇 시연영상 · 00:18.6](https://docs.google.com/file/d/1bdaFhjHnZwvMS_Yh3ce89T9AL-gJHJk3/preview).
 
 4조는 사람이 로봇과 가위바위보, 참참참을 즐기는 체험형 이벤트를 주제로 삼았다. 물체를 옮기는 작업 대신 사람의 손 모양과 고개 방향을 읽어 게임을 진행하는 인간–로봇 상호작용에 초점을 맞췄다.
 
@@ -94,4 +126,4 @@ MADAM 대표 활동 이전에 진행한 교육 경험을 정리한 기록입니�
 
 ## 자료 확인 범위
 
-[교육생 공유 슬라이드](https://docs.google.com/presentation/d/1u1cTo7-lzOgn1OTffYmj8k5heEegl7OFczK4jscYZt8/edit)와 각 팀 원문을 대조했습니다. 로봇을 재실행한 검증은 아닙니다. 2조 Canva 발표자료는 본문 열람 미확인, 4조는 제공받은 「4조_발표자료_공주대_하계프로젝트.pdf」 12쪽을 텍스트 추출·렌더링으로 확인했습니다. 최종 발표 기준 팀원은 김동호·이상진·김병준이며 초기 공유 슬라이드와 차이가 있어 최종 발표를 우선했습니다. 시연 영상 링크는 PDF에서 추출했으며 영상 재생 검증은 하지 않았습니다.
+[교육생 공유 슬라이드](https://docs.google.com/presentation/d/1u1cTo7-lzOgn1OTffYmj8k5heEegl7OFczK4jscYZt8/edit)와 각 팀 원문을 대조했습니다. 로봇을 재실행한 검증은 아닙니다. 2조 발표자료는 제공된 PDF 18쪽을 확인했고, 4조는 제공받은 「4조_발표자료_공주대_하계프로젝트.pdf」 12쪽을 텍스트 추출·렌더링으로 확인했습니다. 최종 발표 기준 팀원은 김동호·이상진·김병준이며 초기 공유 슬라이드와 차이가 있어 최종 발표를 우선했습니다. 시연 영상 링크는 PDF에서 추출했습니다. 후속 이미지 작업에서는 팀별 발표 PDF와 로컬 시연영상·GIF의 장면을 확인하고 팀마다 2장을 추가했습니다. 캡션에 쪽수·시점을 표기했습니다.
