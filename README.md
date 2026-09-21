@@ -81,3 +81,7 @@ Contact는 이메일 문의로 연결합니다. 페이지별 메뉴 HTML과 `dat
 2. `data/projects.json` 배열에 프로젝트 항목을 추가합니다.
 3. `image`에는 저장소 루트를 기준으로 `assets/img/projects/파일명.jpg`처럼 입력합니다.
 4. 프로젝트 목록과 상세 페이지는 JSON 데이터를 자동으로 읽어 화면을 구성합니다.
+
+팀별 결과를 담는 긴 사례 글은 `detailPage`에 `pages/` 기준 HTML 파일명을 지정해 목록에서 직접 연결합니다.
+공주대 매니퓰레이터 사례는 [소개 페이지](pages/gongju-manipulator-2026.html)와 [편집용 원고](docs/projects/gongju-manipulator-2026.md)에서 관리합니다.
+내용을 고칠 때 두 파일을 함께 갱신하고, 최종 발표·기술서를 계획서보다 우선하여 실제 구현 범위를 구분합니다.

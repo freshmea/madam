@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">공주대 매니퓰레이터 네 팀 프로젝트</title><desc id="desc">Pick and Place, Tic-Tac-Toe, Recycling, Mini Games를 나타낸 프로젝트 안내 일러스트</desc>
+<rect width="1200" height="800" fill="#f1ede5"/>
+<g font-family="sans-serif"><text x="70" y="96" fill="#9a3412" font-size="23" font-weight="700" letter-spacing="4">KONGJU / STUDENT PROJECTS / 2026</text>
+<text x="62" y="216" fill="#292524" font-size="88" font-weight="800">ONE ROBOT ARM.</text><text x="62" y="315" fill="#c2410c" font-size="88" font-weight="800">FOUR IDEAS.</text></g>
+<g stroke="#d6c7b5" stroke-width="2"><path d="M70 383H1130M335 417V690M615 417V690M895 417V690"/></g>
+<g fill="none" stroke="#292524" stroke-width="8" stroke-linejoin="round"><path d="M115 580V516H203V580Z M157 516V463H252V545 M234 545H270V582"/><path d="M411 465V590M473 465V590M374 505H515M374 555H515"/><circle cx="443" cy="530" r="17" stroke="#c2410c"/><path d="M480 470L506 493M506 470L480 493" stroke="#c2410c"/><path d="M703 483L672 553H743M730 567H789L757 497M765 477L727 441L701 480"/><path d="M984 586V516Q984 498 1000 516V460Q1000 437 1015 460V504V442Q1015 421 1030 442V504V460Q1030 440 1045 460V509Q1060 489 1060 513V557Q1060 586 1041 596"/></g>
+<g font-family="sans-serif" fill="#57534e" font-size="20" font-weight="700"><text x="103" y="654">01 / PICK &amp; PLACE</text><text x="368" y="654">02 / TIC-TAC-TOE</text><text x="658" y="654">03 / RECYCLING</text><text x="936" y="654">04 / MINI GAMES</text></g>
+<text x="70" y="749" font-family="sans-serif" fill="#9a3412" font-size="20" letter-spacing="2">ROS 2 · VISION · OPENMANIPULATOR-X</text>
+</svg>

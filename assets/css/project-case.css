@@ -1,0 +1,57 @@
+.case-page { max-width: 1120px; margin: auto; padding: 0 2rem 5rem; }
+.case-hero { padding: 3rem 0 3.5rem; border-bottom: 2px solid #292524; }
+.case-eyebrow { margin: 1.75rem 0 .75rem; color: #a33d12; font-size: .76rem; font-weight: 800; letter-spacing: .1em; }
+.case-hero h1 { font-size: clamp(2.6rem, 6.8vw, 5.5rem); line-height: 1.14; letter-spacing: -.055em; font-weight: 900; }
+.case-hero h1 em { color: #c2410c; font-style: normal; }
+.case-deck { margin-top: 1.5rem; font-size: 1.15rem; color: #57534e; line-height: 1.8; }
+.case-meta { display: flex; flex-wrap: wrap; gap: .6rem 1.75rem; margin-top: 2rem; font-size: .82rem; color: #57534e; }
+.case-intro { display: grid; grid-template-columns: 1.15fr 1fr; gap: 3rem; padding: 3rem 0; }
+.case-intro > p { font-size: 1.3rem; line-height: 1.9; font-weight: 650; }
+.case-intro aside { border-left: 3px solid #fed7aa; padding-left: 1.5rem; }
+.case-intro h2 { font-size: 1rem; font-weight: 850; margin-bottom: .65rem; }
+.case-intro aside p { color: #57534e; line-height: 1.85; font-size: .94rem; }
+.case-intro .case-caption { font-size: .8rem; margin-top: 1rem; }
+.case-index { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid #d6d3d1; }
+.case-index a { display: flex; align-items: baseline; gap: 1rem; padding: 1.2rem .5rem; border-bottom: 1px solid #d6d3d1; font-size: .95rem; font-weight: 700; }
+.case-index span { color: #c2410c; font-size: .8rem; font-weight: 850; }
+.case-index a:hover { color: #9a3412; background: #fff7ed; }
+.case-team { padding: 4.5rem 0; border-bottom: 1px solid #d6d3d1; }
+.case-team-heading { display: grid; grid-template-columns: 90px 1fr; gap: 1.5rem; align-items: start; }
+.case-number { font-size: 4.5rem; font-weight: 900; letter-spacing: -.07em; line-height: 1.1; color: #d6d3d1; }
+.case-team-heading .case-eyebrow { margin-top: 0; }
+.case-team h2 { font-size: clamp(1.6rem, 3.5vw, 2.5rem); font-weight: 850; line-height: 1.3; letter-spacing: -.035em; }
+.case-members { color: #57534e; font-size: .88rem; line-height: 1.8; margin-top: .8rem; }
+.case-mode { color: #9a3412; font-size: .8rem; font-weight: 750; margin-top: 1.5rem; }
+.case-flow { list-style: none; display: grid; grid-template-columns: repeat(4, 1fr); margin: 1rem 0 2rem; padding: 0; background: #fff7ed; border: 1px solid #fed7aa; border-radius: .5rem; overflow: hidden; }
+.case-flow li { padding: 1rem; font-size: .85rem; font-weight: 750; line-height: 1.6; }
+.case-flow li + li { border-left: 1px solid #fed7aa; }
+.case-prose { max-width: 860px; }
+.case-prose p { color: #44403c; font-size: 1.04rem; line-height: 1.95; margin-top: 1.2rem; }
+.case-findings { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 2rem; padding: 1.6rem; border-radius: .5rem; background: #efeeea; }
+.case-findings h3 { font-size: .9rem; font-weight: 850; }
+.case-findings p { margin-top: .55rem; font-size: .92rem; line-height: 1.85; color: #57534e; }
+.case-sources { display: flex; flex-wrap: wrap; gap: .7rem 1.5rem; margin-top: 1.5rem; }
+.case-sources a { font-size: .82rem; line-height: 1.8; font-weight: 750; color: #9a3412; border-bottom: 1px solid #fdba74; padding: .3rem 0; }
+.case-sources a:hover { color: #431407; border-color: #431407; }
+.case-closing { padding: 3rem 0; max-width: 860px; }
+.case-closing h2 { font-size: 1.8rem; font-weight: 850; }
+.case-closing > p:last-child { font-size: 1.06rem; line-height: 1.95; color: #44403c; margin-top: 1rem; }
+.case-references { border-top: 1px solid #d6d3d1; padding: 2rem 0; }
+.case-references h2 { font-weight: 850; font-size: 1rem; }
+.case-references p { max-width: 900px; font-size: .82rem; line-height: 1.9; color: #57534e; margin-top: .8rem; }
+.case-return { display: inline-block; margin-top: 1.5rem; font-weight: 800; color: #9a3412; }
+.case-page a:focus-visible { outline: 3px solid #c2410c; outline-offset: 5px; }
+@media (max-width: 680px) {
+  .case-page { padding: 0 1.25rem 3rem; }
+  .case-hero { padding-top: 2rem; }
+  .case-intro { grid-template-columns: 1fr; gap: 1.5rem; padding: 2rem 0; }
+  .case-intro > p { font-size: 1.1rem; }
+  .case-index { grid-template-columns: 1fr; }
+  .case-team { padding: 3rem 0; }
+  .case-team-heading { grid-template-columns: 42px 1fr; gap: .75rem; }
+  .case-number { font-size: 2.4rem; }
+  .case-findings { grid-template-columns: 1fr; gap: 1.5rem; padding: 1.2rem; }
+  .case-flow { grid-template-columns: 1fr 1fr; }
+  .case-flow li:nth-child(3) { border-left: 0; }
+  .case-flow li:nth-child(n+3) { border-top: 1px solid #fed7aa; }
+}

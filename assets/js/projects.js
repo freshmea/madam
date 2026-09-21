@@ -4,7 +4,7 @@ const getBasePath = () => projectRoot?.dataset.basePath || '..';
 
 const projectCard = (project) => `
   <article class="portfolio-card" data-category="${project.category}">
-    <a href="project.html?id=${encodeURIComponent(project.id)}" aria-label="${project.title} 상세 보기">
+    <a href="${project.detailPage || `project.html?id=${encodeURIComponent(project.id)}`}" aria-label="${project.title} 상세 보기">
       <div class="portfolio-image"><img src="${getBasePath()}/${project.image}" loading="lazy" alt="${project.title} 대표 이미지" /></div>
       <div class="portfolio-copy">
         <div class="portfolio-meta"><span>${project.categoryLabel}</span><span>${project.year}</span></div>
@@ -58,6 +58,7 @@ const renderDetail = (projects) => {
       <p>${project.categoryLabel} · ${project.year}</p>
       <h1>${project.title}</h1>
       <div class="detail-summary">${project.summary}</div>
+      ${project.detailPage ? `<a class="book-text-link" href="${project.detailPage}">팀별 프로젝트 자세히 읽기 →</a>` : ''}
     </div>
     <figure class="detail-visual"><img src="${getBasePath()}/${project.image}" alt="${project.title} 대표 이미지" /></figure>
     <div class="detail-body">

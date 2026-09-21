@@ -16,6 +16,7 @@
 - `insight.html`: 일하는 방식, 교육 실적과 앞으로의 방향
 - `projects.html`: 프로젝트 목록과 카테고리 필터
 - `project.html?id=프로젝트-id`: 프로젝트 상세 화면
+- `gongju-manipulator-2026.html`: 공주대 매니퓰레이터 4개 팀 프로젝트 사례. 원고는 `../docs/projects/gongju-manipulator-2026.md`, 전용 스타일은 `../assets/css/project-case.css`입니다.
 
 모든 페이지에 동일한 상단·모바일 메뉴를 두고 현재 페이지를 `aria-current="page"`로 표시합니다.
 메인의 본문은 핵심 소개만 유지하고 페이지 이동은 메뉴를 통해 제공합니다.
