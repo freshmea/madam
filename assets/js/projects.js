@@ -5,7 +5,7 @@ const getBasePath = () => projectRoot?.dataset.basePath || '..';
 const projectCard = (project) => `
   <article class="portfolio-card" data-category="${project.category}">
     <a href="project.html?id=${encodeURIComponent(project.id)}" aria-label="${project.title} 상세 보기">
-      <div class="portfolio-image"><img src="${getBasePath()}/${project.image}" alt="${project.title} 대표 이미지" /></div>
+      <div class="portfolio-image${project.imageFit === 'contain' ? ' book-image' : ''}"><img src="${getBasePath()}/${project.image}" loading="lazy" alt="${project.title} 대표 이미지" /></div>
       <div class="portfolio-copy">
         <div class="portfolio-meta"><span>${project.categoryLabel}</span><span>${project.year}</span></div>
         <h2>${project.title}</h2>
@@ -59,7 +59,8 @@ const renderDetail = (projects) => {
       <h1>${project.title}</h1>
       <div class="detail-summary">${project.summary}</div>
     </div>
-    <figure class="detail-visual"><img src="${getBasePath()}/${project.image}" alt="${project.title} 대표 이미지" /></figure>
+    <figure class="detail-visual${project.imageFit === 'contain' ? ' book-image' : ''}"><img src="${getBasePath()}/${project.image}" alt="${project.title} 대표 이미지" /></figure>
+    ${project.links?.length ? `<nav class="book-purchase detail-links" aria-label="도서 구매 및 무료 학습 자료">${project.links.map((link) => `<a class="book-button" href="${link.url}">${link.label} <span aria-hidden="true">↗</span></a>`).join('')}</nav>` : ''}
     <div class="detail-body">
       <aside><span>Client</span><strong>${project.client}</strong><span>Services</span>${project.services.map((service) => `<strong>${service}</strong>`).join('')}</aside>
       <div><h2>Project story</h2><p>${project.description}</p><h2>Outcome</h2><ul>${project.outcomes.map((outcome) => `<li>${outcome}</li>`).join('')}</ul></div>

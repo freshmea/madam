@@ -53,7 +53,21 @@ npm run build:css
 - 화면과 분리해서 관리할 JSON 데이터는 `data/`에 둡니다.
 - `index.html`에서 자산을 참조할 때는 `assets/...`, `pages/` 안의 HTML에서는 `../assets/...` 경로를 사용합니다.
 
-## 프로젝트 추가
+## 출간 도서 안내
+
+메인 페이지의 `#book` 영역에서 『ROS2 입문』의 표지, 구매처와 무료 학습 자료를 소개합니다.
+프로젝트 목록·상세의 책 정보는 `data/projects.json`의 `ros2-maker-guide` 항목에서 관리합니다.
+
+- 공개 실습 저장소: https://github.com/freshmea/ros2-maker-guide
+- 종이책: https://bookk.co.kr/bookStore/6aab47b74c0f28c3d4b33da7
+- YES24 전자책: https://www.yes24.com/product/goods/196563555
+- 부크크 전자책: https://bookk.co.kr/bookStore/6aa76a46dc64fe8c7e11a5e1
+- 표지: `assets/img/books/ros2-maker-guide-cover.webp` (출판용 앞표지의 웹 표시용 사본)
+
+구매처가 바뀌면 `index.html`과 `data/projects.json`을 함께 수정합니다.
+책 표지는 `imageFit: "contain"`으로 전체가 보이도록 표시하고, `links`에 구매·학습 자료 링크를 둡니다.
+
+## 프로젝트 추가 방법
 
 1. 프로젝트 사진을 `assets/img/projects/`에 저장합니다.
 2. `data/projects.json` 배열에 프로젝트 항목을 추가합니다.
