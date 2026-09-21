@@ -21,3 +21,5 @@
 모든 페이지에 동일한 상단·모바일 메뉴를 두고 현재 페이지를 `aria-current="page"`로 표시합니다.
 메인의 본문은 핵심 소개만 유지하고 페이지 이동은 메뉴를 통해 제공합니다.
 『ROS2 입문』 소개는 Service에만 두고 프로젝트 데이터에는 중복 등록하지 않습니다.
+
+- `gongju-rc-2026.html`: ICT이노베이션스퀘어 RC카 과정의 5개 팀 프로젝트. 원고·자료 기준은 `../docs/projects/gongju-rc-2026.md`, 팀별 이미지 10장은 `../assets/img/projects/gongju-rc-2026/`에서 관리합니다.
