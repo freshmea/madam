@@ -1,0 +1,176 @@
+{
+  "sourceCommit": "88c4bce07d6eb6d164f29a6fd77d5a56e1130931",
+  "images": [
+    {
+      "date": "2026-04-06",
+      "source": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-06_dxax_class_summary_cover.png",
+      "note": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-06_dxax_class_summary.md",
+      "file": "assets/img/projects/dxax-2026/2026-04-06-cover.webp",
+      "title": "DX 위에 AX를 올리는 첫걸음",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "date": "2026-04-08",
+      "source": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-08_dxax_class_summary_cover.png",
+      "note": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-08_dxax_class_summary.md",
+      "file": "assets/img/projects/dxax-2026/2026-04-08-cover.webp",
+      "title": "병목·지연·중복·반복을 구분하기",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "date": "2026-04-09",
+      "source": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-09_dxax_class_summary_cover.png",
+      "note": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-09_dxax_class_summary.md",
+      "file": "assets/img/projects/dxax-2026/2026-04-09-cover.webp",
+      "title": "AI 적용 대상과 우선순위 판단",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "date": "2026-04-10",
+      "source": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-10_dxax_class_summary_cover.png",
+      "note": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-10_dxax_class_summary.md",
+      "file": "assets/img/projects/dxax-2026/2026-04-10-cover.webp",
+      "title": "문제 정의를 프롬프트와 데이터 질문으로",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "date": "2026-04-13",
+      "source": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-13_dxax_class_summary_cover.png",
+      "note": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-13_dxax_class_summary.md",
+      "file": "assets/img/projects/dxax-2026/2026-04-13-cover.webp",
+      "title": "자료에서 회의록·보고서·발표자료로",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "date": "2026-04-14",
+      "source": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-14_dxax_class_summary_cover.png",
+      "note": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-14_dxax_class_summary.md",
+      "file": "assets/img/projects/dxax-2026/2026-04-14-cover.webp",
+      "title": "조사·도구 실행·검수를 연결하기",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "date": "2026-04-15",
+      "source": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-15_dxax_class_summary_cover.png",
+      "note": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-15_dxax_class_summary.md",
+      "file": "assets/img/projects/dxax-2026/2026-04-15-cover.webp",
+      "title": "요약을 재사용 가능한 지식으로",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "date": "2026-04-16",
+      "source": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-16_dxax_class_summary_cover.png",
+      "note": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-16_dxax_class_summary.md",
+      "file": "assets/img/projects/dxax-2026/2026-04-16-cover.webp",
+      "title": "데이터를 읽고 인사이트로 설명하기",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "date": "2026-04-17",
+      "source": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-17_dxax_class_summary_cover.png",
+      "note": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-17_dxax_class_summary.md",
+      "file": "assets/img/projects/dxax-2026/2026-04-17-cover.webp",
+      "title": "Excel 구조화와 보고서·메모리 설계",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "date": "2026-04-20",
+      "source": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-20_dxax_class_summary_cover.png",
+      "note": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-20_dxax_class_summary.md",
+      "file": "assets/img/projects/dxax-2026/2026-04-20-cover.webp",
+      "title": "n8n으로 업무 흐름을 눈에 보이게",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "date": "2026-04-21",
+      "source": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-21_dxax_class_summary_cover.png",
+      "note": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-21_dxax_class_summary.md",
+      "file": "assets/img/projects/dxax-2026/2026-04-21-cover.webp",
+      "title": "JSON과 AI 라우터로 다음 단계 결정",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "date": "2026-04-22",
+      "source": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-22_dxax_class_summary_cover.png",
+      "note": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-22_dxax_class_summary.md",
+      "file": "assets/img/projects/dxax-2026/2026-04-22-cover.webp",
+      "title": "개인 자동화에서 협업형 AX로",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "date": "2026-04-23",
+      "source": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-23_dxax_class_summary_cover.png",
+      "note": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-23_dxax_class_summary.md",
+      "file": "assets/img/projects/dxax-2026/2026-04-23-cover.webp",
+      "title": "협업 운영과 이미지 생성의 기초",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "date": "2026-04-24",
+      "source": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-24_dxax_class_summary_cover.png",
+      "note": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-24_dxax_class_summary.md",
+      "file": "assets/img/projects/dxax-2026/2026-04-24-cover.webp",
+      "title": "워크플로우에 생성형 콘텐츠 연결",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "date": "2026-04-27",
+      "source": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-27_dxax_class_summary_cover.png",
+      "note": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-27_dxax_class_summary.md",
+      "file": "assets/img/projects/dxax-2026/2026-04-27-cover.webp",
+      "title": "이미지에서 움직이는 미디어로",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "date": "2026-04-28",
+      "source": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-28_dxax_class_summary_cover.png",
+      "note": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-28_dxax_class_summary.md",
+      "file": "assets/img/projects/dxax-2026/2026-04-28-cover.webp",
+      "title": "MCP로 AI와 업무 도구 연결",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "date": "2026-04-29",
+      "source": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-29_dxax_class_summary_cover.png",
+      "note": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-29_dxax_class_summary.md",
+      "file": "assets/img/projects/dxax-2026/2026-04-29-cover.webp",
+      "title": "코딩 에이전트의 작업 환경 이해",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "date": "2026-04-30",
+      "source": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-30_dxax_class_summary_cover.png",
+      "note": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-04-30_dxax_class_summary.md",
+      "file": "assets/img/projects/dxax-2026/2026-04-30-cover.webp",
+      "title": "여러 에이전트를 역할과 목표로 운영",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "date": "2026-05-06",
+      "source": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-05-06_dxax_class_summary_cover.png",
+      "note": "https://github.com/freshmea/AxDxConsultant/blob/main/wiki/notes/2026-05-06_dxax_class_summary.md",
+      "file": "assets/img/projects/dxax-2026/2026-05-06-cover.webp",
+      "title": "RAG와 멀티 에이전트 흐름 종합",
+      "width": 1672,
+      "height": 941
+    }
+  ]
+}

@@ -107,6 +107,28 @@
     ]
   },
   {
+    "id": "dxax-2026",
+    "title": "고려대 DX·AX · 업무에서 AI 운영까지",
+    "category": "education",
+    "categoryLabel": "Online Education · DX / AX",
+    "year": "2026",
+    "client": "고려대 세종산학협력단",
+    "image": "assets/img/projects/dxax-2026/2026-04-06-cover.webp",
+    "detailPage": "dxax-2026.html",
+    "summary": "전체 온라인으로 진행한 DX·AX 교육. 업무 분석부터 문서·데이터·자동화·AI 에이전트까지, 19장의 요약 그림으로 소개합니다.",
+    "description": "강의와 도구 시연을 중심으로 업무의 디지털화, 생성형 AI 활용, 협업 자동화와 에이전트 운영을 다룬 교육 기록입니다.",
+    "services": [
+      "온라인 강의",
+      "생성형 AI 실무 활용",
+      "자동화·에이전트 교육"
+    ],
+    "outcomes": [
+      "네 단계의 교육 내용 정리",
+      "날짜별 cover 요약 그림 19장",
+      "강의 요약과 원본 자료 연결"
+    ]
+  },
+  {
     "id": "ros2-vision-lab",
     "title": "ROS2 Vision Robot Lab",
     "category": "robotics",

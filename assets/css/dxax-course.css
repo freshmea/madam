@@ -1,0 +1,18 @@
+.dxax-module { scroll-margin-top: 5.5rem; }
+.dxax-days { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.75rem; margin-top: 2.5rem; }
+.dxax-day { min-width: 0; margin: 0; border: 1px solid #d6d3d1; border-radius: .65rem; overflow: hidden; background: #fff; }
+.dxax-cover { display: block; position: relative; background: #13282d; }
+.dxax-cover img { display: block; width: 100%; height: auto; }
+.dxax-cover span { position: absolute; right: .6rem; bottom: .6rem; padding: .3rem .55rem; border-radius: .25rem; background: #fff; color: #292524; font-size: .72rem; font-weight: 750; }
+.dxax-cover:hover span { background: #c2410c; color: #fff; }
+.dxax-day figcaption { padding: 1.4rem; }
+.dxax-day time { color: #9a3412; font-size: .78rem; font-weight: 800; letter-spacing: .04em; }
+.dxax-day h3 { margin-top: .65rem; font-size: 1.15rem; font-weight: 800; line-height: 1.5; letter-spacing: -.025em; }
+.dxax-day figcaption > p { margin-top: .8rem; font-size: .94rem; line-height: 1.9; color: #57534e; }
+.dxax-day .case-sources { margin-top: 1rem; }
+.dxax-days > :last-child:nth-child(odd) { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; align-items: center; }
+@media (max-width: 680px) {
+ .dxax-days { grid-template-columns: 1fr; gap: 1.25rem; }
+ .dxax-days > :last-child:nth-child(odd) { display: block; }
+ .dxax-day figcaption { padding: 1.15rem; }
+}
