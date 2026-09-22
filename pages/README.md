@@ -23,3 +23,9 @@
 『ROS2 입문』 소개는 Service에만 두고 프로젝트 데이터에는 중복 등록하지 않습니다.
 
 - `gongju-rc-2026.html`: ICT이노베이션스퀘어 RC카 과정의 5개 팀 프로젝트. 원고·자료 기준은 `../docs/projects/gongju-rc-2026.md`, 팀별 이미지 10장은 `../assets/img/projects/gongju-rc-2026/`에서 관리합니다.
+
+### 고려대 세종 IoT 교육·일경험 기록
+
+- `ku-iot-2026.html`: 과목별 수업. 원고·자료 기준은 `docs/projects/`, 대표 이미지 16장은 `assets/img/projects/ku-iot-2026/`에서 관리합니다.
+- `ku-iot-projects-2026.html`: 중간 프로젝트. 원고·자료 기준은 `docs/projects/`, 대표 이미지 16장은 `assets/img/projects/ku-iot-2026/`에서 관리합니다.
+- `ku-work-experience-2026.html`: 일경험 프로젝트. 원고·자료 기준은 `docs/projects/`, 대표 이미지 16장은 `assets/img/projects/ku-iot-2026/`에서 관리합니다.

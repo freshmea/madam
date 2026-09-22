@@ -1,0 +1,82 @@
+[
+  {
+    "file": "assets/img/projects/ku-iot-2026/avr-board.webp",
+    "source": "gpio-12.png",
+    "caption": "ATmega128 GPIO 교안 · 12쪽"
+  },
+  {
+    "file": "assets/img/projects/ku-iot-2026/webview-structure.webp",
+    "source": "webview-11.png",
+    "caption": "PyWebView 타이머 교안 · 11쪽"
+  },
+  {
+    "file": "assets/img/projects/ku-iot-2026/fitness-hardware.webp",
+    "source": "fitness-embedded-p2-0.jpeg",
+    "caption": "fitness-pico 1차 프로젝트 기술서 · 2쪽 수록 사진"
+  },
+  {
+    "file": "assets/img/projects/ku-iot-2026/fitness-workflow.svg",
+    "source": "tkdtn412/fitness-pico:docs/assets/fitness-pico-workflow.svg",
+    "caption": "팀 저장소 · docs/assets/fitness-pico-workflow.svg"
+  },
+  {
+    "file": "assets/img/projects/ku-iot-2026/home-architecture.webp",
+    "source": "home1-4.png",
+    "caption": "스마트 환경제어 홈IoT 발표자료 · 4쪽"
+  },
+  {
+    "file": "assets/img/projects/ku-iot-2026/home-demo.webp",
+    "source": "home1-15.png",
+    "caption": "스마트 환경제어 홈IoT 발표자료 · 15쪽의 시연 장면"
+  },
+  {
+    "file": "assets/img/projects/ku-iot-2026/farm-dashboard.webp",
+    "source": "farm-7.png",
+    "caption": "BATFLIX 발표자료 · 7쪽, 대시보드와 알림 화면"
+  },
+  {
+    "file": "assets/img/projects/ku-iot-2026/farm-wiring.webp",
+    "source": "farm-10.png",
+    "caption": "BATFLIX 발표자료 · 10쪽, 배선 자료"
+  },
+  {
+    "file": "assets/img/projects/ku-iot-2026/cold-architecture.webp",
+    "source": "cold-diagram-1.png",
+    "caption": "2차 1조 프로젝트 기술서 · 시스템 구조도"
+  },
+  {
+    "file": "assets/img/projects/ku-iot-2026/cold-database.webp",
+    "source": "cold-diagram-4.png",
+    "caption": "2차 1조 프로젝트 기술서 · 데이터베이스 설계도"
+  },
+  {
+    "file": "assets/img/projects/ku-iot-2026/saferoom-hardware.webp",
+    "source": "home2-embedded-p5-0.jpeg",
+    "caption": "Pico SafeRoom 2차 프로젝트 기술서 · 5쪽 수록 사진"
+  },
+  {
+    "file": "assets/img/projects/ku-iot-2026/saferoom-dashboard.webp",
+    "source": "home2-embedded-p7-0.jpeg",
+    "caption": "Pico SafeRoom 2차 프로젝트 기술서 · 7쪽 수록 화면"
+  },
+  {
+    "file": "assets/img/projects/ku-iot-2026/road-dashboard.webp",
+    "source": "road-13.png",
+    "caption": "신경망기사단 최종 발표자료 · 13쪽"
+  },
+  {
+    "file": "assets/img/projects/ku-iot-2026/road-review.webp",
+    "source": "photo1-3.jpg",
+    "caption": "신경망기사단 제출 사진 · 2026.06.08"
+  },
+  {
+    "file": "assets/img/projects/ku-iot-2026/traffic-dashboard.webp",
+    "source": "traffic-11.png",
+    "caption": "워크플로우 최종 발표자료 · 11쪽, 시뮬레이션 화면"
+  },
+  {
+    "file": "assets/img/projects/ku-iot-2026/traffic-review.webp",
+    "source": "photo2-8.jpg",
+    "caption": "워크플로우 제출 사진 · 2026.06.10"
+  }
+]

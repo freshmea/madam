@@ -87,3 +87,9 @@ Contact는 이메일 문의로 연결합니다. 페이지별 메뉴 HTML과 `dat
 내용을 고칠 때 두 파일을 함께 갱신하고, 최종 발표·기술서를 계획서보다 우선하여 실제 구현 범위를 구분합니다.
 
 공주대 RC카 사례는 [소개 페이지](pages/gongju-rc-2026.html)와 [편집용 원고·자료 기준](docs/projects/gongju-rc-2026.md)에서 관리합니다. 자료 취합·작성 기준은 문서에만 남기고 공개 사례 본문에는 표시하지 않습니다.
+
+### 고려대 세종 IoT 교육·일경험 기록
+
+- `pages/ku-iot-2026.html`: 과목별 수업. 원고·자료 기준은 `docs/projects/`, 대표 이미지 16장은 `assets/img/projects/ku-iot-2026/`에서 관리합니다.
+- `pages/ku-iot-projects-2026.html`: 중간 프로젝트. 원고·자료 기준은 `docs/projects/`, 대표 이미지 16장은 `assets/img/projects/ku-iot-2026/`에서 관리합니다.
+- `pages/ku-work-experience-2026.html`: 일경험 프로젝트. 원고·자료 기준은 `docs/projects/`, 대표 이미지 16장은 `assets/img/projects/ku-iot-2026/`에서 관리합니다.

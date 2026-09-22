@@ -44,6 +44,69 @@
     ]
   },
   {
+    "id": "ku-iot-2026",
+    "title": "고려대 세종 IoT · 센서에서 화면까지",
+    "category": "education",
+    "categoryLabel": "Education · IoT",
+    "year": "2026",
+    "client": "고려대학교 세종HRD사업단",
+    "image": "assets/img/projects/ku-iot-2026/avr-board.webp",
+    "detailPage": "ku-iot-2026.html",
+    "summary": "C·임베디드·C++·SQL·Python·MQTT·OpenCV. 실제 수업 자료를 바탕으로 정리한 일곱 학습 영역.",
+    "description": "C·임베디드·C++·SQL·Python·MQTT·OpenCV. 실제 수업 자료를 바탕으로 정리한 일곱 학습 영역.",
+    "services": [
+      "IoT 프로그래밍",
+      "임베디드·비전 실습",
+      "과목별 교육"
+    ],
+    "outcomes": [
+      "수업·팀 산출물 기반 기록",
+      "대표 이미지와 자료 연결"
+    ]
+  },
+  {
+    "id": "ku-iot-projects-2026",
+    "title": "고려대 세종 IoT · 다섯 가지 중간 프로젝트",
+    "category": "education",
+    "categoryLabel": "Education · IoT",
+    "year": "2026",
+    "client": "고려대학교 세종HRD사업단",
+    "image": "assets/img/projects/ku-iot-2026/fitness-hardware.webp",
+    "detailPage": "ku-iot-projects-2026.html",
+    "summary": "푸시업 측정, 스마트홈, 스마트팜에서 냉동공조 관제와 SafeRoom까지. 두 차례 팀 프로젝트의 구현 과정.",
+    "description": "푸시업 측정, 스마트홈, 스마트팜에서 냉동공조 관제와 SafeRoom까지. 두 차례 팀 프로젝트의 구현 과정.",
+    "services": [
+      "팀 프로젝트 지도",
+      "센서·통신 통합",
+      "관제 화면 구현"
+    ],
+    "outcomes": [
+      "수업·팀 산출물 기반 기록",
+      "대표 이미지와 자료 연결"
+    ]
+  },
+  {
+    "id": "ku-work-experience-2026",
+    "title": "ABC 일경험 · 두 팀의 AI 서비스",
+    "category": "education",
+    "categoryLabel": "Mentoring · AI",
+    "year": "2026",
+    "client": "지엔소프트 · ABC 프로젝트 멘토링",
+    "image": "assets/img/projects/ku-iot-2026/traffic-dashboard.webp",
+    "detailPage": "ku-work-experience-2026.html",
+    "summary": "신경망기사단의 도로 위험 관제와 워크플로우의 교차로 의사결정 지원. 기업 제안 주제를 구체화한 8주.",
+    "description": "신경망기사단의 도로 위험 관제와 워크플로우의 교차로 의사결정 지원. 기업 제안 주제를 구체화한 8주.",
+    "services": [
+      "기업 제안 프로젝트",
+      "AI 서비스 멘토링",
+      "결과물 검토"
+    ],
+    "outcomes": [
+      "수업·팀 산출물 기반 기록",
+      "대표 이미지와 자료 연결"
+    ]
+  },
+  {
     "id": "ros2-vision-lab",
     "title": "ROS2 Vision Robot Lab",
     "category": "robotics",
