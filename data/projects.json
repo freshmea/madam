@@ -2,8 +2,8 @@
   {
     "id": "gongju-manipulator-2026",
     "title": "공주대 매니퓰레이터 · 네 가지 팀 프로젝트",
-    "category": "robotics",
-    "categoryLabel": "Robotics · Student Projects",
+    "category": "project",
+    "categoryLabel": "프로젝트",
     "year": "2026",
     "client": "대한상공회의소 충남인력개발원 천안기술교육센터",
     "image": "assets/img/projects/gongju-manipulator-2026.svg",
@@ -19,13 +19,14 @@
       "4개 팀의 계획·구현 과정 정리",
       "팀별 역할과 최종 구현 범위 소개",
       "계획서·기술서·코드·발표자료 연결"
-    ]
+    ],
+    "date": "2026-08"
   },
   {
     "id": "gongju-rc-2026",
     "title": "공주대 RC카 · 다섯 가지 자율주행 프로젝트",
-    "category": "robotics",
-    "categoryLabel": "Autonomous Driving · Student Projects",
+    "category": "project",
+    "categoryLabel": "프로젝트",
     "year": "2026",
     "client": "대한상공회의소 충남인력개발원 천안기술교육센터",
     "image": "assets/img/projects/gongju-rc-2026/team4-owner-demo.webp",
@@ -41,55 +42,14 @@
       "5개 팀의 주행 프로젝트",
       "실물 차량과 제어 화면",
       "팀별 대표 이미지 2장과 구현 과정"
-    ]
-  },
-  {
-    "id": "ku-iot-2026",
-    "title": "고려대 세종 IoT · 센서에서 화면까지",
-    "category": "education",
-    "categoryLabel": "Education · IoT",
-    "year": "2026",
-    "client": "고려대학교 세종HRD사업단",
-    "image": "assets/img/projects/ku-iot-2026/avr-board.webp",
-    "detailPage": "ku-iot-2026.html",
-    "summary": "C·임베디드·C++·SQL·Python·MQTT·OpenCV. 실제 수업 자료를 바탕으로 정리한 일곱 학습 영역.",
-    "description": "C·임베디드·C++·SQL·Python·MQTT·OpenCV. 실제 수업 자료를 바탕으로 정리한 일곱 학습 영역.",
-    "services": [
-      "IoT 프로그래밍",
-      "임베디드·비전 실습",
-      "과목별 교육"
     ],
-    "outcomes": [
-      "수업·팀 산출물 기반 기록",
-      "대표 이미지와 자료 연결"
-    ]
-  },
-  {
-    "id": "ku-iot-projects-2026",
-    "title": "고려대 세종 IoT · 다섯 가지 중간 프로젝트",
-    "category": "education",
-    "categoryLabel": "Education · IoT",
-    "year": "2026",
-    "client": "고려대학교 세종HRD사업단",
-    "image": "assets/img/projects/ku-iot-2026/fitness-hardware.webp",
-    "detailPage": "ku-iot-projects-2026.html",
-    "summary": "푸시업 측정, 스마트홈, 스마트팜에서 냉동공조 관제와 SafeRoom까지. 두 차례 팀 프로젝트의 구현 과정.",
-    "description": "푸시업 측정, 스마트홈, 스마트팜에서 냉동공조 관제와 SafeRoom까지. 두 차례 팀 프로젝트의 구현 과정.",
-    "services": [
-      "팀 프로젝트 지도",
-      "센서·통신 통합",
-      "관제 화면 구현"
-    ],
-    "outcomes": [
-      "수업·팀 산출물 기반 기록",
-      "대표 이미지와 자료 연결"
-    ]
+    "date": "2026-07"
   },
   {
     "id": "ku-work-experience-2026",
     "title": "ABC 일경험 · 두 팀의 AI 서비스",
-    "category": "education",
-    "categoryLabel": "Mentoring · AI",
+    "category": "project",
+    "categoryLabel": "프로젝트",
     "year": "2026",
     "client": "지엔소프트 · ABC 프로젝트 멘토링",
     "image": "assets/img/projects/ku-iot-2026/traffic-dashboard.webp",
@@ -104,13 +64,58 @@
     "outcomes": [
       "수업·팀 산출물 기반 기록",
       "대표 이미지와 자료 연결"
-    ]
+    ],
+    "date": "2026-07"
+  },
+  {
+    "id": "ku-iot-2026",
+    "title": "고려대 세종 IoT · 센서에서 화면까지",
+    "category": "offline",
+    "categoryLabel": "오프라인교육",
+    "year": "2026",
+    "client": "고려대학교 세종HRD사업단",
+    "image": "assets/img/projects/ku-iot-2026/avr-board.webp",
+    "detailPage": "ku-iot-2026.html",
+    "summary": "C·임베디드·C++·SQL·Python·MQTT·OpenCV. 실제 수업 자료를 바탕으로 정리한 일곱 학습 영역.",
+    "description": "C·임베디드·C++·SQL·Python·MQTT·OpenCV. 실제 수업 자료를 바탕으로 정리한 일곱 학습 영역.",
+    "services": [
+      "IoT 프로그래밍",
+      "임베디드·비전 실습",
+      "과목별 교육"
+    ],
+    "outcomes": [
+      "수업·팀 산출물 기반 기록",
+      "대표 이미지와 자료 연결"
+    ],
+    "date": "2026-06"
+  },
+  {
+    "id": "ku-iot-projects-2026",
+    "title": "고려대 세종 IoT · 다섯 가지 중간 프로젝트",
+    "category": "project",
+    "categoryLabel": "프로젝트",
+    "year": "2026",
+    "client": "고려대학교 세종HRD사업단",
+    "image": "assets/img/projects/ku-iot-2026/fitness-hardware.webp",
+    "detailPage": "ku-iot-projects-2026.html",
+    "summary": "푸시업 측정, 스마트홈, 스마트팜에서 냉동공조 관제와 SafeRoom까지. 두 차례 팀 프로젝트의 구현 과정.",
+    "description": "푸시업 측정, 스마트홈, 스마트팜에서 냉동공조 관제와 SafeRoom까지. 두 차례 팀 프로젝트의 구현 과정.",
+    "services": [
+      "팀 프로젝트 지도",
+      "센서·통신 통합",
+      "관제 화면 구현"
+    ],
+    "outcomes": [
+      "수업·팀 산출물 기반 기록",
+      "대표 이미지와 자료 연결"
+    ],
+    "date": "2026-06"
   },
   {
     "id": "dxax-2026",
     "title": "고려대 DX·AX · 업무에서 AI 운영까지",
-    "category": "education",
-    "categoryLabel": "Online Education · DX / AX",
+    "category": "online",
+    "categoryLabel": "온라인교육",
     "year": "2026",
     "client": "고려대 세종산학협력단",
     "image": "assets/img/projects/dxax-2026/2026-04-06-cover.webp",
@@ -126,7 +131,8 @@
       "네 단계의 교육 내용 정리",
       "날짜별 cover 요약 그림 19장",
       "강의 요약과 원본 자료 연결"
-    ]
+    ],
+    "date": "2026-05"
   },
   {
     "id": "ros2-vision-lab",
@@ -147,7 +153,8 @@
       "카메라 데이터 흐름 이해",
       "인식 결과 기반 로봇 제어",
       "팀 프로젝트 결과 발표"
-    ]
+    ],
+    "draft": true
   },
   {
     "id": "generative-ai-book",
@@ -168,7 +175,8 @@
       "단계별 생성형 AI 실습",
       "수업용 예제 자산화",
       "온·오프라인 공통 활용"
-    ]
+    ],
+    "draft": true
   },
   {
     "id": "edge-ai-kit",
@@ -189,6 +197,7 @@
       "센서·카메라 입력 실습",
       "Edge AI 추론 경험",
       "확장 가능한 프로젝트 구조"
-    ]
+    ],
+    "draft": true
   }
 ]
