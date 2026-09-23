@@ -95,3 +95,9 @@ Contact는 이메일 문의로 연결합니다. 페이지별 메뉴 HTML과 `dat
 - `pages/ku-work-experience-2026.html`: 일경험 프로젝트. 원고·자료 기준은 `docs/projects/`, 대표 이미지 16장은 `assets/img/projects/ku-iot-2026/`에서 관리합니다.
 
 - `pages/dxax-2026.html`: 고려대 온라인 DX·AX 교육 기록. 네 단계의 교육 내용과 cover 요약 그림 19장. 자료·원고는 `docs/projects/dxax-2026.md`, 이미지 대응표는 `docs/projects/dxax-2026-images.json`.
+
+### 세종 AI 리터러시 2025
+
+- `pages/ai-literacy-2025.html`: 2025년 12월 1~17일 교육 내용. 온라인 실습과 대면 프로젝트를 연결한 기록.
+- `pages/ai-literacy-projects-2025.html`: 1차 교육생 9명의 프로젝트와 제출 작업물.
+- 원고·자료 기준: `docs/projects/ai-literacy-2025.md`. 이미지: `assets/img/projects/ai-literacy-2025/`.

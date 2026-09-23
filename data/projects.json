@@ -199,5 +199,49 @@
       "확장 가능한 프로젝트 구조"
     ],
     "draft": true
+  },
+  {
+    "id": "ai-literacy-2025",
+    "title": "세종 AI 리터러시 · 질문에서 나의 프로젝트까지",
+    "category": "online",
+    "categoryLabel": "온라인교육",
+    "year": "2025",
+    "date": "2025-12",
+    "client": "세종 RISE · 구직자 1차",
+    "image": "assets/img/projects/ai-literacy-2025/course-cover.svg",
+    "detailPage": "ai-literacy-2025.html",
+    "summary": "2025년 12월 1~17일. 온라인 실습과 대면 프로젝트를 잇는 생성형 AI·콘텐츠·업무 자동화·데이터·웹 교육.",
+    "description": "2025년 12월 1~17일. 온라인 실습과 대면 프로젝트를 잇는 생성형 AI·콘텐츠·업무 자동화·데이터·웹 교육.",
+    "services": [
+      "AI 리터러시",
+      "콘텐츠·업무 실습",
+      "개인 프로젝트"
+    ],
+    "outcomes": [
+      "2025.12.01–12.17 교육 기록",
+      "교육생 작업물과 수업 자료 연결"
+    ]
+  },
+  {
+    "id": "ai-literacy-projects-2025",
+    "title": "세종 AI 리터러시 · 아홉 가지 교육생 프로젝트",
+    "category": "project",
+    "categoryLabel": "프로젝트",
+    "year": "2025",
+    "date": "2025-12",
+    "client": "세종 RISE · 구직자 1차",
+    "image": "assets/img/projects/ai-literacy-2025/projects-cover.webp",
+    "detailPage": "ai-literacy-projects-2025.html",
+    "summary": "도서관 안내, 라면 기획, 동화책, 농장 기록과 상담 자동화. 교육생 9명이 자신의 관심사로 만든 프로젝트.",
+    "description": "도서관 안내, 라면 기획, 동화책, 농장 기록과 상담 자동화. 교육생 9명이 자신의 관심사로 만든 프로젝트.",
+    "services": [
+      "AI 리터러시",
+      "콘텐츠·업무 실습",
+      "개인 프로젝트"
+    ],
+    "outcomes": [
+      "2025.12.01–12.17 교육 기록",
+      "교육생 작업물과 수업 자료 연결"
+    ]
   }
 ]
