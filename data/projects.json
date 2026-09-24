@@ -353,5 +353,27 @@
       "네 팀의 구현·시연·설계 자료",
       "문제 해결 과정과 후속 과제 구분"
     ]
+  },
+  {
+    "id": "gongju-ros-projects-2025",
+    "title": "공주대 ROS2 · 네 팀의 TurtleBot3 프로젝트",
+    "category": "project",
+    "categoryLabel": "프로젝트",
+    "year": "2025",
+    "date": "2025-07",
+    "client": "공주대학교 천안캠퍼스 · ROS 6기",
+    "image": "assets/img/projects/gongju-ros-projects-2025/museum-demo.webp",
+    "detailPage": "gongju-ros-projects-2025.html",
+    "summary": "프로젝트 지도·감독으로 함께한 5일. 순찰·반려로봇·스마트팜·박물관 안내를 구현한 네 팀의 기록.",
+    "description": "2025년 7월 21~25일 공주대학교 천안캠퍼스. 프로젝트 지도·감독을 맡아 살펴본 순찰·반려로봇·스마트팜·박물관 안내의 네 가지 결과.",
+    "services": [
+      "프로젝트 지도·감독",
+      "개발 기술 지원",
+      "최종 발표 평가·피드백"
+    ],
+    "outcomes": [
+      "네 팀의 구현·시연·문제 해결 과정",
+      "발표자료·기술서·저장소 연결"
+    ]
   }
 ]

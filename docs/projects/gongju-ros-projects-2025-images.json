@@ -1,0 +1,92 @@
+[
+  {
+    "file": "patrol-demo.webp",
+    "team": 1,
+    "slide": 11,
+    "source": "D:\\bindsoft\\2. 교육\\15. 공주대\\2025_ros6기\\계획서_기술서_ppt\\1조_ppt.pptx",
+    "media": "ppt/media/image5.jpg",
+    "width": 960,
+    "height": 720
+  },
+  {
+    "file": "patrol-captures.webp",
+    "team": 1,
+    "slide": 12,
+    "source": "D:\\bindsoft\\2. 교육\\15. 공주대\\2025_ros6기\\계획서_기술서_ppt\\1조_ppt.pptx",
+    "media": "ppt/media/image6.png",
+    "width": 942,
+    "height": 602
+  },
+  {
+    "file": "boogie-map.webp",
+    "team": 2,
+    "slide": 5,
+    "source": "D:\\bindsoft\\2. 교육\\15. 공주대\\2025_ros6기\\계획서_기술서_ppt\\2조_ppt.pptx",
+    "media": "ppt/media/image6.jpg",
+    "width": 1376,
+    "height": 781
+  },
+  {
+    "file": "boogie-demo.webp",
+    "team": 2,
+    "slide": 16,
+    "source": "D:\\bindsoft\\2. 교육\\15. 공주대\\2025_ros6기\\계획서_기술서_ppt\\2조_ppt.pptx",
+    "media": "ppt/media/image13.jpg",
+    "width": 787,
+    "height": 1400
+  },
+  {
+    "file": "farm-world.webp",
+    "team": 3,
+    "slide": 15,
+    "source": "D:\\bindsoft\\2. 교육\\15. 공주대\\2025_ros6기\\계획서_기술서_ppt\\3조_ppt.pptx",
+    "media": "ppt/media/image14.png",
+    "width": 1800,
+    "height": 1050
+  },
+  {
+    "file": "farm-test.webp",
+    "team": 3,
+    "slide": 20,
+    "source": "D:\\bindsoft\\2. 교육\\15. 공주대\\2025_ros6기\\계획서_기술서_ppt\\3조_ppt.pptx",
+    "media": "ppt/media/image17.jpg",
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "file": "museum-world.webp",
+    "team": 4,
+    "slide": 7,
+    "source": "D:\\bindsoft\\2. 교육\\15. 공주대\\2025_ros6기\\계획서_기술서_ppt\\4조_ppt.pptx",
+    "media": "ppt/media/image18.jpg",
+    "width": 1096,
+    "height": 916
+  },
+  {
+    "file": "museum-ui.webp",
+    "team": 4,
+    "slide": 10,
+    "source": "D:\\bindsoft\\2. 교육\\15. 공주대\\2025_ros6기\\계획서_기술서_ppt\\4조_ppt.pptx",
+    "media": "ppt/media/image21.png",
+    "width": 741,
+    "height": 430
+  },
+  {
+    "file": "museum-route.webp",
+    "team": 4,
+    "slide": 12,
+    "source": "D:\\bindsoft\\2. 교육\\15. 공주대\\2025_ros6기\\계획서_기술서_ppt\\4조_ppt.pptx",
+    "media": "ppt/media/image25.png",
+    "width": 788,
+    "height": 890
+  },
+  {
+    "file": "museum-demo.webp",
+    "team": 4,
+    "slide": 14,
+    "source": "D:\\bindsoft\\2. 교육\\15. 공주대\\2025_ros6기\\계획서_기술서_ppt\\4조_ppt.pptx",
+    "media": "ppt/media/image19.jpg",
+    "width": 787,
+    "height": 1400
+  }
+]
