@@ -84,5 +84,12 @@
     "source": "D:\\repository\\madam-project-research\\kuLimo\\catkin_ws\\src\\limo_gazebo_sim\\config\\image.png",
     "width": 520,
     "height": 496
+  },
+  {
+    "file": "limo-platform.jpg",
+    "source": "https://github.com/freshmea/kuLimo/blob/main/catkin_ws/src/limo_ros/limo_description/img/limo.jpg",
+    "width": 1280,
+    "height": 416,
+    "note": "기체 구성 소개 이미지; 현장 사진 아님"
   }
 ]

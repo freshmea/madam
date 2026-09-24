@@ -318,18 +318,18 @@
     "year": "2025",
     "date": "2025-08",
     "client": "고려대학교 세종캠퍼스 · ICT 자율주행과정",
-    "image": "assets/img/projects/ict-limo-2025/limo-exploration.webp",
+    "image": "assets/img/projects/ict-limo-2025/limo-platform.jpg",
     "detailPage": "ict-limo-2025.html",
-    "summary": "Python·ROS 통신·모델링·SLAM·내비게이션·LIMO 제어. 날짜별 기록과 실제 코드로 읽는 2025년 교육 과정.",
-    "description": "2025년 3월 15일~8월 9일. Python과 ROS 통신에서 로봇 모델링·SLAM·내비게이션·LIMO 실기체 제어로 이어진 단계별 수업 기록.",
+    "summary": "Docker 개발 환경, ROS1·ROS2 비교, LIMO 센서·드라이버·주행 모드까지. 실제 코드로 읽는 교육 과정.",
+    "description": "Python·ROS 노드에서 Docker 개발 환경과 LIMO 기체까지. ROS1·ROS2를 병행하며 배운 구조와 차이를 실제 수업 코드로 읽는 교육 기록.",
     "services": [
       "ROS1·ROS2 교육",
       "LIMO 실기체 실습",
       "팀 프로젝트 지도"
     ],
     "outcomes": [
-      "9단계의 실제 수업 내용과 실습 코드 연결",
-      "ROS1 실기체와 ROS2 시뮬레이션 학습 구분"
+      "Docker와 ROS1·ROS2 병행 실습의 구체적 비교",
+      "LIMO 하드웨어·센서·주행 모드 해설"
     ]
   },
   {
