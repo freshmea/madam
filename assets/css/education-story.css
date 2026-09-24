@@ -1,0 +1,32 @@
+.story-page .case-hero { padding-bottom:2rem; }
+.story-page .case-hero h1 { font-size:clamp(2.3rem,5.6vw,4.6rem); }
+.story-lead { display:grid; grid-template-columns:1fr 1.1fr; gap:2.5rem; align-items:center; padding:2.5rem 0; }
+.story-lead h2 { font-size:1.6rem; line-height:1.5; font-weight:850; letter-spacing:-.035em; }
+.story-lead p { margin-top:1rem; line-height:1.9; color:#57534e; }
+.story-lead figure { margin:0; }
+.story-lead img { display:block; width:100%; height:auto; max-height:380px; object-fit:contain; background:#efeeea; border:1px solid #d6d3d1; border-radius:.5rem; }
+.story-page figcaption { font-size:.83rem; line-height:1.8; color:#57534e; }
+.story-lead figcaption { margin-top:.6rem; }
+.story-page .case-team { padding:3.5rem 0; scroll-margin-top:7rem; }
+.story-page .case-gallery { margin:1.7rem 0; }
+.story-page .case-gallery.single { grid-template-columns:1fr; }
+.story-page .case-gallery.single .case-image-link { aspect-ratio:auto; min-height:0; }
+.story-page .case-gallery.single img { height:auto; max-height:680px; object-fit:contain; }
+.story-page .case-gallery .case-image-link { aspect-ratio:16 / 10; background:#e7e5e4; }
+.story-page .case-gallery img { width:100%; height:100%; object-fit:contain; }
+.story-page .case-gallery .portrait .case-image-link { aspect-ratio:4 / 3; }
+.story-page .case-gallery .portrait img { object-fit:contain; }
+.story-context { margin:1.4rem 0 2rem; border-left:3px solid #c2410c; padding:.3rem 0 .3rem 1.2rem; line-height:1.85; color:#57534e; font-size:.9rem; }
+.story-page .case-findings { margin:1.3rem 0; }
+.story-page .case-findings ul { margin:.55rem 0 0; padding-left:1.15rem; font-size:.92rem; line-height:1.9; color:#57534e; list-style:disc; }
+.story-page .case-flow { margin-bottom:1.5rem; }
+.story-page .case-sources a { overflow-wrap:anywhere; }
+.story-summary { display:grid;grid-template-columns:repeat(3,1fr);gap:1.3rem;padding:1.5rem 0;border-top:1px solid #d6d3d1;border-bottom:1px solid #d6d3d1;margin:0 0 1.5rem; }
+.story-summary dt { font-size:.75rem; font-weight:800; color:#9a3412; margin-bottom:.4rem; }
+.story-summary dd { font-size:.96rem; line-height:1.7; margin:0; }
+.story-table-wrap { overflow-x:auto; margin:1.5rem 0; }
+.story-table { width:100%;border-collapse:collapse;font-size:.9rem;line-height:1.8; }
+.story-table th,.story-table td { padding:.85rem 1rem;text-align:left;vertical-align:top;border-bottom:1px solid #d6d3d1; }
+.story-table th { background:#efeeea;font-weight:800; }
+.story-page code { overflow-wrap:anywhere; font-size:.88em; }
+@media(max-width:680px){.story-lead{grid-template-columns:1fr;gap:1.3rem;padding:2rem 0;}.story-summary{grid-template-columns:1fr;gap:.9rem;}.story-page .case-hero h1{font-size:2.65rem;}.story-page .case-team{padding:2.5rem 0;}.story-table th,.story-table td{padding:.6rem .5rem;}.story-page .case-gallery .case-image-link{aspect-ratio:auto;}.story-page .case-gallery img{height:auto;max-height:440px;}.story-page .case-gallery .portrait .case-image-link{aspect-ratio:auto;}}

@@ -252,62 +252,62 @@
     "year": "2025",
     "date": "2025-09",
     "client": "홍익대학교 세종캠퍼스",
-    "image": "assets/img/projects/hongik-opencv-2025.svg",
+    "image": "assets/img/projects/vision-content-2025/cv-yolo.webp",
     "detailPage": "hongik-opencv-2025.html",
-    "summary": "2025년 9월 홍익대 OpenCV 수업 기록. 영상처리 기초에서 객체 검출·얼굴 인식·추적·OCR까지 이어지는 실습.",
-    "description": "2025년 9월 홍익대 OpenCV 수업 기록. 영상처리 기초에서 객체 검출·얼굴 인식·추적·OCR까지 이어지는 실습.",
+    "summary": "카메라 입력부터 YOLO·얼굴 인식·추적·OCR까지. 원본 교안과 실제 코드로 읽는 AI 비전 수업.",
+    "description": "카메라 입력부터 YOLO·얼굴 인식·추적·OCR까지. 원본 교안과 실제 코드로 읽는 AI 비전 수업.",
     "services": [
       "OpenCV 실습",
       "AI 비전",
       "팀 프로젝트 지도"
     ],
     "outcomes": [
-      "수업 기록과 코드 연결",
-      "프로젝트 기술서 기반 소개"
+      "원본 교육·발표 자료의 이미지와 상세 해설",
+      "실습 과정과 확인 가능한 결과 구분"
     ]
   },
   {
     "id": "hongik-opencv-projects-2025",
-    "title": "홍익대 OpenCV · 영상으로 문제를 푸는 팀 프로젝트",
+    "title": "홍익대 OpenCV · 네 가지 팀 프로젝트",
     "category": "project",
     "categoryLabel": "프로젝트",
     "year": "2025",
     "date": "2025-09",
     "client": "홍익대학교 세종캠퍼스",
-    "image": "assets/img/projects/hongik-opencv-projects-2025.svg",
+    "image": "assets/img/projects/vision-content-2025/team1-interface.webp",
     "detailPage": "hongik-opencv-projects-2025.html",
-    "summary": "횡단보도 보행자 인식과 문서 보정·OCR. 두 팀의 기술서로 살펴보는 컴퓨터 비전 프로젝트.",
-    "description": "횡단보도 보행자 인식과 문서 보정·OCR. 두 팀의 기술서로 살펴보는 컴퓨터 비전 프로젝트.",
+    "summary": "횡단보도, 문서 스캔, 주차장, 식물 생육. 네 팀의 구현 화면과 설계·한계를 담은 프로젝트 기록.",
+    "description": "횡단보도, 문서 스캔, 주차장, 식물 생육. 네 팀의 구현 화면과 설계·한계를 담은 프로젝트 기록.",
     "services": [
       "OpenCV 실습",
       "AI 비전",
       "팀 프로젝트 지도"
     ],
     "outcomes": [
-      "수업 기록과 코드 연결",
-      "프로젝트 기술서 기반 소개"
+      "원본 교육·발표 자료의 이미지와 상세 해설",
+      "실습 과정과 확인 가능한 결과 구분"
     ]
   },
   {
     "id": "macrogen-dx-creator-2025",
-    "title": "마크로젠 DX 크리에이터 · 아이디어를 영상으로",
+    "title": "마크로젠 DX 크리에이터 · AI 콘텐츠 제작 수업",
     "category": "online",
     "categoryLabel": "온라인교육",
     "year": "2025",
     "date": "2025-08",
     "client": "마크로젠 · DX 크리에이터 기초",
-    "image": "assets/img/projects/macrogen-dx-creator-2025.svg",
+    "image": "assets/img/projects/vision-content-2025/ai-content-image.webp",
     "detailPage": "macrogen-dx-creator-2025.html",
-    "summary": "2025년 8월 18~22일. 현장 교육에서 온라인 실습으로 이어진 ChatGPT·Sora·Vrew 활용 AI 콘텐츠 제작 과정.",
-    "description": "2025년 8월 18~22일. 현장 교육에서 온라인 실습으로 이어진 ChatGPT·Sora·Vrew 활용 AI 콘텐츠 제작 과정.",
+    "summary": "ChatGPT 기획, Sora 이미지·영상, Vrew 자막·클립 편집. 원본 교안과 함께 읽는 2025년 8월 수업.",
+    "description": "ChatGPT 기획, Sora 이미지·영상, Vrew 자막·클립 편집. 원본 교안과 함께 읽는 2025년 8월 수업.",
     "services": [
       "생성형 AI 활용",
       "Vrew 영상 편집",
       "숏폼 제작 실습"
     ],
     "outcomes": [
-      "기획·이미지·영상 제작 과정",
-      "개인 주제 실습과 과제 검토"
+      "원본 교육·발표 자료의 이미지와 상세 해설",
+      "실습 과정과 확인 가능한 결과 구분"
     ]
   }
 ]

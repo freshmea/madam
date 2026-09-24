@@ -1,0 +1,178 @@
+[
+  {
+    "file": "assets/img/projects/vision-content-2025/cv-environment.webp",
+    "source": "D:\\bindsoft\\2. 교육\\16. 홍익대-기회발전특구\\제출 교안\\OpenCV_실전_AI_비전_프로젝트.pdf",
+    "page": 3,
+    "note": "원본 PDF 페이지 렌더링",
+    "width": 1800,
+    "height": 1005
+  },
+  {
+    "file": "assets/img/projects/vision-content-2025/cv-numpy.webp",
+    "source": "D:\\bindsoft\\2. 교육\\16. 홍익대-기회발전특구\\제출 교안\\OpenCV_실전_AI_비전_프로젝트.pdf",
+    "page": 4,
+    "note": "원본 PDF 페이지 렌더링",
+    "width": 1800,
+    "height": 1005
+  },
+  {
+    "file": "assets/img/projects/vision-content-2025/cv-transform.webp",
+    "source": "D:\\bindsoft\\2. 교육\\16. 홍익대-기회발전특구\\제출 교안\\OpenCV_실전_AI_비전_프로젝트.pdf",
+    "page": 6,
+    "note": "원본 PDF 페이지 렌더링",
+    "width": 1800,
+    "height": 1005
+  },
+  {
+    "file": "assets/img/projects/vision-content-2025/cv-yolo.webp",
+    "source": "D:\\bindsoft\\2. 교육\\16. 홍익대-기회발전특구\\제출 교안\\OpenCV_실전_AI_비전_프로젝트.pdf",
+    "page": 7,
+    "note": "원본 PDF 페이지 렌더링",
+    "width": 1800,
+    "height": 1005
+  },
+  {
+    "file": "assets/img/projects/vision-content-2025/cv-face.webp",
+    "source": "D:\\bindsoft\\2. 교육\\16. 홍익대-기회발전특구\\제출 교안\\OpenCV_실전_AI_비전_프로젝트.pdf",
+    "page": 8,
+    "note": "원본 PDF 페이지 렌더링",
+    "width": 1800,
+    "height": 1005
+  },
+  {
+    "file": "assets/img/projects/vision-content-2025/cv-tracking.webp",
+    "source": "D:\\bindsoft\\2. 교육\\16. 홍익대-기회발전특구\\제출 교안\\OpenCV_실전_AI_비전_프로젝트.pdf",
+    "page": 9,
+    "note": "원본 PDF 페이지 렌더링",
+    "width": 1800,
+    "height": 1005
+  },
+  {
+    "file": "assets/img/projects/vision-content-2025/cv-ml.webp",
+    "source": "D:\\bindsoft\\2. 교육\\16. 홍익대-기회발전특구\\제출 교안\\OpenCV_실전_AI_비전_프로젝트.pdf",
+    "page": 10,
+    "note": "원본 PDF 페이지 렌더링",
+    "width": 1800,
+    "height": 1005
+  },
+  {
+    "file": "assets/img/projects/vision-content-2025/team1-interface.webp",
+    "source": "D:\\bindsoft\\2. 교육\\16. 홍익대-기회발전특구\\OpenCV zoo\\프로젝트 파일\\OpenCV 1조 발표.pdf",
+    "page": 7,
+    "note": "7쪽의 Qt Widgets Designer 구성 화면 영역 렌더링",
+    "width": 1114,
+    "height": 896,
+    "clip": [
+      270,
+      255,
+      827,
+      703
+    ]
+  },
+  {
+    "file": "assets/img/projects/vision-content-2025/team1-demo.webp",
+    "source": "D:\\bindsoft\\2. 교육\\16. 홍익대-기회발전특구\\OpenCV zoo\\프로젝트 파일\\OpenCV 1조 발표.pdf",
+    "page": 11,
+    "note": "발표자료에 삽입된 원본 이미지 추출",
+    "width": 780,
+    "height": 621,
+    "xref": 138
+  },
+  {
+    "file": "assets/img/projects/vision-content-2025/team2-cover.webp",
+    "source": "D:\\bindsoft\\2. 교육\\16. 홍익대-기회발전특구\\OpenCV zoo\\프로젝트 파일\\OpenCV 최종발표_황규범, 고성운, 이진우.pdf",
+    "page": 1,
+    "note": "원본 PDF 페이지 렌더링",
+    "width": 1800,
+    "height": 1013
+  },
+  {
+    "file": "assets/img/projects/vision-content-2025/team3-parking.webp",
+    "source": "D:\\bindsoft\\2. 교육\\16. 홍익대-기회발전특구\\OpenCV zoo\\프로젝트 파일\\실시간 주차 관리 시스템_3jo.pdf",
+    "page": 12,
+    "note": "발표자료에 삽입된 원본 이미지 추출",
+    "width": 1800,
+    "height": 933,
+    "xref": 85
+  },
+  {
+    "file": "assets/img/projects/vision-content-2025/vrew-interface.webp",
+    "source": "D:\\bindsoft\\2. 교육\\16. 홍익대-기회발전특구\\제출 교안\\vrew.pdf",
+    "page": 3,
+    "note": "원본 PDF 페이지 렌더링",
+    "width": 1800,
+    "height": 1005
+  },
+  {
+    "file": "assets/img/projects/vision-content-2025/team2-pipeline.webp",
+    "source": "D:\\bindsoft\\2. 교육\\16. 홍익대-기회발전특구\\OpenCV zoo\\프로젝트 파일\\무색무광_2조_프로젝트_기술서.hwp",
+    "page": null,
+    "note": "HWP 삽입 이미지 추출: BinData/BIN0001.png",
+    "width": 1330,
+    "height": 2400
+  },
+  {
+    "file": "assets/img/projects/vision-content-2025/team4-camera-design.webp",
+    "source": "D:\\bindsoft\\2. 교육\\16. 홍익대-기회발전특구\\OpenCV zoo\\프로젝트 파일\\1차_4조_ppt.pptx",
+    "page": 13,
+    "note": "PPTX 삽입 이미지 추출: ppt/media/image26.png",
+    "width": 1589,
+    "height": 1403
+  },
+  {
+    "file": "assets/img/projects/vision-content-2025/team4-green-tomato.webp",
+    "source": "D:\\bindsoft\\2. 교육\\16. 홍익대-기회발전특구\\OpenCV zoo\\프로젝트 파일\\1차_4조_ppt.pptx",
+    "page": 13,
+    "note": "PPTX 삽입 이미지 추출: ppt/media/image28.png",
+    "width": 640,
+    "height": 480
+  },
+  {
+    "file": "assets/img/projects/vision-content-2025/team4-red-tomato.webp",
+    "source": "D:\\bindsoft\\2. 교육\\16. 홍익대-기회발전특구\\OpenCV zoo\\프로젝트 파일\\1차_4조_ppt.pptx",
+    "page": 13,
+    "note": "PPTX 삽입 이미지 추출: ppt/media/image29.png",
+    "width": 640,
+    "height": 480
+  },
+  {
+    "file": "assets/img/projects/vision-content-2025/team4-database.webp",
+    "source": "D:\\bindsoft\\2. 교육\\16. 홍익대-기회발전특구\\OpenCV zoo\\프로젝트 파일\\1차_4조_ppt.pptx",
+    "page": 14,
+    "note": "PPTX 삽입 이미지 추출: ppt/media/image25.png",
+    "width": 1800,
+    "height": 1442
+  },
+  {
+    "file": "assets/img/projects/vision-content-2025/ai-content-image.webp",
+    "source": "D:\\bindsoft\\3. 교육 컨텐츠\\31. 생성형AI(DX, AX) 업무역량강화\\5. AI_gpt 광고.pptx",
+    "page": 6,
+    "note": "PPTX 삽입 이미지 추출: ppt/media/image11.png",
+    "width": 1440,
+    "height": 2160
+  },
+  {
+    "file": "assets/img/projects/vision-content-2025/ai-content-reference.webp",
+    "source": "D:\\bindsoft\\3. 교육 컨텐츠\\31. 생성형AI(DX, AX) 업무역량강화\\5. AI_gpt 광고.pptx",
+    "page": 7,
+    "note": "PPTX 삽입 이미지 추출: ppt/media/image12.png",
+    "width": 1440,
+    "height": 2160
+  },
+  {
+    "file": "assets/img/projects/vision-content-2025/ai-image-tool.webp",
+    "source": "D:\\bindsoft\\3. 교육 컨텐츠\\31. 생성형AI(DX, AX) 업무역량강화\\4. GPT 활용.pptx",
+    "page": 14,
+    "note": "PPTX 삽입 이미지 추출: ppt/media/image13.png",
+    "width": 840,
+    "height": 595
+  },
+  {
+    "file": "assets/img/projects/vision-content-2025/ai-content-workflow.webp",
+    "source": "D:\\bindsoft\\3. 교육 컨텐츠\\31. 생성형AI(DX, AX) 업무역량강화\\1. DX_OT.pptx",
+    "page": 11,
+    "note": "PPTX 삽입 이미지 추출: ppt/media/image13.png",
+    "width": 1440,
+    "height": 2160
+  }
+]
