@@ -287,5 +287,27 @@
       "수업 기록과 코드 연결",
       "프로젝트 기술서 기반 소개"
     ]
+  },
+  {
+    "id": "macrogen-dx-creator-2025",
+    "title": "마크로젠 DX 크리에이터 · 아이디어를 영상으로",
+    "category": "online",
+    "categoryLabel": "온라인교육",
+    "year": "2025",
+    "date": "2025-08",
+    "client": "마크로젠 · DX 크리에이터 기초",
+    "image": "assets/img/projects/macrogen-dx-creator-2025.svg",
+    "detailPage": "macrogen-dx-creator-2025.html",
+    "summary": "2025년 8월 18~22일. 현장 교육에서 온라인 실습으로 이어진 ChatGPT·Sora·Vrew 활용 AI 콘텐츠 제작 과정.",
+    "description": "2025년 8월 18~22일. 현장 교육에서 온라인 실습으로 이어진 ChatGPT·Sora·Vrew 활용 AI 콘텐츠 제작 과정.",
+    "services": [
+      "생성형 AI 활용",
+      "Vrew 영상 편집",
+      "숏폼 제작 실습"
+    ],
+    "outcomes": [
+      "기획·이미지·영상 제작 과정",
+      "개인 주제 실습과 과제 검토"
+    ]
   }
 ]
