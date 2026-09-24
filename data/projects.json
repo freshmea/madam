@@ -377,6 +377,29 @@
     ]
   },
   {
+    "id": "ku-embedded-2025",
+    "title": "고려대 임베디드 · 코드가 장치를 움직이는 5일",
+    "category": "offline",
+    "categoryLabel": "오프라인교육",
+    "year": "2025",
+    "client": "고려대학교 세종캠퍼스",
+    "image": "assets/img/projects/ku-embedded-2025.svg",
+    "detailPage": "ku-embedded-2025.html",
+    "summary": "2025.03.18–03.24. ATmega128 입출력부터 인터럽트·UART·PWM, 센서와 EEPROM 통합 실습까지.",
+    "description": "5일의 실제 운영 기록으로 살펴보는 임베디드 수업. 장치 접근과 통신 디버깅, 타이머 설정과 통합 예제를 연결합니다.",
+    "services": [
+      "ATmega128 실습",
+      "센서·통신·제어",
+      "통합 실습 지도"
+    ],
+    "outcomes": [
+      "5일의 수업 흐름",
+      "인터럽트·타이머·PWM",
+      "측정·저장·통신 통합"
+    ],
+    "date": "2025-03"
+  },
+  {
     "id": "ku-c-programming-2025",
     "title": "고려대 C 프로그래밍 · 개발의 첫 10일",
     "category": "offline",
