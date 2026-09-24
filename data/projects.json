@@ -312,7 +312,7 @@
   },
   {
     "id": "ict-limo-2025",
-    "title": "ICT 자율주행 · LIMO로 배우는 ROS와 팀 프로젝트",
+    "title": "ICT 자율주행 · LIMO ROS 교육 과정",
     "category": "offline",
     "categoryLabel": "오프라인교육",
     "year": "2025",
@@ -320,16 +320,38 @@
     "client": "고려대학교 세종캠퍼스 · ICT 자율주행과정",
     "image": "assets/img/projects/ict-limo-2025/limo-exploration.webp",
     "detailPage": "ict-limo-2025.html",
-    "summary": "2025.03.15–08.09. ROS 기초부터 지도·주행 제어까지, LIMO 실습과 네 팀의 프로젝트를 사진·시연 화면으로 읽는 교육 기록.",
-    "description": "2025년 3월 15일~8월 9일, ROS1·ROS2 기초부터 SLAM·내비게이션과 LIMO 실기체 프로젝트까지 이어진 ICT 자율주행 교육 기록.",
+    "summary": "Python·ROS 통신·모델링·SLAM·내비게이션·LIMO 제어. 날짜별 기록과 실제 코드로 읽는 2025년 교육 과정.",
+    "description": "2025년 3월 15일~8월 9일. Python과 ROS 통신에서 로봇 모델링·SLAM·내비게이션·LIMO 실기체 제어로 이어진 단계별 수업 기록.",
     "services": [
       "ROS1·ROS2 교육",
       "LIMO 실기체 실습",
       "팀 프로젝트 지도"
     ],
     "outcomes": [
-      "실제 코드와 수업일지에 근거한 단계별 교육 기록",
-      "네 팀의 구현 과정과 시연·설계 이미지"
+      "9단계의 실제 수업 내용과 실습 코드 연결",
+      "ROS1 실기체와 ROS2 시뮬레이션 학습 구분"
+    ]
+  },
+  {
+    "id": "ict-limo-projects-2025",
+    "title": "ICT LIMO · 네 팀의 자율주행 프로젝트",
+    "category": "project",
+    "categoryLabel": "프로젝트",
+    "year": "2025",
+    "date": "2025-08",
+    "client": "고려대학교 세종캠퍼스 · ICT 자율주행과정",
+    "image": "assets/img/projects/ict-limo-2025/follower-demo.webp",
+    "detailPage": "ict-limo-projects-2025.html",
+    "summary": "서빙·추종·반려로봇·스마트 관제. 네 팀의 사진과 시연 화면으로 보는 구현·개선 과정.",
+    "description": "서빙로봇, Follow Me, 우리집 뭉이, Smart Guardian. 2025 ICT 자율주행과정 네 팀의 실제 시연과 설계·문제 해결 기록.",
+    "services": [
+      "ROS1·ROS2 교육",
+      "LIMO 실기체 실습",
+      "팀 프로젝트 지도"
+    ],
+    "outcomes": [
+      "네 팀의 구현·시연·설계 자료",
+      "문제 해결 과정과 후속 과제 구분"
     ]
   }
 ]
