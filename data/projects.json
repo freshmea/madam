@@ -243,5 +243,49 @@
       "2025.12.01–12.17 교육 기록",
       "교육생 작업물과 수업 자료 연결"
     ]
+  },
+  {
+    "id": "hongik-opencv-2025",
+    "title": "홍익대 OpenCV · 이미지에서 AI 비전까지",
+    "category": "online",
+    "categoryLabel": "온라인교육",
+    "year": "2025",
+    "date": "2025-09",
+    "client": "홍익대학교 세종캠퍼스",
+    "image": "assets/img/projects/hongik-opencv-2025.svg",
+    "detailPage": "hongik-opencv-2025.html",
+    "summary": "2025년 9월 홍익대 OpenCV 수업 기록. 영상처리 기초에서 객체 검출·얼굴 인식·추적·OCR까지 이어지는 실습.",
+    "description": "2025년 9월 홍익대 OpenCV 수업 기록. 영상처리 기초에서 객체 검출·얼굴 인식·추적·OCR까지 이어지는 실습.",
+    "services": [
+      "OpenCV 실습",
+      "AI 비전",
+      "팀 프로젝트 지도"
+    ],
+    "outcomes": [
+      "수업 기록과 코드 연결",
+      "프로젝트 기술서 기반 소개"
+    ]
+  },
+  {
+    "id": "hongik-opencv-projects-2025",
+    "title": "홍익대 OpenCV · 영상으로 문제를 푸는 팀 프로젝트",
+    "category": "project",
+    "categoryLabel": "프로젝트",
+    "year": "2025",
+    "date": "2025-09",
+    "client": "홍익대학교 세종캠퍼스",
+    "image": "assets/img/projects/hongik-opencv-projects-2025.svg",
+    "detailPage": "hongik-opencv-projects-2025.html",
+    "summary": "횡단보도 보행자 인식과 문서 보정·OCR. 두 팀의 기술서로 살펴보는 컴퓨터 비전 프로젝트.",
+    "description": "횡단보도 보행자 인식과 문서 보정·OCR. 두 팀의 기술서로 살펴보는 컴퓨터 비전 프로젝트.",
+    "services": [
+      "OpenCV 실습",
+      "AI 비전",
+      "팀 프로젝트 지도"
+    ],
+    "outcomes": [
+      "수업 기록과 코드 연결",
+      "프로젝트 기술서 기반 소개"
+    ]
   }
 ]
