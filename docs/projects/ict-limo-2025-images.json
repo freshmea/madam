@@ -1,0 +1,88 @@
+[
+  {
+    "file": "limo-exploration.webp",
+    "source": "D:\\bindsoft\\2. 교육\\4. 고려대 세종캠퍼스\\6. 2025_ICT_자율주행_LIMO\\2. 발표자료\\발표자료_3조.pdf",
+    "page": 36,
+    "xref": 152,
+    "width": 1800,
+    "height": 1013
+  },
+  {
+    "file": "serving-control.webp",
+    "source": "D:\\bindsoft\\2. 교육\\4. 고려대 세종캠퍼스\\6. 2025_ICT_자율주행_LIMO\\2. 발표자료\\발표자료_1조.pdf",
+    "page": 11,
+    "xref": null,
+    "width": 1346,
+    "height": 952
+  },
+  {
+    "file": "follower-demo.webp",
+    "source": "D:\\bindsoft\\2. 교육\\4. 고려대 세종캠퍼스\\6. 2025_ICT_자율주행_LIMO\\2. 발표자료\\2조_ROS-Follower발표자료.pdf",
+    "page": 9,
+    "xref": 251,
+    "width": 661,
+    "height": 372
+  },
+  {
+    "file": "follower-architecture.webp",
+    "source": "D:\\bindsoft\\2. 교육\\4. 고려대 세종캠퍼스\\6. 2025_ICT_자율주행_LIMO\\2. 발표자료\\2조_ROS-Follower발표자료.pdf",
+    "page": 6,
+    "xref": null,
+    "width": 1152,
+    "height": 864
+  },
+  {
+    "file": "companion-modes.webp",
+    "source": "D:\\bindsoft\\2. 교육\\4. 고려대 세종캠퍼스\\6. 2025_ICT_자율주행_LIMO\\2. 발표자료\\발표자료_3조.pdf",
+    "page": 30,
+    "xref": null,
+    "width": 1152,
+    "height": 648
+  },
+  {
+    "file": "companion-voice.webp",
+    "source": "D:\\bindsoft\\2. 교육\\4. 고려대 세종캠퍼스\\6. 2025_ICT_자율주행_LIMO\\2. 발표자료\\발표자료_3조.pdf",
+    "page": 37,
+    "xref": 155,
+    "width": 1800,
+    "height": 1013
+  },
+  {
+    "file": "guardian-patrol.webp",
+    "source": "D:\\bindsoft\\2. 교육\\4. 고려대 세종캠퍼스\\6. 2025_ICT_자율주행_LIMO\\2. 발표자료\\발표자료_4조.pdf",
+    "page": 13,
+    "xref": 326,
+    "width": 1409,
+    "height": 792
+  },
+  {
+    "file": "guardian-fsm.webp",
+    "source": "D:\\bindsoft\\2. 교육\\4. 고려대 세종캠퍼스\\6. 2025_ICT_자율주행_LIMO\\2. 발표자료\\발표자료_4조.pdf",
+    "page": 8,
+    "xref": null,
+    "width": 1536,
+    "height": 770
+  },
+  {
+    "file": "guardian-fire.webp",
+    "source": "D:\\bindsoft\\2. 교육\\4. 고려대 세종캠퍼스\\6. 2025_ICT_자율주행_LIMO\\2. 발표자료\\발표자료_4조.pdf",
+    "page": 15,
+    "xref": 357,
+    "width": 1306,
+    "height": 734
+  },
+  {
+    "file": "guardian-dashboard.webp",
+    "source": "D:\\bindsoft\\2. 교육\\4. 고려대 세종캠퍼스\\6. 2025_ICT_자율주행_LIMO\\2. 발표자료\\발표자료_4조.pdf",
+    "page": 20,
+    "xref": null,
+    "width": 1536,
+    "height": 770
+  },
+  {
+    "file": "simulation-track.webp",
+    "source": "D:\\repository\\madam-project-research\\kuLimo\\catkin_ws\\src\\limo_gazebo_sim\\config\\image.png",
+    "width": 520,
+    "height": 496
+  }
+]

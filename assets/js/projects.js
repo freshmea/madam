@@ -89,7 +89,7 @@ const renderDetail = (projects) => {
 };
 
 if (projectRoot) {
-  fetch(`${getBasePath()}/data/projects.json?v=education-20260924-photo`, { cache: 'no-store' })
+  fetch(`${getBasePath()}/data/projects.json?v=education-20260924-limo`, { cache: 'no-store' })
     .then((response) => {
       if (!response.ok) throw new Error('프로젝트 데이터를 불러올 수 없습니다.');
       return response.json();

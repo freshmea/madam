@@ -309,5 +309,27 @@
       "원본 교육·발표 자료의 이미지와 상세 해설",
       "실습 과정과 확인 가능한 결과 구분"
     ]
+  },
+  {
+    "id": "ict-limo-2025",
+    "title": "ICT 자율주행 · LIMO로 배우는 ROS와 팀 프로젝트",
+    "category": "offline",
+    "categoryLabel": "오프라인교육",
+    "year": "2025",
+    "date": "2025-08",
+    "client": "고려대학교 세종캠퍼스 · ICT 자율주행과정",
+    "image": "assets/img/projects/ict-limo-2025/limo-exploration.webp",
+    "detailPage": "ict-limo-2025.html",
+    "summary": "2025.03.15–08.09. ROS 기초부터 지도·주행 제어까지, LIMO 실습과 네 팀의 프로젝트를 사진·시연 화면으로 읽는 교육 기록.",
+    "description": "2025년 3월 15일~8월 9일, ROS1·ROS2 기초부터 SLAM·내비게이션과 LIMO 실기체 프로젝트까지 이어진 ICT 자율주행 교육 기록.",
+    "services": [
+      "ROS1·ROS2 교육",
+      "LIMO 실기체 실습",
+      "팀 프로젝트 지도"
+    ],
+    "outcomes": [
+      "실제 코드와 수업일지에 근거한 단계별 교육 기록",
+      "네 팀의 구현 과정과 시연·설계 이미지"
+    ]
   }
 ]
