@@ -1,0 +1,48 @@
+[
+  {
+    "file": "assets/img/projects/busan-ros2-course-2024/topic-time.svg",
+    "caption": "메시지를 보내고, 받는 두 노드",
+    "width": 1200,
+    "height": 480,
+    "kind": "수업·코드 기반 편집 도해"
+  },
+  {
+    "file": "assets/img/projects/busan-ros2-course-2024/motion-loop.svg",
+    "caption": "직진과 회전을 반복하는 이동 실습",
+    "width": 1200,
+    "height": 480,
+    "kind": "수업·코드 기반 편집 도해"
+  },
+  {
+    "file": "assets/img/projects/busan-ros2-course-2024/distance-rule.svg",
+    "caption": "라이다 값으로 전진·정지·후진 결정",
+    "width": 1200,
+    "height": 480,
+    "kind": "수업·코드 기반 편집 도해"
+  },
+  {
+    "file": "assets/img/projects/busan-ros2-course-2024/parameters.svg",
+    "caption": "코드와 실행 설정을 연결하기",
+    "width": 1200,
+    "height": 480,
+    "kind": "수업·코드 기반 편집 도해"
+  },
+  {
+    "file": "assets/img/projects/busan-ros2-course-2024/turtlebot-assembly.webp",
+    "caption": "TurtleBot3 조립 교안의 기체 구성",
+    "width": 550,
+    "height": 654,
+    "source": "ppt/교안_ROS2 터틀봇_바인드소프트_6_터틀봇 조립.pptx",
+    "slide": 12,
+    "member": "ppt/media/image24.png",
+    "kind": "교안 원본 그림"
+  },
+  {
+    "file": "assets/img/projects/busan-work-experience-projects-2024/vimo-demo.webp",
+    "source": "VIMO/240618_서식131_VIMO 결과보고서.hwp",
+    "stream": "BinData/BIN0010.png",
+    "caption": "Vision Motion의 모형 주방과 인식·제어 화면",
+    "width": 1024,
+    "height": 418
+  }
+]

@@ -807,5 +807,28 @@
       "실제 예제 코드 링크",
       "관련 프로젝트 사례 연결"
     ]
+  },
+  {
+    "id": "busan-ros2-course-2024",
+    "title": "부산소프트웨어마이스터고 사전직무교육 · ROS2 프로젝트의 기초",
+    "category": "offline",
+    "categoryLabel": "오프라인교육",
+    "year": "2024",
+    "date": "2024-04",
+    "client": "부산소프트웨어마이스터고 · 사전직무교육",
+    "image": "assets/img/projects/busan-ros2-course-2024/turtlebot-assembly.webp",
+    "detailPage": "busan-ros2-course-2024.html",
+    "summary": "노드 통신, 도형 그리기, 기체 거리 유지와 파라미터. 프로젝트를 준비하는 ROS2 기초 실습을 소개합니다.",
+    "description": "노드 통신과 turtlesim에서 TurtleBot3 거리 유지, 파라미터 설정까지. 2024년 부산소프트웨어마이스터고 사전직무교육의 ROS2 수업 기록과 예제를 소개합니다.",
+    "services": [
+      "ROS2 사전직무교육",
+      "turtlesim·TurtleBot3 실습",
+      "파라미터·실행 구성"
+    ],
+    "outcomes": [
+      "날짜별 수업 기록",
+      "실제 코드 기반 설명 도해",
+      "후속 팀 프로젝트 연결"
+    ]
   }
 ]
