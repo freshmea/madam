@@ -20,3 +20,11 @@
 .ku-series a span{color:#9a3412;font-size:.76rem}
 .ku-series a:hover,.ku-series a[aria-current=page]{background:#fff7ed;border-color:#c2410c;color:#9a3412}
 @media(max-width:680px){.ku-series{padding:1.2rem}.ku-series>div{grid-template-columns:repeat(2,minmax(0,1fr))}.ku-series a{padding:.75rem .65rem;font-size:.84rem}.c-days{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.lesson-comparison{margin:3rem 0}
+.lesson-comparison h2{font-size:1.5rem;font-weight:800;margin-bottom:1rem}
+.comparison-scroll{overflow-x:auto;border:1px solid #d6d3d1;border-radius:.6rem}
+.lesson-comparison table{width:100%;border-collapse:collapse;min-width:600px;font-size:.95rem;line-height:1.8}
+.lesson-comparison th,.lesson-comparison td{padding:1rem;text-align:left;vertical-align:top;border-bottom:1px solid #e7e5e4}
+.lesson-comparison th{background:#292524;color:#fff}
+.lesson-comparison td:first-child{font-weight:750;width:20%;background:#fff7ed}
+.lesson-comparison td{width:40%}

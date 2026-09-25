@@ -582,5 +582,115 @@
       "설명 도해 4장"
     ],
     "date": "2025-06"
+  },
+  {
+    "id": "ku-project-1-2025",
+    "title": "첫 번째 프로젝트, 센서의 동작을 서비스의 흐름으로",
+    "category": "project",
+    "categoryLabel": "프로젝트",
+    "year": "2025",
+    "client": "고려대학교 세종캠퍼스",
+    "image": "assets/img/projects/ku-project-1-2025/hero-illustration.webp",
+    "detailPage": "ku-project-1-2025.html",
+    "summary": "2025.03.25–03.31 · 교육생 프로젝트 기록 · 과정 감독·지도 최수길",
+    "description": "개발 과정과 세 가지 구현 사례를 운영 기록·기술서·발표자료에 근거해 정리했습니다.",
+    "services": [
+      "과정 감독",
+      "기술 지도",
+      "프로젝트 검토"
+    ],
+    "outcomes": [
+      "장치·프로그램 통합",
+      "기술 문서·발표 기록"
+    ],
+    "date": "2025-03"
+  },
+  {
+    "id": "ku-project-2-2025",
+    "title": "두 번째 프로젝트, 여러 프로그램의 상태를 맞추기",
+    "category": "project",
+    "categoryLabel": "프로젝트",
+    "year": "2025",
+    "client": "고려대학교 세종캠퍼스",
+    "image": "assets/img/projects/ku-project-2-2025/hero-illustration.webp",
+    "detailPage": "ku-project-2-2025.html",
+    "summary": "2025.05.16–05.26 · 교육생 프로젝트 기록 · 과정 감독·지도 최수길",
+    "description": "개발 과정과 세 가지 구현 사례를 운영 기록·기술서·발표자료에 근거해 정리했습니다.",
+    "services": [
+      "과정 감독",
+      "기술 지도",
+      "프로젝트 검토"
+    ],
+    "outcomes": [
+      "장치·프로그램 통합",
+      "기술 문서·발표 기록"
+    ],
+    "date": "2025-05"
+  },
+  {
+    "id": "ku-final-project-2025",
+    "title": "최종 프로젝트, 영상과 AI를 서비스의 동작으로 연결하기",
+    "category": "project",
+    "categoryLabel": "프로젝트",
+    "year": "2025",
+    "client": "고려대학교 세종캠퍼스",
+    "image": "assets/img/projects/ku-final-project-2025/hero-illustration.webp",
+    "detailPage": "ku-final-project-2025.html",
+    "summary": "2025.06.25–07.15 · 교육생 프로젝트 기록 · 과정 감독·지도 최수길",
+    "description": "개발 과정과 세 가지 구현 사례를 운영 기록·기술서·발표자료에 근거해 정리했습니다.",
+    "services": [
+      "과정 감독",
+      "기술 지도",
+      "프로젝트 검토"
+    ],
+    "outcomes": [
+      "장치·프로그램 통합",
+      "기술 문서·발표 기록"
+    ],
+    "date": "2025-07"
+  },
+  {
+    "id": "ku-pywebview-2026",
+    "title": "2026년의 변화: Python에서 웹 화면을 가진 데스크톱 앱으로",
+    "category": "offline",
+    "categoryLabel": "오프라인교육",
+    "year": "2026",
+    "client": "고려대학교 세종캠퍼스",
+    "image": "assets/img/projects/ku-pywebview-2026/teacher-api-structure.webp",
+    "detailPage": "ku-pywebview-2026.html",
+    "summary": "pywebview · Flask · SSE · Python API 브리지",
+    "description": "2025년과 비교해 실제 수업과 프로젝트 조건에서 달라진 부분을 정리했습니다.",
+    "services": [
+      "기술 교육",
+      "커리큘럼 설계",
+      "프로젝트 지도"
+    ],
+    "outcomes": [
+      "연결 구조 이해",
+      "수업·예제·설계 조건 대조"
+    ],
+    "date": "2026-05"
+  },
+  {
+    "id": "ku-iot-architecture-2026",
+    "title": "2026년의 변화: MQTT를 앞당기고 IoT 프로젝트의 연결 규칙을 명시하다",
+    "category": "offline",
+    "categoryLabel": "오프라인교육",
+    "year": "2026",
+    "client": "고려대학교 세종캠퍼스",
+    "image": "assets/img/projects/ku-iot-architecture-2026/hero-illustration.webp",
+    "detailPage": "ku-iot-architecture-2026.html",
+    "summary": "MQTT · Pico 2W · Collector · 공통 이벤트 · 재현 문서",
+    "description": "2025년과 비교해 실제 수업과 프로젝트 조건에서 달라진 부분을 정리했습니다.",
+    "services": [
+      "기술 교육",
+      "커리큘럼 설계",
+      "프로젝트 지도"
+    ],
+    "outcomes": [
+      "연결 구조 이해",
+      "수업·예제·설계 조건 대조"
+    ],
+    "date": "2026-06"
   }
 ]
