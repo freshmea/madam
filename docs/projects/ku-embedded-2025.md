@@ -82,9 +82,13 @@ ch10_4_eeprom_temp.c는 여러 주변장치를 연결한 수업 예제의 구조
 
 ## 시각자료
 
-수업 기록과 강사 예제에 근거한 직접 제작 SVG 도해. 실제 수업 사진 및 교육생 산출물이 아님.
+사용자가 제공한 AI 생성 설명 이미지. 실제 수업 사진이나 교육생 산출물이 아님.
 
-- ![embedded-board](../../assets/img/projects/ku-2025-visuals/embedded-board.svg)
-- ![embedded-input](../../assets/img/projects/ku-2025-visuals/embedded-input.svg)
-- ![embedded-timer](../../assets/img/projects/ku-2025-visuals/embedded-timer.svg)
-- ![embedded-data-flow](../../assets/img/projects/ku-2025-visuals/embedded-data-flow.svg)
+- ![board](../../assets/img/projects/ku-embedded-2025/embedded-01-board.png)
+  보드와 부품의 외형·배선은 개념적 표현이며, 실제 ATmega128 실습 보드의 핀 배치나 결선도가 아닙니다.
+- ![input](../../assets/img/projects/ku-embedded-2025/embedded-02-input.png)
+  파형은 접점 흔들림을 하나의 입력 이벤트로 처리하는 개념을 표현한 것으로, 실제 측정 파형이 아닙니다.
+- ![timer](../../assets/img/projects/ku-embedded-2025/embedded-03-timer.png)
+  LED 밝기, 부저 소리, 서보 위치의 제어 방식을 비교한 개념도입니다. 실제 설정값과 동작은 각 장치와 수업 예제를 기준으로 확인합니다.
+- ![data-flow](../../assets/img/projects/ku-embedded-2025/embedded-04-data-flow.png)
+  그림의 저장·읽기 화살표 방향은 실제 데이터 흐름과 반대로 표현되어 있습니다. 저장은 MCU에서 EEPROM으로, 읽기는 EEPROM에서 MCU로 전달됩니다. 타이머는 MCU 내부 기능이며, 화면의 시각·측정값은 설명용 예시입니다.
