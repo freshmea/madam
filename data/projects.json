@@ -406,7 +406,7 @@
     "categoryLabel": "오프라인교육",
     "year": "2025",
     "client": "고려대학교 세종캠퍼스",
-    "image": "assets/img/projects/ku-2025-visuals/c-workbench.svg",
+    "image": "assets/img/projects/ku-c-programming-2025/c-01-workbench.png",
     "detailPage": "ku-c-programming-2025.html",
     "summary": "2025.03.04–03.17. 개발 환경부터 포인터·MySQL·CMake, 볼링 종합 실습까지 이어진 장기 과정의 첫 과목.",
     "description": "10일의 실제 수업 기록으로 살펴보는 C 프로그래밍 기초와 응용. 날짜별 학습 흐름과 실습 지도, 참고 자료를 담았습니다.",

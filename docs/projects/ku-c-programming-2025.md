@@ -76,9 +76,11 @@ CMake는 문법 수업이 끝난 뒤 따로 소개하는 도구가 아니라 MyS
 
 ## 시각자료
 
-수업 기록과 강사 예제에 근거한 직접 제작 SVG 도해. 실제 수업 사진 및 교육생 산출물이 아님.
+사용자가 수업 설명용 프롬프트로 제작해 제공한 AI 생성 이미지 4장. 실제 수업 사진이나 교육생 산출물이 아님.
 
-- ![c-workbench](../../assets/img/projects/ku-2025-visuals/c-workbench.svg)
-- ![c-build-cycle](../../assets/img/projects/ku-2025-visuals/c-build-cycle.svg)
-- ![c-memory](../../assets/img/projects/ku-2025-visuals/c-memory.svg)
-- ![c-applications](../../assets/img/projects/ku-2025-visuals/c-applications.svg)
+- ![c-01-workbench](../../assets/img/projects/ku-c-programming-2025/c-01-workbench.png)
+- ![c-02-build-cycle](../../assets/img/projects/ku-c-programming-2025/c-02-build-cycle.png)
+- ![c-03-memory](../../assets/img/projects/ku-c-programming-2025/c-03-memory.png)
+- ![c-04-applications](../../assets/img/projects/ku-c-programming-2025/c-04-applications.png)
+
+배열 그림은 int arr[4] = {10,20,30,40}; int *p = arr; 상황. 서로 다른 모양도 동일한 int형 원소를 뜻하며 배열과 포인터 변수를 동일시하지 않음. 종합 실습 그림의 GUI와 정보 항목은 개념적 표현.
