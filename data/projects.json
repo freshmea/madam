@@ -830,5 +830,28 @@
       "실제 코드 기반 설명 도해",
       "후속 팀 프로젝트 연결"
     ]
+  },
+  {
+    "id": "ku-iot-bigdata-course-2024",
+    "title": "고려대 세종 IoT·빅데이터 교육 · 저장에서 분석까지",
+    "category": "offline",
+    "categoryLabel": "오프라인교육",
+    "year": "2024",
+    "date": "2024-06",
+    "client": "고려대 세종캠퍼스 · IoT·빅데이터",
+    "image": "assets/img/projects/ku-iot-bigdata-course-2024/linear-regression.png",
+    "detailPage": "ku-iot-bigdata-course-2024.html",
+    "summary": "SQL·C/C++에서 Python 통계·시각화와 IoT 장치까지. 수업 일지, 코드와 재실행 그래프로 살펴봅니다.",
+    "description": "데이터베이스와 C/C++, 영상 처리, Python 데이터 분석에서 IoT 장치 설정까지. 2024년 고려대 세종 교육의 수업 기록과 실제 예제로 살펴보는 학습 흐름입니다.",
+    "services": [
+      "데이터베이스·프로그래밍",
+      "데이터 분석·시각화",
+      "IoT 활용 교육"
+    ],
+    "outcomes": [
+      "여섯 주제의 수업 기록",
+      "설명 그림 7개",
+      "예제 코드와 출처 연결"
+    ]
   }
 ]

@@ -1,0 +1,60 @@
+[
+  {
+    "file": "assets/img/projects/ku-iot-bigdata-course-2024/learning-flow.svg",
+    "caption": "데이터를 저장하고, 해석하고, 장치와 연결하기",
+    "width": 1200,
+    "height": 480,
+    "source": "README 2024-02-22~06-14",
+    "kind": "편집 도해"
+  },
+  {
+    "file": "assets/img/projects/ku-iot-bigdata-course-2024/table-relations.svg",
+    "caption": "세 테이블을 키로 연결하는 데이터베이스",
+    "width": 1200,
+    "height": 480,
+    "source": "mysql/create_table.sql",
+    "kind": "편집 도해"
+  },
+  {
+    "file": "assets/img/projects/ku-iot-bigdata-course-2024/image-processing.svg",
+    "caption": "영상에서 필요한 정보를 얻는 단계",
+    "width": 1200,
+    "height": 480,
+    "source": "README 2024-05-03~08",
+    "kind": "편집 도해"
+  },
+  {
+    "file": "assets/img/projects/ku-iot-bigdata-course-2024/python-structure.svg",
+    "caption": "스크립트에서 재사용 가능한 코드로",
+    "width": 1200,
+    "height": 480,
+    "source": "README 2024-05-21~24",
+    "kind": "편집 도해"
+  },
+  {
+    "file": "assets/img/projects/ku-iot-bigdata-course-2024/iot-loop.svg",
+    "caption": "장치의 입력을 데이터 활용으로 이어 보기",
+    "width": 1200,
+    "height": 480,
+    "source": "README 2024-05-31 및 06-14",
+    "kind": "편집 도해"
+  },
+  {
+    "file": "assets/img/projects/ku-iot-bigdata-course-2024/stacked-bars.png",
+    "caption": "예제 데이터를 누적 막대그래프로 비교하기",
+    "width": 1600,
+    "height": 960,
+    "source": "pythonData/visualTest/pyplotBar.py",
+    "kind": "원본 예제 재실행",
+    "execution": "2026-09-26; Agg backend, 10x6 inches/160 dpi, tight_layout, numpy seed=24; source data and computations unchanged"
+  },
+  {
+    "file": "assets/img/projects/ku-iot-bigdata-course-2024/linear-regression.png",
+    "caption": "관측값과 선형회귀 예측선 비교하기",
+    "width": 1600,
+    "height": 960,
+    "source": "pythonML/maeRmseR2.py",
+    "kind": "원본 예제 재실행",
+    "execution": "2026-09-26; Agg backend, 10x6 inches/160 dpi, tight_layout, numpy seed=24; source data and computations unchanged"
+  }
+]
