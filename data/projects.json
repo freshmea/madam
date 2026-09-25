@@ -429,7 +429,7 @@
     "categoryLabel": "오프라인교육",
     "year": "2025",
     "client": "고려대학교 세종캠퍼스",
-    "image": "assets/img/projects/ku-2025-visuals/cpp-overview.svg",
+    "image": "assets/img/projects/ku-modern-cpp-2025/cpp-01-overview.png",
     "detailPage": "ku-modern-cpp-2025.html",
     "summary": "2025.04.21–04.25. 직접 강의한 STL·모던 C++ 후반 수업. 파일 처리·스마트 포인터·여러 작업의 실행을 연결합니다.",
     "description": "날짜별 수업·실습과 감독 역할을 구분해 기록한 C++ 후반 과정.",

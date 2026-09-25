@@ -77,3 +77,15 @@ sort_fstream.cpp에서 파일을 읽는 예제를 작성한 뒤 sort_fstream2.cp
 - ![cpp-data](../../assets/img/projects/ku-2025-visuals/cpp-data.svg)
 - ![cpp-ownership](../../assets/img/projects/ku-2025-visuals/cpp-ownership.svg)
 - ![cpp-concurrency](../../assets/img/projects/ku-2025-visuals/cpp-concurrency.svg)
+## 시각자료
+
+사용자가 제공한 AI 생성 설명 이미지. 실제 수업 사진이나 교육생 산출물이 아님.
+
+- ![overview](../../assets/img/projects/ku-modern-cpp-2025/cpp-01-overview.png)
+  화면의 코드는 개념 표현입니다. std::transform 호출에는 출력 위치가 필요하므로 그림의 코드를 그대로 실행할 수는 없습니다. set은 정렬 순서를 유지하지만 unordered_set은 정렬을 보장하지 않으며, 여러 작업의 동시 실행이 항상 성능 향상을 뜻하지는 않습니다.
+- ![data](../../assets/img/projects/ku-modern-cpp-2025/cpp-02-data.png)
+  자료구조와 처리 단계의 관계를 설명한 그림입니다. 아래 입력에는 없는 값 40이 결과에 포함되어 있어 실제 필터링·정렬 결과로 해석하면 안 됩니다. 필터링과 정렬만으로 새로운 값이 추가되지는 않습니다.
+- ![ownership](../../assets/img/projects/ku-modern-cpp-2025/cpp-03-ownership.png)
+  단독 소유·공유 소유·비소유 관찰은 각각 unique_ptr·shared_ptr·weak_ptr의 역할에 대응합니다. weak_ptr는 객체 수명을 연장하지 않으며, 접근할 때 lock()으로 얻은 shared_ptr가 유효한지 확인합니다.
+- ![concurrency](../../assets/img/projects/ku-modern-cpp-2025/cpp-04-concurrency.png)
+  인물은 특정 교육생을 표현하지 않은 가상 캐릭터입니다. 출입구는 같은 mutex로 보호하는 임계 구역의 상호 배제를 나타내며, 중앙 저장소는 공유 자원의 비유입니다. 공유 자원 접근 제어와 작업 완료 대기·결과 수신은 별개의 역할입니다.
