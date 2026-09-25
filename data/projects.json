@@ -452,7 +452,7 @@
     "categoryLabel": "오프라인교육",
     "year": "2025",
     "client": "고려대학교 세종캠퍼스",
-    "image": "assets/img/projects/ku-2025-visuals/pi-workbench.svg",
+    "image": "assets/img/projects/ku-raspberry-pi-2025/pi-01-workbench.png",
     "detailPage": "ku-raspberry-pi-2025.html",
     "summary": "2025.04.01–04.07. OS·SSH부터 프로세스·서비스, 커널 드라이버, 센서 연동과 셸 자동화까지.",
     "description": "실제 수업 기록으로 살펴보는 라즈베리파이·리눅스 시스템 프로그래밍. 장치 제어와 프로그램 운영의 연결을 담았습니다.",

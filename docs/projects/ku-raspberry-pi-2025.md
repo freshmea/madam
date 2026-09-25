@@ -74,7 +74,13 @@ cron과 crontab을 이용한 자동 실행도 설명했다. 명령을 직접 입
 
 ## 시각자료
 
-- ![pi-workbench](../../assets/img/projects/ku-2025-visuals/pi-workbench.svg)
-- ![pi-layers](../../assets/img/projects/ku-2025-visuals/pi-layers.svg)
-- ![pi-sensors](../../assets/img/projects/ku-2025-visuals/pi-sensors.svg)
-- ![pi-automation](../../assets/img/projects/ku-2025-visuals/pi-automation.svg)
+사용자가 제공한 AI 생성 설명 이미지. 실제 수업 사진이나 교육생 산출물이 아님.
+
+- ![workbench](../../assets/img/projects/ku-raspberry-pi-2025/pi-01-workbench.png)
+  장비 배치와 배선, 화면의 코드·주소·측정값은 설명용 예시이며 실제 수업 현장의 기록이나 결선도가 아닙니다.
+- ![layers](../../assets/img/projects/ku-raspberry-pi-2025/pi-02-layers.png)
+  리눅스의 계층 구조를 단순화한 그림입니다. udev는 사용자 공간에서 장치 이벤트와 장치 노드를 관리하는 도구이며, 그림 속 커널 공간 표기와는 구분해야 합니다.
+- ![sensors](../../assets/img/projects/ku-raspberry-pi-2025/pi-03-sensors.png)
+  센서의 통신 방식은 모델에 따라 다릅니다. 그림 속 DHT 계열 형태의 온습도 센서를 I2C 센서로 단정할 수 없으며 실제 실습 센서의 사양을 확인해야 합니다. I2C는 디지털 통신이고, 7세그먼트 숫자는 세그먼트 패턴으로 표시하며 PWM 자체가 숫자를 인코딩하는 것은 아닙니다.
+- ![automation](../../assets/img/projects/ku-raspberry-pi-2025/pi-04-automation.png)
+  서비스 이름·상태 화면·로그·측정값은 설명용 예시입니다. 부팅 시 자동 실행은 서비스 등록과 활성화 설정이 필요하며, 예약 실행은 별도의 일정 설정에 따릅니다.
