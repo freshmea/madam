@@ -1,0 +1,42 @@
+[
+  {
+    "file": "assets/img/projects/kdta-ros2-projects-2024/ascii-robot.webp",
+    "source": "ASCII_결과보고서.hwp",
+    "stream": "BinData/BIN0003.bmp",
+    "caption": "ASCII 팀의 TurtleBot 주행 플랫폼",
+    "width": 1050,
+    "height": 1400
+  },
+  {
+    "file": "assets/img/projects/kdta-ros2-projects-2024/multi-track.webp",
+    "source": "로스경험자들_프로젝트형 일경험 결과보고서.hwp",
+    "stream": "BinData/BIN0002.PNG",
+    "caption": "로스경험자들 팀의 실물 로봇과 주행 공간",
+    "width": 844,
+    "height": 1242
+  },
+  {
+    "file": "assets/img/projects/kdta-ros2-projects-2024/multi-simulation.webp",
+    "source": "로스경험자들_프로젝트형 일경험 결과보고서.hwp",
+    "stream": "BinData/BIN0003.PNG",
+    "caption": "로스경험자들 팀의 시뮬레이션 실습 화면",
+    "width": 276,
+    "height": 360
+  },
+  {
+    "file": "assets/img/projects/kdta-ros2-projects-2024/voice-system.webp",
+    "source": "[미래내일청년팀]미래내일일경험_프로젝트_결과보고서_결과,도전과제추가.hwp",
+    "stream": "BinData/BIN0002.png",
+    "caption": "미래내일청년 팀의 음성 대화 시스템 구성",
+    "width": 746,
+    "height": 486
+  },
+  {
+    "file": "assets/img/projects/kdta-ros2-projects-2024/voice-robot.webp",
+    "source": "[미래내일청년팀]미래내일일경험_프로젝트_결과보고서_결과,도전과제추가.hwp",
+    "stream": "BinData/BIN0008.jpg",
+    "caption": "미래내일청년 팀의 대화 로봇 기체",
+    "width": 1050,
+    "height": 1400
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "file": "assets/img/projects/chungnam-aiot-projects-2024/logistics-layout.webp",
+    "source": "자율로봇개발 1조 최종프로젝트.pptx",
+    "position": 8,
+    "caption": "물류 자동화 실습 장치의 전체 배치",
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "file": "assets/img/projects/chungnam-aiot-projects-2024/logistics-marker.webp",
+    "source": "자율로봇개발 1조 최종프로젝트.pptx",
+    "position": 9,
+    "caption": "로봇팔 카메라의 마커 인식과 제어 화면",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "file": "assets/img/projects/chungnam-aiot-projects-2024/rescue-hardware.webp",
+    "source": "자율로봇개발 2조 최종프로젝트.pptx",
+    "position": 8,
+    "caption": "사고 구조 로봇의 카메라·마이크·라이다 구성",
+    "width": 1018,
+    "height": 451
+  },
+  {
+    "file": "assets/img/projects/chungnam-aiot-projects-2024/rescue-sequence.webp",
+    "source": "자율로봇개발 2조 최종프로젝트.pptx",
+    "position": 6,
+    "caption": "소리 탐지와 사람 인식을 연결한 동작 순서",
+    "width": 1005,
+    "height": 623
+  },
+  {
+    "file": "assets/img/projects/chungnam-aiot-projects-2024/rescue-simulation.webp",
+    "source": "자율로봇개발 2조 최종프로젝트.pptx",
+    "position": 20,
+    "caption": "충전 위치로 이동하는 Gazebo 시뮬레이션",
+    "width": 1348,
+    "height": 673
+  },
+  {
+    "file": "assets/img/projects/chungnam-aiot-projects-2024/corobo-start.webp",
+    "source": "3조 발표 영상.mp4",
+    "position": "00:01",
+    "caption": "두 로봇이 물체 양쪽에 자리한 시연 장면",
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "file": "assets/img/projects/chungnam-aiot-projects-2024/corobo-lift.webp",
+    "source": "3조 발표 영상.mp4",
+    "position": "00:30",
+    "caption": "두 로봇팔이 물체를 함께 들어 올린 시연 장면",
+    "width": 1280,
+    "height": 720
+  }
+]

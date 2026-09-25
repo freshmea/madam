@@ -1,0 +1,106 @@
+[
+  {
+    "file": "assets/img/projects/chungnam-aiot-course-2024/mapping-stages.webp",
+    "caption": "로봇이 이동하며 지도를 채워 가는 과정",
+    "description": "SLAM 교안의 네 단계 예시입니다. 이동한 영역이 지도에 누적되는 모습을 보여 줍니다. 교안 설명용 화면으로, 해당 수업 현장을 촬영한 사진은 아닙니다.",
+    "source": "pptpdf/ROS2/교안_ROS2 터틀봇_바인드소프트_7_슬램네비게이션.pptx",
+    "slide": 4,
+    "member": "ppt/media/image9.png",
+    "sourceUrl": "https://github.com/freshmea/aiot_2024_robot/blob/62274f55e624ef0102e797e23e2adf8544b967a7/pptpdf/ROS2/%EA%B5%90%EC%95%88_ROS2%20%ED%84%B0%ED%8B%80%EB%B4%87_%EB%B0%94%EC%9D%B8%EB%93%9C%EC%86%8C%ED%94%84%ED%8A%B8_7_%EC%8A%AC%EB%9E%A8%EB%84%A4%EB%B9%84%EA%B2%8C%EC%9D%B4%EC%85%98.pptx",
+    "width": 1212,
+    "height": 541
+  },
+  {
+    "file": "assets/img/projects/chungnam-aiot-course-2024/python-exceptions.webp",
+    "caption": "입력 처리에서 예외를 다루는 구조",
+    "description": "try·except·else·finally의 역할을 설명한 Python 교안입니다. 함수와 예외 처리 실습에서 코드의 실행 흐름을 함께 살폈습니다.",
+    "source": "pptpdf/Python/파이썬_06_01.pptx",
+    "slide": 19,
+    "member": "ppt/media/image26.png",
+    "sourceUrl": "https://github.com/freshmea/aiot_2024_robot/blob/62274f55e624ef0102e797e23e2adf8544b967a7/pptpdf/Python/%ED%8C%8C%EC%9D%B4%EC%8D%AC_06_01.pptx",
+    "width": 607,
+    "height": 225
+  },
+  {
+    "file": "assets/img/projects/chungnam-aiot-course-2024/hough-voting.webp",
+    "caption": "영상의 점들을 직선의 후보로 모으기",
+    "description": "OpenCV 교안의 허프 변환 설명도입니다. 영상의 점이 어떤 직선에 속하는지 후보를 누적하는 과정을 보여 줍니다.",
+    "source": "pptpdf/OpenCV/Open_cv_09_에지검출과 응용.pptx",
+    "slide": 11,
+    "member": "ppt/media/image20.png",
+    "sourceUrl": "https://github.com/freshmea/aiot_2024_robot/blob/62274f55e624ef0102e797e23e2adf8544b967a7/pptpdf/OpenCV/Open_cv_09_%EC%97%90%EC%A7%80%EA%B2%80%EC%B6%9C%EA%B3%BC%20%EC%9D%91%EC%9A%A9.pptx",
+    "width": 1600,
+    "height": 772
+  },
+  {
+    "file": "assets/img/projects/chungnam-aiot-course-2024/navigation-map.webp",
+    "caption": "지도와 장애물 주변의 이동 비용 표현",
+    "description": "내비게이션 교안의 지도·비용지도 예시입니다. 단순한 공간 지도 위에 장애물 주변을 고려하는 정보가 더해집니다.",
+    "source": "pptpdf/ROS2/교안_ROS2 터틀봇_바인드소프트_7_슬램네비게이션.pptx",
+    "slide": 7,
+    "member": "ppt/media/image11.png",
+    "sourceUrl": "https://github.com/freshmea/aiot_2024_robot/blob/62274f55e624ef0102e797e23e2adf8544b967a7/pptpdf/ROS2/%EA%B5%90%EC%95%88_ROS2%20%ED%84%B0%ED%8B%80%EB%B4%87_%EB%B0%94%EC%9D%B8%EB%93%9C%EC%86%8C%ED%94%84%ED%8A%B8_7_%EC%8A%AC%EB%9E%A8%EB%84%A4%EB%B9%84%EA%B2%8C%EC%9D%B4%EC%85%98.pptx",
+    "width": 1530,
+    "height": 747
+  },
+  {
+    "file": "assets/img/projects/chungnam-aiot-course-2024/navigation-inflation.webp",
+    "caption": "장애물 주변 영역 설정에 따른 차이",
+    "description": "같은 교안에서 inflation radius를 비교한 그림입니다. 설정에 따라 장애물 주변의 비용 영역이 달라지는 개념을 설명합니다.",
+    "source": "pptpdf/ROS2/교안_ROS2 터틀봇_바인드소프트_7_슬램네비게이션.pptx",
+    "slide": 9,
+    "member": "ppt/media/image13.png",
+    "sourceUrl": "https://github.com/freshmea/aiot_2024_robot/blob/62274f55e624ef0102e797e23e2adf8544b967a7/pptpdf/ROS2/%EA%B5%90%EC%95%88_ROS2%20%ED%84%B0%ED%8B%80%EB%B4%87_%EB%B0%94%EC%9D%B8%EB%93%9C%EC%86%8C%ED%94%84%ED%8A%B8_7_%EC%8A%AC%EB%9E%A8%EB%84%A4%EB%B9%84%EA%B2%8C%EC%9D%B4%EC%85%98.pptx",
+    "width": 871,
+    "height": 482
+  },
+  {
+    "file": "assets/img/projects/chungnam-aiot-course-2024/pico-servo.webp",
+    "caption": "Pico 보드와 서보모터를 연결한 실습 장치",
+    "description": "micro-ROS 서보 교안의 원본 사진입니다. 작은 제어 보드의 출력이 모터 움직임으로 이어지는 하드웨어 구성을 보여 줍니다.",
+    "source": "pptpdf/ROS2/교안_ROS2 터틀봇_바인드소프트_10_microros_pico_servo.pptx",
+    "slide": 2,
+    "member": "ppt/media/image8.png",
+    "sourceUrl": "https://github.com/freshmea/aiot_2024_robot/blob/62274f55e624ef0102e797e23e2adf8544b967a7/pptpdf/ROS2/%EA%B5%90%EC%95%88_ROS2%20%ED%84%B0%ED%8B%80%EB%B4%87_%EB%B0%94%EC%9D%B8%EB%93%9C%EC%86%8C%ED%94%84%ED%8A%B8_10_microros_pico_servo.pptx",
+    "width": 1067,
+    "height": 604
+  },
+  {
+    "file": "assets/img/projects/chungnam-aiot-course-2024/pico-rqt.webp",
+    "caption": "rqt에서 토픽 값을 보내는 제어 화면",
+    "description": "같은 교안의 토픽 발행 화면입니다. 값을 바꾸어 보내고 서보 동작을 확인하는 실습 흐름을 설명합니다.",
+    "source": "pptpdf/ROS2/교안_ROS2 터틀봇_바인드소프트_10_microros_pico_servo.pptx",
+    "slide": 9,
+    "member": "ppt/media/image16.png",
+    "sourceUrl": "https://github.com/freshmea/aiot_2024_robot/blob/62274f55e624ef0102e797e23e2adf8544b967a7/pptpdf/ROS2/%EA%B5%90%EC%95%88_ROS2%20%ED%84%B0%ED%8B%80%EB%B4%87_%EB%B0%94%EC%9D%B8%EB%93%9C%EC%86%8C%ED%94%84%ED%8A%B8_10_microros_pico_servo.pptx",
+    "width": 373,
+    "height": 190
+  },
+  {
+    "file": "assets/img/projects/chungnam-aiot-course-2024/topic-flow.svg",
+    "caption": "발행자·토픽·구독자가 연결되는 방식",
+    "description": "원본 수업 기록과 발행·구독 예제를 바탕으로 재구성한 개념도입니다. 실제 실행 화면과 구분해 설명합니다.",
+    "source": "README 2024-10-18~21 및 simple_ros 예제",
+    "sourceUrl": "https://github.com/freshmea/aiot_2024_robot/blob/62274f55e624ef0102e797e23e2adf8544b967a7/aiot_ws/src/simple_ros/simple_ros/hello_pub.py",
+    "width": 1200,
+    "height": 480
+  },
+  {
+    "file": "assets/img/projects/chungnam-aiot-projects-2024/logistics-layout.webp",
+    "source": "자율로봇개발 1조 최종프로젝트.pptx",
+    "position": 8,
+    "caption": "물류 자동화 실습 장치의 전체 배치",
+    "width": 1280,
+    "height": 720,
+    "description": "교육생 1조 최종 발표자료의 물류 자동화 장치입니다. 앞의 교안 예시와 구분되는 팀 프로젝트 결과이며, 세 팀의 개발 과정은 별도 글에서 소개합니다.",
+    "sourceUrl": "chungnam-aiot-projects-2024.html"
+  },
+  {
+    "file": "assets/img/projects/chungnam-aiot-course-2024/learning-map.svg",
+    "caption": "기초 문법에서 하드웨어까지 이어지는 학습 흐름",
+    "description": "날짜별 수업 기록을 재구성한 기존 요약도입니다.",
+    "source": "README 2024-09-19~11-22",
+    "width": 1200,
+    "height": 760
+  }
+]

@@ -692,5 +692,120 @@
       "수업·예제·설계 조건 대조"
     ],
     "date": "2026-06"
+  },
+  {
+    "id": "chungnam-aiot-projects-2024",
+    "title": "충남 AIoT · 세 팀의 로봇 협업 프로젝트",
+    "category": "project",
+    "categoryLabel": "프로젝트",
+    "year": "2024",
+    "date": "2024-12",
+    "client": "대한상공회의소 충남인력개발원",
+    "image": "assets/img/projects/chungnam-aiot-projects-2024/corobo-lift.webp",
+    "detailPage": "chungnam-aiot-projects-2024.html",
+    "summary": "물류 자동화, 사고 구조, 협동 운반. 세 팀이 센서와 로봇 제어를 하나의 작업으로 연결한 과정.",
+    "description": "2024년 11월 25일~12월 19일 충남인력개발원. 물류 자동화, 사고 구조, 협동 운반으로 이어진 교육생 세 팀의 제작과 시연을 소개합니다.",
+    "services": [
+      "프로젝트 지도·멘토링",
+      "ROS2·센서·로봇 제어",
+      "팀별 결과 발표"
+    ],
+    "outcomes": [
+      "세 팀의 계획·구현·시연 소개",
+      "원본 발표·시연 이미지",
+      "구현 결과와 후속 과제 구분"
+    ]
+  },
+  {
+    "id": "busan-work-experience-projects-2024",
+    "title": "부산소프트웨어마이스터고 · 여섯 팀의 일경험 프로젝트",
+    "category": "project",
+    "categoryLabel": "프로젝트",
+    "year": "2024",
+    "date": "2024-07",
+    "client": "부산소프트웨어마이스터고 · 미래내일 일경험",
+    "image": "assets/img/projects/busan-work-experience-projects-2024/vimo-demo.webp",
+    "detailPage": "busan-work-experience-projects-2024.html",
+    "summary": "모션 제어 주방, 배달 로봇, 로봇 보드게임과 세 가지 개발 시도. 여섯 팀의 결과와 멘토링을 소개합니다.",
+    "description": "모션으로 움직이는 주방, 학교용 배달 로봇, 게임판 위 작은 로봇까지. 2024년 미래내일 일경험에서 교육생들이 만든 여섯 가지 프로젝트와 멘토링의 기록입니다.",
+    "services": [
+      "프로젝트 멘토링",
+      "로봇·IoT·데이터 활용",
+      "팀별 결과 피드백"
+    ],
+    "outcomes": [
+      "여섯 팀의 개발 과정과 결과",
+      "원본 결과보고서 이미지",
+      "완성 범위와 다음 과제 구분"
+    ]
+  },
+  {
+    "id": "kdta-ros2-projects-2024",
+    "title": "다섯 팀의 ROS2 프로젝트 · 이동에서 음성 대화까지",
+    "category": "project",
+    "categoryLabel": "프로젝트",
+    "year": "2024",
+    "date": "2024-08",
+    "client": "데이터 기술 진흥협회 · 미래내일 일경험",
+    "image": "assets/img/projects/kdta-ros2-projects-2024/multi-track.webp",
+    "detailPage": "kdta-ros2-projects-2024.html",
+    "summary": "목적지 데이터부터 멀티 로봇, 센서와 음성 대화까지. 다섯 팀의 ROS2 개발 과정과 멘토링 기록입니다.",
+    "description": "2024년 미래내일 일경험에서 다섯 팀이 시도한 ROS2 프로젝트. 목적지 데이터, 멀티 로봇, 온도 신호, 상태 표시와 음성 대화를 연결한 개발 과정과 멘토링을 담았습니다.",
+    "services": [
+      "프로젝트 멘토링",
+      "ROS2·OpenCV 기술 지원",
+      "팀별 개발 과정 점검"
+    ],
+    "outcomes": [
+      "다섯 팀의 프로젝트 기록",
+      "원본 결과보고서 이미지",
+      "구현 범위와 후속 과제 구분"
+    ]
+  },
+  {
+    "id": "chungnam-aiot-course-2024",
+    "title": "충남 AIoT 교육 · Python에서 ROS2 로봇 제어까지",
+    "category": "offline",
+    "categoryLabel": "오프라인교육",
+    "year": "2024",
+    "date": "2024-11",
+    "client": "충남인력개발원 · AIoT 자율로봇개발",
+    "image": "assets/img/projects/chungnam-aiot-course-2024/mapping-stages.webp",
+    "detailPage": "chungnam-aiot-course-2024.html",
+    "summary": "Python·OpenCV에서 ROS2 통신과 TurtleBot3 주행, micro-ROS까지. 날짜별 기록과 예제 코드로 살펴보는 교육 과정입니다.",
+    "description": "2024년 충남인력개발원 AIoT 자율로봇개발 과정의 수업 기록. Python과 OpenCV를 바탕으로 ROS2 통신, TurtleBot3 주행, 주변 장치와 로봇팔 실습으로 이어진 학습 흐름을 소개합니다.",
+    "services": [
+      "Python·OpenCV 교육",
+      "ROS2·TurtleBot3 실습",
+      "주변 장치·micro-ROS"
+    ],
+    "outcomes": [
+      "날짜별 수업 기록",
+      "Python·C++ 예제 코드",
+      "교육생 프로젝트로 연결"
+    ]
+  },
+  {
+    "id": "kdta-ros2-course-2024",
+    "title": "데이터 기술 진흥협회 ROS2 교육 · 영상 처리에서 자율주행까지",
+    "category": "offline",
+    "categoryLabel": "오프라인교육",
+    "year": "2024",
+    "date": "2024-08",
+    "client": "데이터 기술 진흥협회 · 로봇 소프트웨어 교육",
+    "image": "assets/img/projects/kdta-ros2-course-2024/learning-map.svg",
+    "detailPage": "kdta-ros2-course-2024.html",
+    "summary": "C++ 영상 처리, ROS2 통신, TurtleBot3 센서 제어와 목적지 순회. 날짜별 기록과 실제 예제 코드로 소개합니다.",
+    "description": "C++ 영상 처리에서 ROS2 노드 통신, TurtleBot3 센서 제어와 목적지 이동까지. 2024년 7~8월 수업 기록과 예제 코드로 살펴보는 로봇 소프트웨어 교육입니다.",
+    "services": [
+      "OpenCV·C++ 실습",
+      "ROS2 통신 프로그래밍",
+      "TurtleBot3·Navigation2"
+    ],
+    "outcomes": [
+      "다섯 단계의 수업 기록",
+      "실제 예제 코드 링크",
+      "관련 프로젝트 사례 연결"
+    ]
   }
 ]
