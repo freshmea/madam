@@ -423,6 +423,29 @@
     "date": "2025-03"
   },
   {
+    "id": "ku-modern-cpp-2025",
+    "title": "고려대 C++ 후반 · 자료 구조에서 동시성까지",
+    "category": "offline",
+    "categoryLabel": "오프라인교육",
+    "year": "2025",
+    "client": "고려대학교 세종캠퍼스",
+    "image": "assets/img/projects/ku-2025-visuals/cpp-overview.svg",
+    "detailPage": "ku-modern-cpp-2025.html",
+    "summary": "2025.04.21–04.25. 직접 강의한 STL·모던 C++ 후반 수업. 파일 처리·스마트 포인터·여러 작업의 실행을 연결합니다.",
+    "description": "날짜별 수업·실습과 감독 역할을 구분해 기록한 C++ 후반 과정.",
+    "services": [
+      "STL·모던 C++",
+      "메모리 소유 관계",
+      "동시성 실습"
+    ],
+    "outcomes": [
+      "날짜별 수업 기록",
+      "스마트 포인터·이동",
+      "스레드·비동기 실습"
+    ],
+    "date": "2025-04"
+  },
+  {
     "id": "ku-raspberry-pi-2025",
     "title": "고려대 라즈베리파이 · 리눅스로 장치를 다루는 5일",
     "category": "offline",
