@@ -467,5 +467,120 @@
       "프로세스·서비스 운영"
     ],
     "date": "2025-04"
+  },
+  {
+    "id": "ku-network-2025",
+    "title": "고려대 TCP/IP · 데이터를 보내는 코드에서 여러 연결을 다루는 서버까지",
+    "category": "offline",
+    "categoryLabel": "오프라인교육",
+    "year": "2025",
+    "client": "고려대학교 세종캠퍼스",
+    "image": "assets/img/projects/ku-network-2025/ku-network-2025-01.svg",
+    "detailPage": "ku-network-2025.html",
+    "summary": "2025.04.28–05.02. IPC · TCP/UDP · select/epoll · 스레드.",
+    "description": "5일의 수업 기록. 날짜별 실습·운영 기록과 강사 예제를 연결했습니다.",
+    "services": [
+      "IPC",
+      "TCP/UDP",
+      "select/epoll"
+    ],
+    "outcomes": [
+      "날짜별 수업 기록",
+      "근거 자료와 예제",
+      "설명 도해 4장"
+    ],
+    "date": "2025-05"
+  },
+  {
+    "id": "ku-python-2025",
+    "title": "고려대 Python · 문법에서 실행 환경과 작은 애플리케이션까지",
+    "category": "offline",
+    "categoryLabel": "오프라인교육",
+    "year": "2025",
+    "client": "고려대학교 세종캠퍼스",
+    "image": "assets/img/projects/ku-python-2025/ku-python-2025-01.svg",
+    "detailPage": "ku-python-2025.html",
+    "summary": "2025.05.07–05.15. Python · C 확장 · 패키지 · Docker · Pygame.",
+    "description": "7일의 수업 기록. 날짜별 실습·운영 기록과 강사 예제를 연결했습니다.",
+    "services": [
+      "Python",
+      "C 확장",
+      "패키지"
+    ],
+    "outcomes": [
+      "날짜별 수업 기록",
+      "근거 자료와 예제",
+      "설명 도해 4장"
+    ],
+    "date": "2025-05"
+  },
+  {
+    "id": "ku-opencv-2025",
+    "title": "고려대 OpenCV · 한 장의 이미지에서 카메라 속 특징을 찾기까지",
+    "category": "offline",
+    "categoryLabel": "오프라인교육",
+    "year": "2025",
+    "client": "고려대학교 세종캠퍼스",
+    "image": "assets/img/projects/ku-opencv-2025/ku-opencv-2025-01.svg",
+    "detailPage": "ku-opencv-2025.html",
+    "summary": "2025.05.27–06.02. C++ · Mat · 필터 · 색상 · ORB.",
+    "description": "5일의 수업 기록. 날짜별 실습·운영 기록과 강사 예제를 연결했습니다.",
+    "services": [
+      "C++",
+      "Mat",
+      "필터"
+    ],
+    "outcomes": [
+      "날짜별 수업 기록",
+      "근거 자료와 예제",
+      "설명 도해 4장"
+    ],
+    "date": "2025-06"
+  },
+  {
+    "id": "ku-machine-learning-2025",
+    "title": "고려대 머신러닝 · 데이터를 나누고 모델의 결과를 읽는 과정",
+    "category": "offline",
+    "categoryLabel": "오프라인교육",
+    "year": "2025",
+    "client": "고려대학교 세종캠퍼스",
+    "image": "assets/img/projects/ku-machine-learning-2025/ku-machine-learning-2025-01.svg",
+    "detailPage": "ku-machine-learning-2025.html",
+    "summary": "2025.06.04–06.12. NumPy · Pandas · scikit-learn · Orange3.",
+    "description": "6일의 기록 · 프로젝트 준비·보충 포함. 날짜별 실습·운영 기록과 강사 예제를 연결했습니다.",
+    "services": [
+      "NumPy",
+      "Pandas",
+      "scikit-learn"
+    ],
+    "outcomes": [
+      "날짜별 수업 기록",
+      "근거 자료와 예제",
+      "설명 도해 4장"
+    ],
+    "date": "2025-06"
+  },
+  {
+    "id": "ku-deep-learning-2025",
+    "title": "고려대 딥러닝 · 학습한 모델을 프로그램의 한 부분으로 연결하기",
+    "category": "offline",
+    "categoryLabel": "오프라인교육",
+    "year": "2025",
+    "client": "고려대학교 세종캠퍼스",
+    "image": "assets/img/projects/ku-deep-learning-2025/ku-deep-learning-2025-01.svg",
+    "detailPage": "ku-deep-learning-2025.html",
+    "summary": "2025.06.13–06.20. TensorFlow/Keras · CNN/RNN · ZeroMQ · 모델 활용.",
+    "description": "6일의 기록 · 첫날 오전 4교시. 날짜별 실습·운영 기록과 강사 예제를 연결했습니다.",
+    "services": [
+      "TensorFlow/Keras",
+      "CNN/RNN",
+      "ZeroMQ"
+    ],
+    "outcomes": [
+      "날짜별 수업 기록",
+      "근거 자료와 예제",
+      "설명 도해 4장"
+    ],
+    "date": "2025-06"
   }
 ]
