@@ -1,5 +1,14 @@
 .c-days{grid-template-columns:repeat(auto-fit,minmax(145px,1fr))}
 .case-prose{overflow-wrap:anywhere}
+.lesson-deep-dive{margin-top:2rem;padding-top:1.6rem;border-top:2px solid #fdba74}
+.lesson-deep-dive h3{font-size:1.25rem;line-height:1.55;font-weight:800;color:#292524;margin:0 0 1rem}
+.lesson-deep-dive .detail-source{font-size:.8rem;color:#78716c;margin-top:1rem}
+.lesson-reading-note{margin:1.5rem 0 2rem;padding:1.2rem 1.5rem;background:#fff7ed;border-left:4px solid #c2410c;line-height:1.8;color:#57534e}
+.lesson-reading-note strong{display:block;color:#9a3412;margin-bottom:.3rem}
+.lesson-reading-note p{font-size:.88rem;margin:0}
+.notebook-figure>a{background:white;padding:1.5rem}
+.notebook-figure img{width:auto;max-width:100%;max-height:580px;margin:auto;object-fit:contain}
+@media(max-width:680px){.notebook-figure>a{padding:.5rem}.lesson-deep-dive h3{font-size:1.1rem}.lesson-reading-note{padding:1rem}}
 .figure-text{margin-top:.8rem;border-top:1px solid #e7e5e4;padding-top:.65rem}
 .figure-text summary{cursor:pointer;color:#9a3412;font-weight:700}
 .figure-text ol{padding-left:1.25rem;list-style:decimal;margin-top:.6rem;color:#57534e}

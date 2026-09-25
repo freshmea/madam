@@ -1,0 +1,138 @@
+[
+  {
+    "file": "assets\\img\\projects\\ku-machine-learning-2025\\fish-scatter.png",
+    "source": "ml_dl_python/a02_fish.ipynb",
+    "cell_index": 4,
+    "output_index": 0,
+    "kind": "saved-notebook-output"
+  },
+  {
+    "file": "assets\\img\\projects\\ku-machine-learning-2025\\linear-regression.png",
+    "source": "ml_dl_python/a07_linear_reg.ipynb",
+    "cell_index": 8,
+    "output_index": 0,
+    "kind": "saved-notebook-output"
+  },
+  {
+    "file": "assets\\img\\projects\\ku-machine-learning-2025\\decision-tree.png",
+    "source": "ml_dl_python/a11_decision_tree.ipynb",
+    "cell_index": 10,
+    "output_index": 0,
+    "kind": "saved-notebook-output"
+  },
+  {
+    "file": "assets\\img\\projects\\ku-machine-learning-2025\\pca-clusters.png",
+    "source": "ml_dl_python/a17_pca.ipynb",
+    "cell_index": 18,
+    "output_index": 0,
+    "kind": "saved-notebook-output"
+  },
+  {
+    "file": "assets\\img\\projects\\ku-deep-learning-2025\\dense-loss.png",
+    "source": "ml_dl_python/a21_keras2.ipynb",
+    "cell_index": 3,
+    "output_index": 0,
+    "kind": "saved-notebook-output"
+  },
+  {
+    "file": "assets\\img\\projects\\ku-deep-learning-2025\\cnn-loss.png",
+    "source": "ml_dl_python/a22_convolustion.ipynb",
+    "cell_index": 8,
+    "output_index": 0,
+    "kind": "saved-notebook-output"
+  },
+  {
+    "file": "assets\\img\\projects\\ku-deep-learning-2025\\sequence-length.png",
+    "source": "ml_dl_python/a23_rnn.ipynb",
+    "cell_index": 11,
+    "output_index": 0,
+    "kind": "saved-notebook-output"
+  },
+  {
+    "file": "assets\\img\\projects\\ku-deep-learning-2025\\lstm-loss.png",
+    "source": "ml_dl_python/a24_lstm_gru.ipynb",
+    "cell_index": 6,
+    "output_index": 0,
+    "kind": "saved-notebook-output"
+  },
+  {
+    "file": "assets/img/projects/ku-network-2025/tcp-byte-stream.svg",
+    "source": "network/tcp_udp/echo_client.c",
+    "kind": "코드 흐름 · 직접 제작 도해"
+  },
+  {
+    "file": "assets/img/projects/ku-network-2025/half-close.svg",
+    "source": "network/tcp_udp/file_server.c",
+    "kind": "코드 흐름 · 직접 제작 도해"
+  },
+  {
+    "file": "assets/img/projects/ku-network-2025/readiness-loop.svg",
+    "source": "network/multiProcess/echo_epollserv.c",
+    "kind": "코드 흐름 · 직접 제작 도해"
+  },
+  {
+    "file": "assets/img/projects/ku-python-2025/gravity-frame-20.png",
+    "source": "python/gravity_pygame/src/gravity/game.py",
+    "kind": "이번 편집에서 재현한 실행 결과"
+  },
+  {
+    "file": "assets/img/projects/ku-python-2025/gravity-frame-120.png",
+    "source": "python/gravity_pygame/src/gravity/ball.py",
+    "kind": "이번 편집에서 재현한 실행 결과"
+  },
+  {
+    "file": "assets/img/projects/ku-opencv-2025/perspective-demo.png",
+    "source": "opencv/part4/30_perspective.cpp",
+    "kind": "이번 편집에서 재현한 실행 결과"
+  },
+  {
+    "file": "assets/img/projects/ku-opencv-2025/canny-demo.png",
+    "source": "opencv/part4/32_canny.cpp",
+    "kind": "이번 편집에서 재현한 실행 결과"
+  },
+  {
+    "file": "assets/img/projects/ku-opencv-2025/hsv-demo.png",
+    "source": "opencv/part4/40_follow_color_paper.cpp",
+    "kind": "이번 편집에서 재현한 실행 결과"
+  },
+  {
+    "file": "assets/img/projects/ku-machine-learning-2025/fish-scatter.png",
+    "source": "ml_dl_python/a02_fish.ipynb",
+    "kind": "강사 노트북 · 저장된 원본 출력"
+  },
+  {
+    "file": "assets/img/projects/ku-machine-learning-2025/linear-regression.png",
+    "source": "ml_dl_python/a07_linear_reg.ipynb",
+    "kind": "강사 노트북 · 저장된 원본 출력"
+  },
+  {
+    "file": "assets/img/projects/ku-machine-learning-2025/decision-tree.png",
+    "source": "ml_dl_python/a11_decision_tree.ipynb",
+    "kind": "강사 노트북 · 저장된 원본 출력"
+  },
+  {
+    "file": "assets/img/projects/ku-machine-learning-2025/pca-clusters.png",
+    "source": "ml_dl_python/a17_pca.ipynb",
+    "kind": "강사 노트북 · 저장된 원본 출력"
+  },
+  {
+    "file": "assets/img/projects/ku-deep-learning-2025/dense-loss.png",
+    "source": "ml_dl_python/a21_keras2.ipynb",
+    "kind": "강사 노트북 · 저장된 원본 출력"
+  },
+  {
+    "file": "assets/img/projects/ku-deep-learning-2025/cnn-loss.png",
+    "source": "ml_dl_python/a22_convolustion.ipynb",
+    "kind": "강사 노트북 · 저장된 원본 출력"
+  },
+  {
+    "file": "assets/img/projects/ku-deep-learning-2025/sequence-length.png",
+    "source": "ml_dl_python/a23_rnn.ipynb",
+    "kind": "강사 노트북 · 저장된 원본 출력"
+  },
+  {
+    "file": "assets/img/projects/ku-deep-learning-2025/lstm-loss.png",
+    "source": "ml_dl_python/a24_lstm_gru.ipynb",
+    "kind": "강사 노트북 · 저장된 원본 출력"
+  }
+]
