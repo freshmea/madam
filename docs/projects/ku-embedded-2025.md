@@ -79,3 +79,12 @@ ch10_4_eeprom_temp.c는 여러 주변장치를 연결한 수업 예제의 구조
 - [센서·EEPROM·UART 통합 예제](https://github.com/freshmea/kuBig2025/blob/856a133a87d232a8ec714687139644f01f0a6cb9/platformio/atmega128/ch10_4_eeprom_temp.c): 인터럽트 플래그와 메인 반복문을 이용한 측정·저장·출력 구조.
 
 내부 대조: 임베디드 과정 강의계획서(2025.03.18), 주간 업무일지(2025.03.21·03.28). 교육생 식별 정보 및 개인별 산출물 미수록.
+
+## 시각자료
+
+수업 기록과 강사 예제에 근거한 직접 제작 SVG 도해. 실제 수업 사진 및 교육생 산출물이 아님.
+
+- ![embedded-board](../../assets/img/projects/ku-2025-visuals/embedded-board.svg)
+- ![embedded-input](../../assets/img/projects/ku-2025-visuals/embedded-input.svg)
+- ![embedded-timer](../../assets/img/projects/ku-2025-visuals/embedded-timer.svg)
+- ![embedded-data-flow](../../assets/img/projects/ku-2025-visuals/embedded-data-flow.svg)

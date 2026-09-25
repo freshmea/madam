@@ -73,3 +73,12 @@ CMake는 문법 수업이 끝난 뒤 따로 소개하는 도구가 아니라 MyS
 - [강사 예제 · 볼링 점수 계산](https://github.com/freshmea/kuBig2025/blob/856a133a87d232a8ec714687139644f01f0a6cb9/c_example/bowling/src/bowling.c): 점수 초기화·계산·입력 검증을 나누는 예제 구조 참고.
 
 내부 대조 자료: C 프로그래밍 강의계획서(2025.03.04), 주간 업무일지(2025.03.07, 03.14, 03.21). 원본 미첨부. 교육생 이름, 계정, 연락처, 개인별 점수와 제출물 링크는 수록하지 않음.
+
+## 시각자료
+
+수업 기록과 강사 예제에 근거한 직접 제작 SVG 도해. 실제 수업 사진 및 교육생 산출물이 아님.
+
+- ![c-workbench](../../assets/img/projects/ku-2025-visuals/c-workbench.svg)
+- ![c-build-cycle](../../assets/img/projects/ku-2025-visuals/c-build-cycle.svg)
+- ![c-memory](../../assets/img/projects/ku-2025-visuals/c-memory.svg)
+- ![c-applications](../../assets/img/projects/ku-2025-visuals/c-applications.svg)
