@@ -899,5 +899,28 @@
       "교재 그림·코드 설명도 6개",
       "공개 예제 출처 연결"
     ]
+  },
+  {
+    "id": "catholic-opencv-course-2024",
+    "title": "가톨릭관동대 OpenCV 교육 · 영상 데이터에서 ROS2까지",
+    "category": "offline",
+    "categoryLabel": "오프라인교육",
+    "year": "2024",
+    "date": "2024-01",
+    "client": "가톨릭관동대 · 영상데이터 플랫폼 부트캠프",
+    "image": "assets/img/projects/catholic-opencv-course-2024/color-channels.svg",
+    "detailPage": "catholic-opencv-course-2024.html",
+    "summary": "Python 배열에서 색상 채널과 좌표 변환, ROS2 카메라 구독까지. 가톨릭관동대 2024년 1월 교육의 실제 코드로 살펴보는 영상 처리 실습입니다.",
+    "description": "Python 배열에서 색상 채널과 좌표 변환, ROS2 카메라 구독까지. 가톨릭관동대 2024년 1월 교육의 실제 코드로 살펴보는 영상 처리 실습입니다.",
+    "services": [
+      "Python·NumPy 기초",
+      "OpenCV 영상 처리",
+      "ROS2 카메라 구독"
+    ],
+    "outcomes": [
+      "다섯 주제의 코드 기반 기록",
+      "설명 도해 6개",
+      "원본 예제 링크"
+    ]
   }
 ]

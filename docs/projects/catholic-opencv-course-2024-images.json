@@ -1,0 +1,38 @@
+[
+  {
+    "file": "learning-flow.svg",
+    "source": "python_learning/; opencv_learning/; simple_package/",
+    "caption": "Python·OpenCV·ROS2 폴더의 실제 예제를 묶은 학습 흐름도입니다. 전체 시간표나 통합 시스템의 완성도를 나타내지는 않습니다.",
+    "type": "original explanatory SVG based on source code"
+  },
+  {
+    "file": "python-bridge.svg",
+    "source": "python_learning/a10_function.py; python_learning/a12_class.py; opencv_learning/a10_video.py",
+    "caption": "기초 문법과 뒤의 실습 구조를 연결해 재구성한 설명도입니다. 개별 예제의 처리 성능을 측정한 그림은 아닙니다.",
+    "type": "original explanatory SVG based on source code"
+  },
+  {
+    "file": "array-view.svg",
+    "source": "opencv_learning/a5_copy.py",
+    "caption": "원본 예제의 배열과 첫 행 변경을 값으로 풀어 그렸습니다. 뒤에서 수행하는 reshape·copy와 추가 변경은 이 도해에서 생략했습니다.",
+    "type": "original explanatory SVG based on source code"
+  },
+  {
+    "file": "color-channels.svg",
+    "source": "opencv_learning/a9_split_merge.py",
+    "caption": "원본 이미지 대신 채널 순서를 도식화했습니다. 별도 HSV 예제의 색 범위 처리와는 구분되는 BGR→RGB 재배열입니다.",
+    "type": "original explanatory SVG based on source code"
+  },
+  {
+    "file": "affine-shift.svg",
+    "source": "opencv_learning/a13_warpAffine.py",
+    "caption": "원본의 M2는 세 점을 오른쪽으로 30픽셀 옮기는 변환입니다. 코드에 함께 정의된 회전용 M1은 실제 warpAffine 호출에 사용되지 않아 회전 결과로 소개하지 않았습니다.",
+    "type": "original explanatory SVG based on source code"
+  },
+  {
+    "file": "camera-node.svg",
+    "source": "simple_package/simple_camera_viwer.py",
+    "caption": "원본 구독 코드의 토픽·메시지·변환 함수를 그대로 연결한 설명도입니다. 카메라나 로봇을 새로 구동한 실측 화면은 아닙니다.",
+    "type": "original explanatory SVG based on source code"
+  }
+]
