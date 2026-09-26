@@ -876,5 +876,28 @@
       "원본 실행 화면·코드 6종",
       "구현 내용과 개선 과제"
     ]
+  },
+  {
+    "id": "gongju-ros2-course-2024",
+    "title": "공주대 ROS2·TurtleBot3 교육 · 첫 노드에서 로봇 움직임까지",
+    "category": "offline",
+    "categoryLabel": "오프라인교육",
+    "year": "2024",
+    "date": "2024-01",
+    "client": "공주대 · ROS2·TurtleBot3",
+    "image": "assets/img/projects/gongju-ros2-course-2024/turtlesim-path.jpg",
+    "detailPage": "gongju-ros2-course-2024.html",
+    "summary": "turtlesim에서 토픽·서비스·액션, 파라미터와 TurtleBot3 센서 제어까지. 공주대 2024년 ROS2 교육의 저장소와 교재로 살펴보는 실습 흐름입니다.",
+    "description": "turtlesim에서 토픽·서비스·액션, 파라미터와 TurtleBot3 센서 제어까지. 공주대 2024년 ROS2 교육의 저장소와 교재로 살펴보는 실습 흐름입니다.",
+    "services": [
+      "ROS2 통신 프로그래밍",
+      "파라미터·launch 구성",
+      "TurtleBot3 센서 제어 예제"
+    ],
+    "outcomes": [
+      "다섯 주제의 실습 기록",
+      "교재 그림·코드 설명도 6개",
+      "공개 예제 출처 연결"
+    ]
   }
 ]

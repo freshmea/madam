@@ -1,0 +1,54 @@
+[
+  {
+    "file": "turtlesim-path.jpg",
+    "source": "1. ROS2 교재_바인드소프트.docx",
+    "member": "word/media/image50.jpg",
+    "section": "4-2-3 그림 10",
+    "caption": "교재에 수록된 직진·회전 속도 변경 예시입니다. 당시 교육생의 결과물이나 현장 촬영 사진은 아닙니다.",
+    "width": 510,
+    "height": 536
+  },
+  {
+    "file": "turtlesim-start.jpg",
+    "source": "1. ROS2 교재_바인드소프트.docx",
+    "member": "word/media/image43.jpg",
+    "section": "4-2-2 그림 3",
+    "caption": "교재 4-2-2의 turtlesim 실행 예시. 화면 실행 뒤 노드와 토픽을 확인하는 실습으로 이어집니다.",
+    "width": 455,
+    "height": 478
+  },
+  {
+    "file": "node-graph.jpg",
+    "source": "1. ROS2 교재_바인드소프트.docx",
+    "member": "word/media/image46.jpg",
+    "section": "4-2-2 그림 6",
+    "caption": "교재 4-2-2의 rqt_graph 화면. teleop_turtle에서 발행한 cmd_vel을 turtlesim이 구독하는 관계를 보여줍니다.",
+    "width": 806,
+    "height": 763
+  },
+  {
+    "file": "parameter-colors.jpg",
+    "source": "1. ROS2 교재_바인드소프트.docx",
+    "member": "word/media/image71.jpg",
+    "section": "5-5 그림 3·4",
+    "caption": "교재 5-5의 파라미터 예시. 배경색 변경을 통해 노드의 설정값을 읽고 바꾸는 개념을 설명합니다.",
+    "width": 886,
+    "height": 467
+  },
+  {
+    "file": "communication.svg",
+    "source": "gongju_ros/gongju_ros/simple_pub.py; simple_service_server.py; simple_action_server.py",
+    "kind": "source-code explanatory diagram",
+    "caption": "문자열·사용자 정의 메시지, 두 수의 연산 서비스, 피보나치 액션 예제를 묶은 설명도입니다. 원본 코드를 읽어 재구성했으며 실행 결과 화면은 아닙니다.",
+    "width": 1200,
+    "height": 680
+  },
+  {
+    "file": "sensor-motion.svg",
+    "source": "gongju_ros/gongju_ros/move_turtlebot_s.py",
+    "kind": "source-code explanatory diagram",
+    "caption": "원본의 단일 거리값 조건을 그대로 요약했습니다. 전체 장애물 회피나 자율주행 완성을 나타내는 그림은 아닙니다.",
+    "width": 1200,
+    "height": 680
+  }
+]
