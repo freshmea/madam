@@ -922,5 +922,28 @@
       "설명 도해 6개",
       "원본 예제 링크"
     ]
+  },
+  {
+    "id": "hoseo-ros2-online-2024",
+    "title": "호서대 ROS2 온라인 기술교육 · 개념에서 노드 작성까지",
+    "category": "online",
+    "categoryLabel": "온라인교육",
+    "year": "2024",
+    "date": "2024-12",
+    "client": "호서대학교 · 교수 대상 기술교육",
+    "image": "assets/img/projects/hoseo-ros2-online-2024/session.svg",
+    "detailPage": "hoseo-ros2-online-2024.html",
+    "summary": "2024년 12월 23일, 호서대 교수 대상 Zoom 기술교육. 네 시간 동안 다룬 ROS2 기본 개념·환경 설정·노드 작성의 교육 기록입니다.",
+    "description": "2024년 12월 23일, 호서대 교수 대상 Zoom 기술교육. 네 시간 동안 다룬 ROS2 기본 개념·환경 설정·노드 작성의 교육 기록입니다.",
+    "services": [
+      "ROS2 기본 개념",
+      "개발 환경 설정",
+      "노드 작성 학습"
+    ],
+    "outcomes": [
+      "12월 23일 온라인 수업 기록",
+      "4시간 교수 대상 기술교육",
+      "기록 기반 설명도 3개"
+    ]
   }
 ]
