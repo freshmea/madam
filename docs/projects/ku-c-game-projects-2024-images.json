@@ -1,0 +1,56 @@
+[
+  {
+    "file": "tetris-menu.png",
+    "source": "1조 TEAM HM2J.ppt.pptx",
+    "slide": 24,
+    "member": "ppt/media/image40.png",
+    "width": 712,
+    "height": 757,
+    "caption": "1조 발표자료 24쪽. 게임 시작·기록 메뉴와 색상을 적용한 블록 화면입니다."
+  },
+  {
+    "file": "tetris-reward.png",
+    "source": "1조 TEAM HM2J.ppt.pptx",
+    "slide": 26,
+    "member": "ppt/media/image37.png",
+    "width": 453,
+    "height": 536,
+    "caption": "1조 발표자료 26쪽. 점수에 따라 ASCII 그림과 보상 안내를 출력하는 코드입니다."
+  },
+  {
+    "file": "snake-screen.png",
+    "source": "2조 Snake_Game.pptx",
+    "slide": 20,
+    "member": "ppt/media/image10.png",
+    "width": 307,
+    "height": 736,
+    "caption": "2조 발표자료 20쪽. 원본에서 개선 과제와 함께 제시한 실행 화면입니다. 벽과 뱀의 정렬 문제도 그대로 확인할 수 있습니다."
+  },
+  {
+    "file": "snake-collision.png",
+    "source": "2조 Snake_Game.pptx",
+    "slide": 14,
+    "member": "ppt/media/image2.png",
+    "width": 278,
+    "height": 177,
+    "caption": "2조 발표자료 14쪽. 먹이의 좌표와 일치하면 점수·길이 값을 늘리고 새 먹이를 배치하는 로직입니다."
+  },
+  {
+    "file": "memory-menu.png",
+    "source": "3조 Find the Same Picture.pptx",
+    "slide": 6,
+    "member": "ppt/media/image6.png",
+    "width": 1570,
+    "height": 970,
+    "caption": "3조 발표자료 6쪽. 게임 시작, 카드 미리보기, 크레딧과 종료 메뉴를 구성했습니다."
+  },
+  {
+    "file": "memory-cards.png",
+    "source": "3조 Find the Same Picture.pptx",
+    "slide": 6,
+    "member": "ppt/media/image10.png",
+    "width": 1308,
+    "height": 1192,
+    "caption": "3조 발표자료 6쪽. 카드 그림과 선택 표시를 문자로 출력한 원본 실행 화면입니다."
+  }
+]
