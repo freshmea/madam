@@ -64,6 +64,7 @@ Service 페이지의 `pages/service.html#book` 영역에서 『ROS2 입문』의
 - 공개 실습 저장소: https://github.com/freshmea/ros2-maker-guide
 - 부크크 종이책: https://bookk.co.kr/bookStore/6aab47b74c0f28c3d4b33da7
 - 영풍문고 종이책: https://www.ypbooks.co.kr/books/202609224911695468
+- YES24 종이책: https://www.yes24.com/product/goods/196822175
 - YES24 전자책: https://www.yes24.com/product/goods/196563555
 - 부크크 전자책: https://bookk.co.kr/bookStore/6aa76a46dc64fe8c7e11a5e1
 - 표지: `assets/img/books/ros2-maker-guide-cover.webp` (출판용 앞표지의 웹 표시용 사본)
