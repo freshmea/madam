@@ -1,5 +1,28 @@
 [
   {
+    "id": "bindbot-2026",
+    "title": "바인드봇 · micro-ROS와 FreeRTOS로 연결한 로봇",
+    "category": "project",
+    "categoryLabel": "프로젝트",
+    "year": "2026",
+    "date": "2026-02",
+    "client": "바인드봇 개발 프로젝트",
+    "image": "assets/img/projects/bindbot-2026/cad-front.png",
+    "detailPage": "bindbot-2026.html",
+    "summary": "Pico 2 W의 두 코어에 통신과 제어를 나누고, 서보·터치·OLED·네오픽셀을 ROS 2로 연결한 바인드봇. 펌웨어부터 기구 설계까지의 개발 기록.",
+    "description": "Raspberry Pi Pico 2 W에 micro-ROS와 FreeRTOS를 적용한 바인드봇 개발 기록. 듀얼코어 태스크, Wi-Fi UDP, 서보·터치·OLED·LED, 재접속과 기구 설계까지 소개합니다.",
+    "services": [
+      "임베디드 펌웨어",
+      "micro-ROS·FreeRTOS 통합",
+      "로봇 기구 설계"
+    ],
+    "outcomes": [
+      "구독 5개·발행 6개의 ROS 2 인터페이스",
+      "듀얼코어 태스크와 네 가지 동작 모드",
+      "통신·전원 문제 해결과 기구 설계 기록"
+    ]
+  },
+  {
     "id": "gongju-manipulator-2026",
     "title": "공주대 매니퓰레이터 · 네 가지 팀 프로젝트",
     "category": "project",

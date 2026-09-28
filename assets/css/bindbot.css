@@ -1,0 +1,37 @@
+.bindbot-lead { display:grid; grid-template-columns:1.05fr 1fr; gap:2.5rem; align-items:center; padding:2.5rem 0; }
+.bindbot-lead figure { margin:0; }
+.bindbot-lead img { width:100%; border-radius:.6rem; background:#303b49; }
+.bindbot-lead p { font-size:1.08rem; line-height:1.95; color:#44403c; margin:1rem 0; }
+.bindbot-lead .bindbot-label { font-size:.75rem; letter-spacing:.12em; color:#9a3412; font-weight:800; }
+.bindbot-caption { font-size:.8rem; line-height:1.8; color:#57534e; margin-top:.65rem; }
+.bindbot-stats { display:grid; grid-template-columns:repeat(4,1fr); border-block:1px solid #d6d3d1; padding:1.5rem 0; gap:1rem; }
+.bindbot-stats strong { display:block; font-size:2.1rem; color:#9a3412; }
+.bindbot-stats span { font-size:.82rem; color:#57534e; }
+.bindbot-section { padding:3.8rem 0; border-bottom:1px solid #d6d3d1; scroll-margin-top:6rem; }
+.bindbot-section h2 { font-size:clamp(1.6rem,3vw,2.3rem); line-height:1.4; font-weight:850; letter-spacing:-.04em; margin-bottom:1.4rem; }
+.bindbot-section h3 { font-size:1.15rem; font-weight:800; margin:2rem 0 .6rem; }
+.bindbot-section p,.bindbot-section li { line-height:1.95; color:#44403c; font-size:1rem; }
+.bindbot-section p { margin:.85rem 0; max-width:920px; }
+.bindbot-section ul,.bindbot-section ol { padding-left:1.4rem; margin:1rem 0; }
+.bindbot-section ul { list-style:disc; }.bindbot-section ol { list-style:decimal; }
+.bindbot-section li+li { margin-top:.5rem; }
+.bindbot-section code { font-size:.88em; overflow-wrap:anywhere; }
+.bindbot-section p a,.bindbot-section li a { color:#9a3412; text-decoration:underline; text-underline-offset:.2em; }
+.bindbot-table { overflow:auto; border:1px solid #d6d3d1; border-radius:.5rem; margin:1.5rem 0; }
+.bindbot-table table { width:100%; min-width:610px; border-collapse:collapse; font-size:.9rem; text-align:left; }
+.bindbot-table caption { text-align:left; padding:1rem; font-weight:800; background:#efeeea; }
+.bindbot-table th,.bindbot-table td { padding:.85rem 1rem; border-bottom:1px solid #e7e5e4; vertical-align:top; line-height:1.75; }
+.bindbot-table th { background:#fff7ed; font-weight:750; }
+.bindbot-table tr:last-child td { border-bottom:0; }
+.bindbot-note { padding:1rem 1.4rem; background:#fff7ed; border-left:3px solid #c2410c; margin:1.5rem 0; }
+.bindbot-note p { font-size:.9rem; margin:.3rem 0; }
+.bindbot-code { background:#292524; color:#fafaf9; padding:1.5rem; border-radius:.5rem; overflow:auto; font-size:.85rem; line-height:1.85; margin:1.5rem 0; }
+.bindbot-architecture { background:#292f36; color:#fff; padding:2rem; border-radius:.6rem; margin:1.5rem 0; }
+.bindbot-architecture .arch-chain { display:grid; grid-template-columns:1fr auto 1fr auto 1fr; gap:1rem; align-items:center; }
+.bindbot-architecture .arch-box { border:1px solid #8b949d; padding:1.2rem; border-radius:.3rem; }
+.bindbot-architecture strong { display:block; font-size:1.05rem; }.bindbot-architecture small { display:block; color:#e2e8f0; line-height:1.7; margin-top:.6rem; }
+.bindbot-architecture .arch-cores { display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-top:1rem; }
+.bindbot-architecture .arch-cores .arch-box { border-color:#fdba74; }
+.bindbot-architecture figcaption { margin-top:1rem; font-size:.8rem; color:#e2e8f0; line-height:1.8; }
+.bindbot-figure { margin:1.7rem 0; }.bindbot-figure img { width:100%; border:1px solid #d6d3d1; border-radius:.5rem; }
+@media(max-width:680px) { .bindbot-lead { grid-template-columns:1fr; gap:1rem; }.bindbot-stats { grid-template-columns:1fr 1fr; }.bindbot-section { padding:2.7rem 0; }.bindbot-architecture { padding:1.2rem; }.bindbot-architecture .arch-chain,.bindbot-architecture .arch-cores { grid-template-columns:1fr; }.arch-arrow { text-align:center; transform:rotate(90deg); }.bindbot-code { padding:1rem; } }
