@@ -31,12 +31,12 @@
 
 세 기술이 맡은 책임
 
-| 구성 | 바인드봇에서의 역할 | 소스에 나타나는 구현 | 
+| 구성 | 바인드봇에서의 역할 | 소스에 나타나는 구현 |
 | --- | --- | --- |
-| Raspberry Pi Pico 2 W | 서보·터치·버저·OLED·LED를 연결하고 Wi-Fi 통신 수행 | GPIO, PWM, I²C, PIO, CYW43/lwIP | 
-| micro-ROS | 호스트의 ROS 2 노드와 명령·상태 메시지 교환 | rcl/rclc, executor, publisher/subscriber, custom UDP transport | 
-| FreeRTOS | 통신·주변장치·화면 작업을 분리하고 두 코어에 배치 | 3개 애플리케이션 태스크, core affinity, queue, critical section | 
-| 호스트 PC / Agent | 마이크로컨트롤러 측 통신을 ROS 2 그래프와 연결 | UDP 8888 Agent와 ROS 2 CLI·Python 시험 도구 | 
+| Raspberry Pi Pico 2 W | 서보·터치·버저·OLED·LED를 연결하고 Wi-Fi 통신 수행 | GPIO, PWM, I²C, PIO, CYW43/lwIP |
+| micro-ROS | 호스트의 ROS 2 노드와 명령·상태 메시지 교환 | rcl/rclc, executor, publisher/subscriber, custom UDP transport |
+| FreeRTOS | 통신·주변장치·화면 작업을 분리하고 두 코어에 배치 | 3개 애플리케이션 태스크, core affinity, queue, critical section |
+| 호스트 PC / Agent | 마이크로컨트롤러 측 통신을 ROS 2 그래프와 연결 | UDP 8888 Agent와 ROS 2 CLI·Python 시험 도구 |
 
 **ROS 2 · PC**CLI / Python / 명령 발행 · 상태 구독↔**micro-ROS Agent**ROS 2 ↔ XRCE-DDS / UDP 8888↔**Pico 2 W**Wi-Fi · custom transport / micro-ROS client**Core 0 · 통신**ros_task: Agent 연결, executor, 상태 발행, 재접속**Core 1 · 장치와 화면**periph_task: 터치·서보 초기화·버저·LED·모드 / display_task: OLED 메시지·상태·비트맵현재 소스를 바탕으로 재구성한 시스템 개념도. 실제 배선도나 측정 결과는 아니다. 서보 명령은 ROS 콜백에서도 드라이버를 직접 호출하므로 모든 출력이 큐를 거치는 구조는 아니다.
 Pico 2 계열의 RP2350은 두 개의 Arm Cortex-M33 또는 두 개의 Hazard3 코어를 선택할 수 있다. 바인드봇은 이 가운데 Arm 구성을 사용하며, Pico 2 W의 무선 기능으로 호스트와 연결한다. 보드의 하드웨어 사양과 프로젝트의 실제 선택은 구분해서 읽어야 한다. [Raspberry Pi 공식 제품 설명 ↗](https://www.raspberrypi.com/products/raspberry-pi-pico-2/)
@@ -53,14 +53,14 @@ Pico 2 계열의 RP2350은 두 개의 Arm Cortex-M33 또는 두 개의 Hazard3 �
 
 최종 project_config.h 기준 핀과 설정
 
-| 부품·기능 | GPIO / 인터페이스 | 구성 | 
+| 부품·기능 | GPIO / 인터페이스 | 구성 |
 | --- | --- | --- |
-| 서보 1 / 서보 2 | GP2 / GP4 · PWM | 초기 각도 90°, 펄스 범위 500–2400 μs 설정 | 
-| 터치 센서 1 / 2 / 3 | GP18 / GP19 / GP20 | 입력 상태와 누름 유지 카운트 | 
-| 수동 버저 | GP16 · PWM | 비프음과 멜로디 재생 | 
-| WS2812 네오픽셀 | GP8 · PIO | LED 4개, 개별 색 지정과 패턴 출력 | 
-| SSD1306 OLED | GP6(SDA) / GP7(SCL) · I²C1 | 128×32, 주소 0x3C | 
-| 메시지 수신 표시 | GP1 | ROS 명령 수신 표시용 GPIO | 
+| 서보 1 / 서보 2 | GP2 / GP4 · PWM | 초기 각도 90°, 펄스 범위 500–2400 μs 설정 |
+| 터치 센서 1 / 2 / 3 | GP18 / GP19 / GP20 | 입력 상태와 누름 유지 카운트 |
+| 수동 버저 | GP16 · PWM | 비프음과 멜로디 재생 |
+| WS2812 네오픽셀 | GP8 · PIO | LED 4개, 개별 색 지정과 패턴 출력 |
+| SSD1306 OLED | GP6(SDA) / GP7(SCL) · I²C1 | 128×32, 주소 0x3C |
+| 메시지 수신 표시 | GP1 | ROS 명령 수신 표시용 GPIO |
 
 서보 드라이버에는 50 Hz와 20 ms 주기의 설정값이 있으며, PWM 래핑 인터럽트를 사용한다. 초기화 가드로 같은 인터럽트 핸들러를 반복 등록하지 않도록 구성했다. 네오픽셀은 `ws2812.pio`에서 생성한 PIO 헤더를 사용하므로, PWM 서보와 서로 다른 하드웨어 기능을 활용한다.
 
@@ -79,11 +79,11 @@ Wi-Fi 응답을 기다리는 동안에도 터치 입력을 읽고 화면을 갱�
 
 main.c의 애플리케이션 태스크 구성
 
-| 태스크 | 코어 | 우선순위 | 스택 설정 | 주요 역할 | 
+| 태스크 | 코어 | 우선순위 | 스택 설정 | 주요 역할 |
 | --- | --- | --- | --- | --- |
-| ros_task | 0 | 30 | 8,192 words / 32 KiB | Wi-Fi 연결, micro-ROS 초기화, executor, Agent 점검 | 
-| periph_task | 1 | 2 | 8,192 words / 32 KiB | 터치, 모드 전환, 버저, LED, 주변장치 초기화 | 
-| display_task | 1 | 1 | 2,048 words / 8 KiB | 표시 명령 수신, 문자열 스크롤, OLED 갱신 | 
+| ros_task | 0 | 30 | 8,192 words / 32 KiB | Wi-Fi 연결, micro-ROS 초기화, executor, Agent 점검 |
+| periph_task | 1 | 2 | 8,192 words / 32 KiB | 터치, 모드 전환, 버저, LED, 주변장치 초기화 |
+| display_task | 1 | 1 | 2,048 words / 8 KiB | 표시 명령 수신, 문자열 스크롤, OLED 갱신 |
 
 FreeRTOS 설정은 선점형 스케줄링, 1,000 Hz tick, 두 코어, 128 KiB 힙, 스택 오버플로 검사와 메모리 할당 실패 훅을 활성화한다. 스택 크기는 32비트 word 기준으로 환산한 설정값이며 실제 사용량 측정치는 아니다. 커널의 idle·timer 태스크도 존재하므로 표의 세 개는 전체 시스템 태스크 수가 아니라 애플리케이션 태스크 수다.
 
@@ -155,24 +155,24 @@ CMake는 `pico_cyw43_arch_lwip_poll`을 링크한다. 따라서 통신 루프와
 
 호스트 → 바인드봇: 명령 구독 5개
 
-| 토픽 | 메시지 타입 | 처리 | 
+| 토픽 | 메시지 타입 | 처리 |
 | --- | --- | --- |
-| /servo_angle | std_msgs/msg/Int32 | 서보 1의 목표 각도 | 
-| /servo2_angle | std_msgs/msg/Int32 | 서보 2의 목표 각도 | 
-| /display_message | std_msgs/msg/String | OLED 표시 문자열 | 
-| /display_bitmap | std_msgs/msg/UInt8MultiArray | 128×32 단색 비트맵, 512바이트 | 
-| /ws2812_pixel | std_msgs/msg/UInt8MultiArray | [index, r, g, b] 형식의 4바이트 | 
+| /servo_angle | std_msgs/msg/Int32 | 서보 1의 목표 각도 |
+| /servo2_angle | std_msgs/msg/Int32 | 서보 2의 목표 각도 |
+| /display_message | std_msgs/msg/String | OLED 표시 문자열 |
+| /display_bitmap | std_msgs/msg/UInt8MultiArray | 128×32 단색 비트맵, 512바이트 |
+| /ws2812_pixel | std_msgs/msg/UInt8MultiArray | [index, r, g, b] 형식의 4바이트 |
 
 바인드봇 → 호스트: 상태 발행 6개
 
-| 토픽 | 메시지 타입 | 의미 | 
+| 토픽 | 메시지 타입 | 의미 |
 | --- | --- | --- |
-| /touch_1/state | std_msgs/msg/Bool | 터치 센서 1의 누름 상태 | 
-| /touch_2/state | std_msgs/msg/Bool | 터치 센서 2의 누름 상태 | 
-| /touch_3/state | std_msgs/msg/Bool | 터치 센서 3의 누름 상태 | 
-| /touch_1/beep_count | std_msgs/msg/UInt8 | 센서 1의 유지 카운트 | 
-| /touch_2/beep_count | std_msgs/msg/UInt8 | 센서 2의 유지 카운트 | 
-| /touch_3/beep_count | std_msgs/msg/UInt8 | 센서 3의 유지 카운트 | 
+| /touch_1/state | std_msgs/msg/Bool | 터치 센서 1의 누름 상태 |
+| /touch_2/state | std_msgs/msg/Bool | 터치 센서 2의 누름 상태 |
+| /touch_3/state | std_msgs/msg/Bool | 터치 센서 3의 누름 상태 |
+| /touch_1/beep_count | std_msgs/msg/UInt8 | 센서 1의 유지 카운트 |
+| /touch_2/beep_count | std_msgs/msg/UInt8 | 센서 2의 유지 카운트 |
+| /touch_3/beep_count | std_msgs/msg/UInt8 | 센서 3의 유지 카운트 |
 
 터치 상태와 카운트는 100 ms 타이머 콜백에서 발행한다. 누름 유지 카운트의 증가 간격은 500 ms 설정으로, 발행 주기와 서로 다르다. 모든 publisher와 subscriber는 기본 QoS 프로파일을 복사한 뒤 depth를 10으로 지정한다.
 
@@ -194,12 +194,12 @@ executor는 구독 5개와 타이머 1개, 총 6개 핸들을 사용한다. 소�
 
 현재 modes/ 구현 기준의 로컬 동작
 
-| 모드 | 화면·목적 | 터치 2 / 터치 3의 역할 | 
+| 모드 | 화면·목적 | 터치 2 / 터치 3의 역할 |
 | --- | --- | --- |
-| MODE 1 | Wi-Fi·micro-ROS 접속 상태와 장치 반응 점검 | LED 패턴 전환 / 임의 멜로디 재생 | 
-| MODE 2 | 메시지 표시와 양팔 제어 | 오른쪽 팔 / 왼쪽 팔을 움직이고 약 300 ms 뒤 복귀 명령 | 
-| MODE 3 | 10에서 시작하는 숫자 표시와 반응 놀이 | 숫자 증가 / 감소와 임의의 한쪽 팔 동작, 0에서 생일 멜로디 | 
-| MODE 4 | micro-ROS 수신 화면 | 로컬 버튼에 별도 동작 없음; 수신 문자열·비트맵 표시 | 
+| MODE 1 | Wi-Fi·micro-ROS 접속 상태와 장치 반응 점검 | LED 패턴 전환 / 임의 멜로디 재생 |
+| MODE 2 | 메시지 표시와 양팔 제어 | 오른쪽 팔 / 왼쪽 팔을 움직이고 약 300 ms 뒤 복귀 명령 |
+| MODE 3 | 10에서 시작하는 숫자 표시와 반응 놀이 | 숫자 증가 / 감소와 임의의 한쪽 팔 동작, 0에서 생일 멜로디 |
+| MODE 4 | micro-ROS 수신 화면 | 로컬 버튼에 별도 동작 없음; 수신 문자열·비트맵 표시 |
 
 현재 주변장치 태스크에서는 터치 센서 1이 다음 모드로 전환하고, 센서 2와 3이 모드별 버튼 역할을 맡는다. 초기 일지의 ‘터치 3으로 화면 전환’은 개발 중간 단계의 기록으로, 최종 코드의 매핑과 다르다.
 
@@ -255,16 +255,16 @@ ROS로 개별 픽셀 색을 지정하면 주변장치 태스크가 큐에서 명
 
 README 개발일지와 기구 자료로 재구성한 흐름
 
-| 날짜 | 작업·문제 | 기록이 보여주는 변화 | 
+| 날짜 | 작업·문제 | 기록이 보여주는 변화 |
 | --- | --- | --- |
-| 2026.01.08–09 | UART·Wi-Fi 시험, UDP Agent 연결 실패와 framing 수정 | 통신 경로를 분리해 확인하고 custom transport 설정 수정 | 
-| 01.10 | 단일 예제 모듈화, 프로젝트 이름을 bindbot으로 변경 | 설정 중앙화, bindbot.uf2 생성 기록 | 
-| 01.12–14 | FreeRTOS 도입, 개별 RTOS·micro-ROS 시험 후 통합 | Wi-Fi·구독 문제를 모듈별 재구성으로 점검; 일부 원인은 미확정 | 
-| 01.15 | 터치 통합, 서보 2개, core 초기화와 IRQ 충돌 수정 | 통신과 PWM을 함께 사용하는 실행 구조 정리 | 
-| 01.19 | 배터리·전원 모듈 시험, OLED 통합 | 전원 과도 전압에 따른 부품 손상과 공급 분리 필요성 기록 | 
-| 01.20–21 | 한글 OLED, 문자열 토픽, WS2812 패턴 | 로봇의 문자·빛·소리 피드백 확장 | 
-| 01.23–24 | 재연결, 버퍼 수명, 다중 구독과 Agent 환경 점검 | 터치 6개 발행 토픽과 비트맵 수신 경로 정리 | 
-| 01.27 / 02.09 | 기구 도면 작성일 / 저장소 디자인 변경 커밋 | 펌웨어를 담을 외형과 부품 배치 자료 확보 | 
+| 2026.01.08–09 | UART·Wi-Fi 시험, UDP Agent 연결 실패와 framing 수정 | 통신 경로를 분리해 확인하고 custom transport 설정 수정 |
+| 01.10 | 단일 예제 모듈화, 프로젝트 이름을 bindbot으로 변경 | 설정 중앙화, bindbot.uf2 생성 기록 |
+| 01.12–14 | FreeRTOS 도입, 개별 RTOS·micro-ROS 시험 후 통합 | Wi-Fi·구독 문제를 모듈별 재구성으로 점검; 일부 원인은 미확정 |
+| 01.15 | 터치 통합, 서보 2개, core 초기화와 IRQ 충돌 수정 | 통신과 PWM을 함께 사용하는 실행 구조 정리 |
+| 01.19 | 배터리·전원 모듈 시험, OLED 통합 | 전원 과도 전압에 따른 부품 손상과 공급 분리 필요성 기록 |
+| 01.20–21 | 한글 OLED, 문자열 토픽, WS2812 패턴 | 로봇의 문자·빛·소리 피드백 확장 |
+| 01.23–24 | 재연결, 버퍼 수명, 다중 구독과 Agent 환경 점검 | 터치 6개 발행 토픽과 비트맵 수신 경로 정리 |
+| 01.27 / 02.09 | 기구 도면 작성일 / 저장소 디자인 변경 커밋 | 펌웨어를 담을 외형과 부품 배치 자료 확보 |
 
 이 일정은 개발일지와 도면·커밋에 확인되는 날짜를 정리한 것이다. 그 사이의 매일을 작업일로 가정하거나, 2월 9일을 제품 완성·출시일로 해석하지 않았다. 기능별 기록을 따라가면 연결, 동시 실행, 사용자 피드백, 복구, 기구 설계로 관심사가 확장되는 과정을 읽을 수 있다.
 
@@ -309,15 +309,15 @@ IMU, DC 모터 드라이버와 카메라 등의 부품·확장 구상도 자료�
 
 폴더별 책임
 
-| 경로 | 살펴볼 내용 | 
+| 경로 | 살펴볼 내용 |
 | --- | --- |
-| CMakeLists.txt | pico2_w 보드, RP2350 FreeRTOS 포트, 라이브러리, bindbot 타깃 | 
-| src/main.c / src/config/ | 태스크·코어 배치, 핀·화면·통신 설정, FreeRTOS 구성 | 
-| src/tasks/ | micro-ROS, 주변장치, OLED 작업 | 
-| src/transport/ | Wi-Fi 연결과 custom UDP 전송 | 
-| src/drivers/ / src/modes/ | 장치 제어와 네 가지 동작 모드 | 
-| test/ / example/ | 호스트 시험 스크립트와 개별 장치 예제 | 
-| design_file/ | 외형 도면, STL·3MF·STEP·DXF 기구 자료 | 
+| CMakeLists.txt | pico2_w 보드, RP2350 FreeRTOS 포트, 라이브러리, bindbot 타깃 |
+| src/main.c / src/config/ | 태스크·코어 배치, 핀·화면·통신 설정, FreeRTOS 구성 |
+| src/tasks/ | micro-ROS, 주변장치, OLED 작업 |
+| src/transport/ | Wi-Fi 연결과 custom UDP 전송 |
+| src/drivers/ / src/modes/ | 장치 제어와 네 가지 동작 모드 |
+| test/ / example/ | 호스트 시험 스크립트와 개별 장치 예제 |
+| design_file/ | 외형 도면, STL·3MF·STEP·DXF 기구 자료 |
 
 먼저 같은 커밋을 기준으로 소스를 읽고, Pico SDK·FreeRTOS·micro-ROS 정적 라이브러리와 Agent 환경을 맞춰야 한다. 초기 README에는 Foxy·Pico SDK 1.6.0 표기가 있고, 후반 개발 기록은 Humble Agent와 정적 라이브러리 생성 환경을 다룬다. 따라서 초기 설치 목록을 최종적으로 검증된 버전 조합으로 취급하지 않는다. CMake의 RP2350 포트 경로와 외부 의존성 확보 여부부터 확인하는 것이 출발점이다.
 
@@ -378,13 +378,13 @@ ros2 topic pub --once /ws2812_pixel std_msgs/msg/UInt8MultiArray "{data: [0, 40,
 
 구현과 검증의 범위
 
-| 구분 | 확인한 내용 | 
+| 구분 | 확인한 내용 |
 | --- | --- |
-| 현재 소스에서 확인 | 듀얼코어 태스크 배치, 5개 구독·6개 발행, custom UDP, 로컬 모드 4개, 한글·비트맵 표시 경로 | 
-| 당시 개발일지에 기록 | UF2 빌드, 두 서보 제어, 터치 통합, 한글 출력, Wi-Fi·micro-ROS 연결 및 문제 해결 | 
-| 기구 산출물에서 확인 | 외형 도면과 CAD 화면, 케이스·팔 STL, 전체 3MF, 부품 STEP·가공 DXF 자료 | 
-| 후속 검증·확장 | 재현 가능한 의존성 버전 고정, 초기화 실패 정리, 큐 포화 정책, 장시간 복구·지연 측정, 최종 전원 검증 | 
-| 이 글에서 완성으로 주장하지 않는 것 | 카메라 AI·영상 처리, 자율주행, 양산·인증, 최종 배터리 지속시간, 이번 작성 시점의 실물 재시험 | 
+| 현재 소스에서 확인 | 듀얼코어 태스크 배치, 5개 구독·6개 발행, custom UDP, 로컬 모드 4개, 한글·비트맵 표시 경로 |
+| 당시 개발일지에 기록 | UF2 빌드, 두 서보 제어, 터치 통합, 한글 출력, Wi-Fi·micro-ROS 연결 및 문제 해결 |
+| 기구 산출물에서 확인 | 외형 도면과 CAD 화면, 케이스·팔 STL, 전체 3MF, 부품 STEP·가공 DXF 자료 |
+| 후속 검증·확장 | 재현 가능한 의존성 버전 고정, 초기화 실패 정리, 큐 포화 정책, 장시간 복구·지연 측정, 최종 전원 검증 |
+| 이 글에서 완성으로 주장하지 않는 것 | 카메라 AI·영상 처리, 자율주행, 양산·인증, 최종 배터리 지속시간, 이번 작성 시점의 실물 재시험 |
 
 다음 개발에서는 의존성 버전과 빌드 절차를 고정하고, 각 명령이 장치에 적용되기까지의 지연을 측정하며, 연결 장애를 반복해도 메모리가 안정적인지 확인하는 일이 우선이다. 그 위에 카메라·인식 기능을 연결하면 현재의 입출력 플랫폼을 더 큰 로봇 응용으로 확장할 수 있다.
 
