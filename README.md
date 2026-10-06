@@ -72,6 +72,8 @@ Service 페이지의 `pages/service.html#book` 영역에서 『ROS2 입문』의
 
 알라딘·북센 판매 신청 처리 완료: 2026-10-02 부크크 통지 기준. 알라딘 종이책은 구매 링크에서 확인할 수 있습니다.
 
+[북센 B2B 도서 정보](https://b2b.booxen.com/b2bmall/user/main/BookView.do?itemCd=11641651) — 서점·납품용 B2B몰의 등록 정보입니다.
+
 구매처가 바뀌면 `pages/service.html`의 링크를 수정합니다. 책 표지는 원래 비율을 유지해 전체를 표시합니다.
 
 ## 페이지와 메뉴
