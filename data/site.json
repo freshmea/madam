@@ -84,6 +84,12 @@
       ]
     },
     {
+      "label": "Sites",
+      "href": "https://madam-education.workspace-850195.chatgpt.site",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    },
+    {
       "label": "Contact",
       "href": "mailto:freshmea@gmail.com"
     }
