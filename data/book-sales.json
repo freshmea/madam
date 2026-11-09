@@ -1,0 +1,37 @@
+{
+  "asOf": "2026-11-09",
+  "currency": "KRW",
+  "dateBasis": "부크크 수익내역 등록일",
+  "books": [
+    {"id":"590929","title":"ROS2 입문","format":"종이책"},
+    {"id":"587612","title":"ROS2 입문","format":"전자책 (B2C)"}
+  ],
+  "entries": [
+    {"id":"20260929-paper-yp-1","date":"2026-09-29","bookId":"590929","channel":"영풍문고","quantity":1,"unitRoyalty":5985,"royalty":5985,"status":"정산완료","expectedPayoutMonth":"2026-11"},
+    {"id":"20261006-paper-yes-1","date":"2026-10-06","bookId":"590929","channel":"예스24","quantity":1,"unitRoyalty":5985,"royalty":5985,"status":"정산대기","expectedPayoutMonth":"2026-12"},
+    {"id":"20261007-paper-yes-1","date":"2026-10-07","bookId":"590929","channel":"예스24","quantity":1,"unitRoyalty":5985,"royalty":5985,"status":"정산대기","expectedPayoutMonth":"2026-12"},
+    {"id":"20261007-paper-aladin-1","date":"2026-10-07","bookId":"590929","channel":"알라딘","quantity":1,"unitRoyalty":5985,"royalty":5985,"status":"정산대기","expectedPayoutMonth":"2026-12"},
+    {"id":"20261008-ebook-yes-1","date":"2026-10-08","bookId":"587612","channel":"예스24","quantity":1,"unitRoyalty":14940,"royalty":14940,"status":"정산대기","expectedPayoutMonth":"2026-12"},
+    {"id":"20261008-ebook-yes-2","date":"2026-10-08","bookId":"587612","channel":"예스24","quantity":1,"unitRoyalty":14940,"royalty":14940,"status":"정산대기","expectedPayoutMonth":"2026-12"},
+    {"id":"20261008-ebook-yes-3","date":"2026-10-08","bookId":"587612","channel":"예스24","quantity":1,"unitRoyalty":14940,"royalty":14940,"status":"정산대기","expectedPayoutMonth":"2026-12"},
+    {"id":"20261008-ebook-yes-4","date":"2026-10-08","bookId":"587612","channel":"예스24","quantity":1,"unitRoyalty":14940,"royalty":14940,"status":"정산대기","expectedPayoutMonth":"2026-12"},
+    {"id":"20261015-paper-yes-1","date":"2026-10-15","bookId":"590929","channel":"예스24","quantity":2,"unitRoyalty":5985,"royalty":11970,"status":"정산대기","expectedPayoutMonth":"2026-12"},
+    {"id":"20261026-paper-aladin-1","date":"2026-10-26","bookId":"590929","channel":"알라딘","quantity":1,"unitRoyalty":5985,"royalty":5985,"status":"정산대기","expectedPayoutMonth":"2026-12"},
+    {"id":"20261029-paper-aladin-1","date":"2026-10-29","bookId":"590929","channel":"알라딘","quantity":1,"unitRoyalty":5985,"royalty":5985,"status":"정산대기","expectedPayoutMonth":"2026-12"},
+    {"id":"20261030-paper-yes-1","date":"2026-10-30","bookId":"590929","channel":"예스24","quantity":1,"unitRoyalty":5985,"royalty":5985,"status":"정산대기","expectedPayoutMonth":"2026-12"}
+  ],
+  "payouts": [
+    {"month":"2026-11","sourceRoyalty":5985,"adjustment":-5,"amount":5980,"expectedDate":"2026-11-16","status":"지급대기","bankReceiptVerified":false,"invoiceIssued":true,"requestLabel":"2026년 10월 수익금","entryIds":["20260929-paper-yp-1"]}
+  ],
+  "controlTotals": {"entryCount":12,"quantity":13,"royalty":113625,"pendingRoyalty":107640,"resolvedRoyalty":5985,"listedPayout":5980},
+  "notes": [
+    "판매 부수는 알림 수가 아니라 수익내역의 정산건수를 합산합니다. 10월 15일 알림 1건에는 종이책 2부가 포함됩니다.",
+    "날짜는 실제 구매일이 아닌 부크크 수익내역 등록일입니다. 외부유통 보고 지연이나 취소·조정으로 달라질 수 있습니다.",
+    "정산완료는 지급 대상 확정이며 계좌 입금 완료를 의미하지 않습니다. 현재 지급목록에 지급완료 건은 없고 실제 계좌 입금은 미확인입니다.",
+    "부크크 안내상 자체 판매는 다음 달, 외부유통 판매는 다다음 달에 정산완료로 변경됩니다. 현재 12건은 모두 외부유통입니다.",
+    "11월 지급 예정 5,980원은 지급내역과 요청 메일로 확인했습니다. 지급내역의 이월·조정액 -5원의 상세 원인은 별도 확인되지 않았습니다.",
+    "10월 발생분 107,640원은 12월 지급 전 조정 전 예상액입니다. 새 지급내역과 정산 메일로 최종 확정해야 합니다.",
+    "11월 1~9일 등록된 수익은 0부·0원입니다. 미등록 판매나 남은 기간을 포함한 11월 전체 수익은 아직 예측하지 않습니다.",
+    "수익금은 저자 인세이며 도서 판매가의 합계인 매출액과 다릅니다. 이 페이지는 확인일 기준 수동 갱신 기록입니다."
+  ]
+}
